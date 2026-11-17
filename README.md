@@ -10,7 +10,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-backend-263445?logo=fastapi&logoColor=6bd3bb)
 ![SQLite](https://img.shields.io/badge/SQLite-local%20storage-263445?logo=sqlite&logoColor=9dd2ef)
 
-[One-minute tour](#a-one-minute-tour) · [Screenshots](#screenshots) · [What you can do](#what-you-can-do) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Configuration](#configuration) · [Publish to GitHub (RU)](docs/publish.md)
+[One-minute tour](#a-one-minute-tour) · [Screenshots](#screenshots) · [What you can do](#what-you-can-do) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Configuration](#configuration)
 
 </div>
 
