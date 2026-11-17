@@ -1,0 +1,128 @@
+﻿hero_id,hero_name,positions,conditional_positions,previous_positions,removed_positions,high_mmr_counts_1_to_5,source,lower_rank_validation
+1,Anti-Mage,1,,1,,3914/148/94/23/16,https://dota2protracker.com/hero/legacy/Anti-Mage,not established
+2,Axe,3,,3,,13/64/6191/111/126,https://dota2protracker.com/hero/legacy/Axe,not established
+3,Bane,5/4,,5/4,,1/30/4/642/2718,https://dota2protracker.com/hero/legacy/Bane,not established
+4,Bloodseeker,1,,1/3,3,512/50/63/9/7,https://dota2protracker.com/hero/legacy/Bloodseeker,not established
+5,Crystal Maiden,5/4,,5/4,,3/69/9/691/4040,https://dota2protracker.com/hero/legacy/Crystal%2BMaiden,not established
+6,Drow Ranger,1,,1,,1783/17/0/2/13,https://dota2protracker.com/hero/legacy/Drow%2BRanger,not established
+7,Earthshaker,4/3/2,3/2,4/3,,11/2775/1557/1753/187,https://dota2protracker.com/hero/legacy/Earthshaker,not established
+8,Juggernaut,1,,1,,7260/6/9/4/4,https://dota2protracker.com/hero/legacy/Juggernaut,not established
+9,Mirana,4/5,,4/5,,44/165/78/5595/4355,https://dota2protracker.com/hero/legacy/Mirana,not established
+10,Morphling,1,,1/2,2,2769/27/6/6/5,https://dota2protracker.com/hero/legacy/Morphling,not established
+11,Shadow Fiend,2/1,1,2/1,,2013/1792/24/22/21,https://dota2protracker.com/hero/legacy/Shadow%2BFiend,not established
+12,Phantom Lancer,1,,1,,7563/21/26/6/12,https://dota2protracker.com/hero/legacy/Phantom%2BLancer,not established
+13,Puck,2,,2,,8/2851/14/14/10,https://dota2protracker.com/hero/legacy/Puck,not established
+14,Pudge,4/3/5,3,4/3,,200/823/3138/5731/3757,https://dota2protracker.com/hero/legacy/Pudge,not established
+15,Razor,3/2/1,2/1,3/2/1,,465/230/1182/32/33,https://dota2protracker.com/hero/legacy/Razor,not established
+16,Sand King,3/2,2,3/4,4,6/394/564/3/2,https://dota2protracker.com/hero/legacy/Sand%2BKing,not established
+17,Storm Spirit,2,,2,,78/3385/25/5/7,https://dota2protracker.com/hero/legacy/Storm%2BSpirit,not established
+18,Sven,1,,1,,8173/16/55/13/16,https://dota2protracker.com/hero/legacy/Sven,not established
+19,Tiny,1/2/4,2/4,2/4,,1841/533/230/461/62,https://dota2protracker.com/hero/legacy/Tiny,not established
+20,Vengeful Spirit,5/4/1/3,1/3,5/4,,802/93/586/483/833,https://dota2protracker.com/hero/legacy/Vengeful%2BSpirit,not established
+21,Windranger,4/2/3/1/5,2/3/1,2/3/4,,3004/1058/1961/3190/881,https://dota2protracker.com/hero/legacy/Windranger,not established
+22,Zeus,4/5/2,2,2/4,,12/846/38/2391/1096,https://dota2protracker.com/hero/legacy/Zeus,not established
+23,Kunkka,2/3,3,2/3,,27/550/1012/55/40,https://dota2protracker.com/hero/legacy/Kunkka,not established
+25,Lina,2/1,1,2/1,,344/6676/45/260/120,https://dota2protracker.com/hero/legacy/Lina,not established
+26,Lion,4/5,,4/5,,20/761/35/3125/3845,https://dota2protracker.com/hero/legacy/Lion,not established
+27,Shadow Shaman,4/5,,4/5,,1/8/4/1024/2269,https://dota2protracker.com/hero/legacy/Shadow%2BShaman,not established
+28,Slardar,3,,3,,18/364/1888/19/5,https://dota2protracker.com/hero/legacy/Slardar,not established
+29,Tidehunter,3,,3,,5/17/2278/27/27,https://dota2protracker.com/hero/legacy/Tidehunter,not established
+30,Witch Doctor,5/4,,5/4,,1/9/8/801/3744,https://dota2protracker.com/hero/legacy/Witch%2BDoctor,not established
+31,Lich,5/4,,5,,3/7/2/813/4759,https://dota2protracker.com/hero/legacy/Lich,not established
+32,Riki,1,,1,,514/420/107/148/27,https://dota2protracker.com/hero/legacy/Riki,not established
+33,Enigma,3/4,4,3/4,,13/165/4016/171/113,https://dota2protracker.com/hero/Enigma,not established
+34,Tinker,2,,2,,46/2472/36/26/80,https://dota2protracker.com/hero/legacy/Tinker,not established
+35,Sniper,2/1,1,2/1,,216/1957/37/206/82,https://dota2protracker.com/hero/legacy/Sniper,not established
+36,Necrophos,3/2/1,2/1,3/2,,1754/2085/2263/14/12,https://dota2protracker.com/hero/legacy/Necrophos,not established
+37,Warlock,5,,5,,0/5/3/153/1527,https://dota2protracker.com/hero/legacy/Warlock,not established
+38,Beastmaster,3,,3,,26/312/1204/8/8,https://dota2protracker.com/hero/legacy/Beastmaster,not established
+39,Queen of Pain,2,,2,,35/2852/193/210/84,https://dota2protracker.com/hero/legacy/Queen%2Bof%2BPain,not established
+40,Venomancer,5/4,,3/4/5,3,10/14/76/421/750,https://dota2protracker.com/hero/legacy/Venomancer,not established
+41,Faceless Void,1,,1,,2314/22/68/29/22,https://dota2protracker.com/hero/legacy/Faceless%2BVoid,not established
+42,Wraith King,1/3,3,1/3,,866/12/1176/11/8,https://dota2protracker.com/hero/legacy/Wraith%2BKing,not established
+43,Death Prophet,2/3,3,2/3,,26/777/984/57/65,https://dota2protracker.com/hero/legacy/Death%2BProphet,not established
+44,Phantom Assassin,1,,1,,2133/31/22/6/8,https://dota2protracker.com/hero/legacy/Phantom%2BAssassin,not established
+45,Pugna,4/5/2,2,2/4,,1/269/55/577/769,https://dota2protracker.com/hero/legacy/Pugna,not established
+46,Templar Assassin,1/2,2,2/1,,2223/160/5/0/2,https://dota2protracker.com/hero/legacy/Templar%2BAssassin,not established
+47,Viper,2/3,3,2/3,,115/1309/920/103/108,https://dota2protracker.com/hero/legacy/Viper,not established
+48,Luna,1,,1,,8701/36/19/6/12,https://dota2protracker.com/hero/legacy/Luna,not established
+49,Dragon Knight,3/2/1,2/1,3/2,,611/4779/4770/31/8,https://dota2protracker.com/hero/legacy/Dragon%2BKnight,not established
+50,Dazzle,5/4,,5/4,,2/14/12/170/2492,https://dota2protracker.com/hero/legacy/Dazzle,not established
+51,Clockwerk,4/5,,4/3,3,1/4/30/1165/1264,https://dota2protracker.com/hero/legacy/Clockwerk,not established
+52,Leshrac,2,,2,,144/1267/87/69/48,https://dota2protracker.com/hero/legacy/Leshrac,not established
+53,Nature's Prophet,1/3/2/4,3/2/4,3/1/4,,1901/812/386/458/312,https://dota2protracker.com/hero/legacy/Nature's%2BProphet,not established
+54,Lifestealer,1,,1,,8055/9/53/1/18,https://dota2protracker.com/hero/legacy/Lifestealer,not established
+55,Dark Seer,3,,3,,16/81/7040/12/12,https://dota2protracker.com/hero/legacy/Dark%2BSeer,not established
+56,Clinkz,1/2,2,1/2,,1606/303/18/21/9,https://dota2protracker.com/hero/legacy/Clinkz,not established
+57,Omniknight,3/5,5,3/5,,24/22/393/109/582,https://dota2protracker.com/hero/legacy/Omniknight,not established
+58,Enchantress,5/4,,5/4,,4/177/467/402/954,https://dota2protracker.com/hero/legacy/Enchantress,not established
+59,Huskar,2,,2,,74/1711/369/65/67,https://dota2protracker.com/hero/legacy/Huskar,not established
+60,Night Stalker,3,,3,,34/181/6013/43/13,https://dota2protracker.com/hero/legacy/Night%2BStalker,not established
+61,Broodmother,2/3,3,2/3,,188/510/158/0/1,https://dota2protracker.com/hero/legacy/Broodmother,not established
+62,Bounty Hunter,4/5,,4/3,3,7/41/48/8082/1033,https://dota2protracker.com/hero/legacy/Bounty%2BHunter,not established
+63,Weaver,1/4,4,1/4,,541/40/222/695/294,https://dota2protracker.com/hero/legacy/Weaver,not established
+64,Jakiro,5/4,,5/4,,1/49/29/342/1547,https://dota2protracker.com/hero/legacy/Jakiro,not established
+65,Batrider,2/3/4,3/4,2/3/4,,1/268/260/144/80,https://dota2protracker.com/hero/legacy/Batrider,not established
+66,Chen,5/4,,5/4,,4/2/0/28/386,https://dota2protracker.com/hero/legacy/Chen,not established
+67,Spectre,1,,1,,3496/7/32/18/15,https://dota2protracker.com/hero/legacy/Spectre,not established
+68,Ancient Apparition,5/4,,5/4,,0/21/1/348/1451,https://dota2protracker.com/hero/legacy/Ancient%2BApparition,not established
+69,Doom,3,,3/4,4,90/63/4554/107/48,https://dota2protracker.com/hero/legacy/Doom,not established
+70,Ursa,1,,1,,2543/77/115/4/8,https://dota2protracker.com/hero/legacy/Ursa,not established
+71,Spirit Breaker,4/3/5,3,4/3,,6/87/543/7855/1103,https://dota2protracker.com/hero/legacy/Spirit%2BBreaker,not established
+72,Gyrocopter,1/4/5,4/5,1/4,,462/35/48/569/331,https://dota2protracker.com/hero/legacy/Gyrocopter,not established
+73,Alchemist,1,,1/2,2,366/92/91/109/85,https://dota2protracker.com/hero/legacy/Alchemist,not established
+74,Invoker,2/4,4,2,,12/8125/50/948/314,https://dota2protracker.com/hero/legacy/Invoker,not established
+75,Silencer,5/4,,5/4,,11/138/52/854/1773,https://dota2protracker.com/hero/legacy/Silencer,not established
+76,Outworld Destroyer,2,,2,,180/8964/193/74/47,https://dota2protracker.com/hero/legacy/Outworld%2BDestroyer,not established
+77,Lycan,3,,3/1,1,6/171/1157/17/0,https://dota2protracker.com/hero/legacy/Lycan,not established
+78,Brewmaster,3,,3,,7/90/2216/42/26,https://dota2protracker.com/hero/legacy/Brewmaster,not established
+79,Shadow Demon,5/4,,5/4,,1/17/21/610/903,https://dota2protracker.com/hero/legacy/Shadow%2BDemon,not established
+80,Lone Druid,1/2/3,2/3,2/1/3,,1957/473/197/14/24,https://dota2protracker.com/hero/legacy/Lone%2BDruid,not established
+81,Chaos Knight,1/3,3,1/3,,529/45/575/54/17,https://dota2protracker.com/hero/legacy/Chaos%2BKnight,not established
+82,Meepo,2,,2,,219/704/34/3/1,https://dota2protracker.com/hero/legacy/Meepo,not established
+83,Treant Protector,5/4,,5/4,,0/1/18/156/937,https://dota2protracker.com/hero/legacy/Treant%2BProtector,not established
+84,Ogre Magi,5/4,,5/4,,34/254/511/575/1972,https://dota2protracker.com/hero/legacy/Ogre%2BMagi,not established
+85,Undying,5/4/3,3,5/3,,9/88/1404/1026/3553,https://dota2protracker.com/hero/legacy/Undying,not established
+86,Rubick,4/5,,4/5,,2/1260/100/8623/2504,https://dota2protracker.com/hero/legacy/Rubick,not established
+87,Disruptor,5/4,,5/4,,1/5/1/696/5521,https://dota2protracker.com/hero/legacy/Disruptor,not established
+88,Nyx Assassin,4/5/2,2/5,4/3,3,15/456/238/3398/437,https://dota2protracker.com/hero/legacy/Nyx%2BAssassin,not established
+89,Naga Siren,1,,1,,585/6/20/9/8,https://dota2protracker.com/hero/legacy/Naga%2BSiren,not established
+90,Keeper of the Light,4/2/5,2,5/4/2,,9/2433/130/1181/187,https://dota2protracker.com/hero/legacy/Keeper%2Bof%2Bthe%2BLight,not established
+91,Io,5/4,,5/4,,428/974/135/406/1179,https://dota2protracker.com/hero/legacy/Io,not established
+92,Visage,3/2,2,2/3,,2/482/1004/192/76,https://dota2protracker.com/hero/legacy/Visage,not established
+93,Slark,1,,1,,5058/937/408/252/112,https://dota2protracker.com/hero/legacy/Slark,not established
+94,Medusa,1,,1/2,2,644/14/9/1/7,https://dota2protracker.com/hero/legacy/Medusa,not established
+95,Troll Warlord,1,,1,,760/33/24/6/17,https://dota2protracker.com/hero/legacy/Troll%2BWarlord,not established
+96,Centaur Warrunner,3,,3,,3/41/2454/26/12,https://dota2protracker.com/hero/legacy/Centaur%2BWarrunner,not established
+97,Magnus,3/4/2,4/2,3/4,,70/946/2871/643/395,https://dota2protracker.com/hero/legacy/Magnus,not established
+98,Timbersaw,3/2,2,3/2,,45/367/3747/20/11,https://dota2protracker.com/hero/legacy/Timbersaw,not established
+99,Bristleback,3,,3,,65/33/807/3/11,https://dota2protracker.com/hero/legacy/Bristleback,not established
+100,Tusk,4/5/3,3,4/3,,6/155/217/1802/2681,https://dota2protracker.com/hero/legacy/Tusk,not established
+101,Skywrath Mage,4/5,,4/5,,0/499/24/2666/886,https://dota2protracker.com/hero/legacy/Skywrath%2BMage,not established
+102,Abaddon,5/3,3,5/3,,57/1/149/111/581,https://dota2protracker.com/hero/Abaddon,not established
+103,Elder Titan,5/4,,5/4,,15/14/200/161/471,https://dota2protracker.com/hero/legacy/Elder%2BTitan,not established
+104,Legion Commander,3,,3,,21/84/3600/36/16,https://dota2protracker.com/hero/legacy/Legion%2BCommander,not established
+105,Techies,4/5,,4/5,,2/303/57/4216/2554,https://dota2protracker.com/hero/legacy/Techies,not established
+106,Ember Spirit,2,,2,,53/7616/90/37/29,https://dota2protracker.com/hero/legacy/Ember%2BSpirit,not established
+107,Earth Spirit,4/2/3,2/3,4/2,,5/2670/580/1528/256,https://dota2protracker.com/hero/legacy/Earth%2BSpirit,not established
+108,Underlord,3,,3,,4/30/2671/18/12,https://dota2protracker.com/hero/legacy/Underlord,not established
+109,Terrorblade,1,,1,,4704/1/59/19/9,https://dota2protracker.com/hero/legacy/Terrorblade,not established
+110,Phoenix,4/3/5,3,4/3/5,,7/784/1133/1181/1090,https://dota2protracker.com/hero/legacy/Phoenix,not established
+111,Oracle,5/4,,5,,0/52/4/286/2998,https://dota2protracker.com/hero/legacy/Oracle,not established
+112,Winter Wyvern,5/4,,5/4,,5/69/365/1225/7466,https://dota2protracker.com/hero/legacy/Winter%2BWyvern,not established
+113,Arc Warden,2,,2/1,1,107/1968/7/38/42,https://dota2protracker.com/hero/legacy/Arc%2BWarden,not established
+114,Monkey King,1/2,2,1/2/4,4,972/689/179/107/33,https://dota2protracker.com/hero/legacy/Monkey%2BKing,not established
+119,Dark Willow,4/5,,4/5,,1/53/19/3698/1860,https://dota2protracker.com/hero/legacy/Dark%2BWillow,not established
+120,Pangolier,2/3,3,2/3,,5/2751/744/12/4,https://dota2protracker.com/hero/legacy/Pangolier,not established
+121,Grimstroke,5/4,,5/4,,3/124/29/2273/2291,https://dota2protracker.com/hero/legacy/Grimstroke,not established
+123,Hoodwink,4/5,,4/5,,12/22/37/5448/2795,https://dota2protracker.com/hero/legacy/Hoodwink,not established
+126,Void Spirit,2,,2,,78/2891/456/54/16,https://dota2protracker.com/hero/legacy/Void%2BSpirit,not established
+128,Snapfire,4/5/3/2,3/2,4/5/3,,18/2235/981/1950/1238,https://dota2protracker.com/hero/legacy/Snapfire,not established
+129,Mars,3,,3,,5/70/2255/35/25,https://dota2protracker.com/hero/legacy/Mars,not established
+131,Ringmaster,4/5,,4/5,,2/6/3/2171/3332,https://dota2protracker.com/hero/legacy/Ringmaster,not established
+135,Dawnbreaker,3,,3,,42/233/6642/155/94,https://dota2protracker.com/hero/legacy/Dawnbreaker,not established
+136,Marci,4/3/2/5,3/2/5,4/3/1,1,63/799/542/379/391,https://dota2protracker.com/hero/legacy/Marci,not established
+137,Primal Beast,3/2,2,3/2,,4/734/1323/19/6,https://dota2protracker.com/hero/legacy/Primal%2BBeast,not established
+138,Muerta,1,,1/4/2,2/4,1006/57/49/125/65,https://dota2protracker.com/hero/legacy/Muerta,not established
+145,Kez,1/2,2,1/2,,2360/834/97/5/8,https://dota2protracker.com/hero/legacy/Kez,not established
+155,Largo,3/4/5,4/5,3/4/5,,14/238/1332/393/438,https://dota2protracker.com/hero/legacy/Largo,not established

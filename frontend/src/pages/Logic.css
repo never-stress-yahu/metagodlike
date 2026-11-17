@@ -1,0 +1,237 @@
+.logic-page {
+    max-width: 1160px;
+    font-variant-numeric: tabular-nums;
+}
+
+.logic-page .logic-heading {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 28px;
+}
+
+.logic-language {
+    display: inline-flex;
+    align-self: flex-start;
+    gap: 3px;
+    padding: 3px;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    background: var(--panel);
+}
+
+.logic-language button {
+    min-width: 38px;
+    min-height: 30px;
+    padding: 3px 7px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: var(--text-secondary);
+    background: transparent;
+    font-size: .78rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.logic-language button:hover {
+    color: #fff;
+}
+
+.logic-language button[aria-pressed="true"] {
+    border-color: #62403e;
+    color: #ffd6d0;
+    background: #2e201f;
+}
+
+.logic-language button:focus-visible {
+    outline: 2px solid var(--brand-accent);
+    outline-offset: 2px;
+}
+
+.logic-heading p {
+    max-width: 66ch;
+}
+
+.logic-layout {
+    display: grid;
+    grid-template-columns: minmax(160px, 200px) minmax(0, 1fr);
+    align-items: start;
+    gap: clamp(20px, 3vw, 38px);
+}
+
+.logic-index {
+    position: sticky;
+    top: 24px;
+    padding: 14px 0;
+    border-block: 1px solid var(--line);
+}
+
+.logic-index h2 {
+    margin: 0 0 10px;
+    font: 600 .91rem/1.4 var(--font-body);
+}
+
+.logic-index ol {
+    display: grid;
+    gap: 2px;
+    margin: 0;
+    padding-left: 25px;
+    color: var(--text-secondary);
+    font-size: .83rem;
+}
+
+.logic-index li::marker {
+    color: #85868d;
+}
+
+.logic-index a {
+    display: block;
+    padding: 5px 4px;
+    border-radius: 4px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.logic-index a:hover,
+.logic-index a:focus-visible {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.logic-stages {
+    display: grid;
+    min-width: 0;
+    gap: 20px;
+}
+
+.logic-stage {
+    overflow-wrap: anywhere;
+    scroll-margin-top: 24px;
+    border: 1px solid var(--line);
+    border-radius: var(--panel-radius);
+    background: var(--panel);
+}
+
+.logic-stage:target {
+    border-color: #8c4e49;
+}
+
+.logic-stage-heading {
+    display: flex;
+    align-items: baseline;
+    gap: 13px;
+    padding: 19px clamp(14px, 2.5vw, 26px);
+    border-bottom: 1px solid var(--line);
+}
+
+.logic-stage-heading span {
+    color: var(--brand-accent);
+    font: 600 .95rem/1 var(--font-heading);
+}
+
+.logic-stage-heading h2 {
+    margin: 0;
+    font-size: clamp(1.18rem, 1rem + .6vw, 1.55rem);
+}
+
+.logic-stage-boundary,
+.logic-calculation {
+    padding: 15px clamp(14px, 2.5vw, 26px);
+}
+
+.logic-stage-boundary {
+    display: grid;
+    grid-template-columns: 68px minmax(0, 1fr);
+    align-items: baseline;
+    gap: 8px;
+    background: #151517;
+}
+
+.logic-stage-output {
+    border-top: 1px solid var(--line);
+    border-radius: 0 0 var(--panel-radius) var(--panel-radius);
+}
+
+.logic-stage h3 {
+    margin: 0;
+    color: #d7d7dc;
+    font: 600 .8rem/1.5 var(--font-body);
+}
+
+.logic-stage p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: .9rem;
+    line-height: 1.65;
+}
+
+.logic-step {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+}
+
+.logic-step h4 {
+    margin: 0 0 5px;
+    font-size: .94rem;
+    font-weight: 600;
+}
+
+.logic-formulas {
+    display: grid;
+    gap: 5px;
+    padding: 9px 12px;
+    margin: 10px 0 0;
+    border: 1px solid var(--line);
+    border-left: 2px solid #ad625a;
+    border-radius: 4px;
+    background: #0c0c0e;
+    list-style: none;
+}
+
+.logic-formulas li {
+    min-width: 0;
+    overflow-x: auto;
+    color: #e1e1e6;
+}
+
+.logic-formulas .katex-display {
+    margin: .34rem 0;
+    text-align: left;
+}
+
+.logic-formulas .katex-display > .katex {
+    width: max-content;
+    min-width: 100%;
+    text-align: left;
+}
+
+.logic-formulas .katex {
+    font-size: clamp(.95rem, .87rem + .2vw, 1.06rem);
+}
+
+@media (max-width: 1040px) {
+    .logic-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 18px;
+    }
+
+    .logic-index {
+        position: static;
+    }
+
+    .logic-index ol {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 26px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logic-stage-boundary {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 4px;
+    }
+}

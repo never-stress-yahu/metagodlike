@@ -1,0 +1,5600 @@
+{
+  "version": "2026-10-01-audited-pub-v4",
+  "audit_date": "2026-10-01",
+  "patch": "7.41f",
+  "roster_source": "https://www.dota2.com/datafeed/herolist?language=english",
+  "heroes": [
+    {
+      "hero_id": 1,
+      "hero_name": "Anti-Mage",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Anti-Mage",
+      "evidence_roles": {
+        "1": {
+          "matches": 3914,
+          "winrate": 52
+        },
+        "2": {
+          "matches": 148,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 94,
+          "winrate": 55
+        },
+        "4": {
+          "matches": 23,
+          "winrate": 35
+        },
+        "5": {
+          "matches": 16,
+          "winrate": 19
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage"
+      ]
+    },
+    {
+      "hero_id": 2,
+      "hero_name": "Axe",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Axe",
+      "evidence_roles": {
+        "1": {
+          "matches": 13,
+          "winrate": 31
+        },
+        "2": {
+          "matches": 64,
+          "winrate": 38
+        },
+        "3": {
+          "matches": 6191,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 111,
+          "winrate": 37
+        },
+        "5": {
+          "matches": 126,
+          "winrate": 35
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 3,
+      "hero_name": "Bane",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Bane",
+      "evidence_roles": {
+        "1": {
+          "matches": 1,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 30,
+          "winrate": 40
+        },
+        "3": {
+          "matches": 4,
+          "winrate": 50
+        },
+        "4": {
+          "matches": 642,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 2718,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 4,
+      "hero_name": "Bloodseeker",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1,
+        3
+      ],
+      "removed_positions": [
+        3
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Bloodseeker",
+      "evidence_roles": {
+        "1": {
+          "matches": 512,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 50,
+          "winrate": 54
+        },
+        "3": {
+          "matches": 63,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 9,
+          "winrate": 22
+        },
+        "5": {
+          "matches": 7,
+          "winrate": 86
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "lane_pressure"
+      ]
+    },
+    {
+      "hero_id": 5,
+      "hero_name": "Crystal Maiden",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Crystal%2BMaiden",
+      "evidence_roles": {
+        "1": {
+          "matches": 3,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 69,
+          "winrate": 61
+        },
+        "3": {
+          "matches": 9,
+          "winrate": 44
+        },
+        "4": {
+          "matches": 691,
+          "winrate": 51
+        },
+        "5": {
+          "matches": 4040,
+          "winrate": 49
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 6,
+      "hero_name": "Drow Ranger",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Drow%2BRanger",
+      "evidence_roles": {
+        "1": {
+          "matches": 1783,
+          "winrate": 46
+        },
+        "2": {
+          "matches": 17,
+          "winrate": 47
+        },
+        "3": {
+          "matches": 0,
+          "winrate": 0
+        },
+        "4": {
+          "matches": 2,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 13,
+          "winrate": 31
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "lane_pressure",
+        "objective_damage",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 7,
+      "hero_name": "Earthshaker",
+      "positions": [
+        4,
+        3,
+        2
+      ],
+      "conditional_positions": [
+        3,
+        2
+      ],
+      "previous_positions": [
+        4,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Earthshaker",
+      "evidence_roles": {
+        "1": {
+          "matches": 11,
+          "winrate": 64
+        },
+        "2": {
+          "matches": 2775,
+          "winrate": 50
+        },
+        "3": {
+          "matches": 1557,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 1753,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 187,
+          "winrate": 42
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 8,
+      "hero_name": "Juggernaut",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Juggernaut",
+      "evidence_roles": {
+        "1": {
+          "matches": 7260,
+          "winrate": 51
+        },
+        "2": {
+          "matches": 6,
+          "winrate": 33
+        },
+        "3": {
+          "matches": 9,
+          "winrate": 11
+        },
+        "4": {
+          "matches": 4,
+          "winrate": 100
+        },
+        "5": {
+          "matches": 4,
+          "winrate": 25
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "objective_damage",
+        "reliable_disable",
+        "sustain",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 9,
+      "hero_name": "Mirana",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Mirana",
+      "evidence_roles": {
+        "1": {
+          "matches": 44,
+          "winrate": 30
+        },
+        "2": {
+          "matches": 165,
+          "winrate": 44
+        },
+        "3": {
+          "matches": 78,
+          "winrate": 41
+        },
+        "4": {
+          "matches": 5595,
+          "winrate": 51
+        },
+        "5": {
+          "matches": 4355,
+          "winrate": 49
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": []
+    },
+    {
+      "hero_id": 10,
+      "hero_name": "Morphling",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1,
+        2
+      ],
+      "removed_positions": [
+        2
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable. Explicit user role restrictions take precedence over niche observations.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Morphling",
+      "evidence_roles": {
+        "1": {
+          "matches": 2769,
+          "winrate": 47
+        },
+        "2": {
+          "matches": 27,
+          "winrate": 44
+        },
+        "3": {
+          "matches": 6,
+          "winrate": 17
+        },
+        "4": {
+          "matches": 6,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 5,
+          "winrate": 20
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage"
+      ]
+    },
+    {
+      "hero_id": 11,
+      "hero_name": "Shadow Fiend",
+      "positions": [
+        2,
+        1
+      ],
+      "conditional_positions": [
+        1
+      ],
+      "previous_positions": [
+        2,
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Shadow%2BFiend",
+      "evidence_roles": {
+        "1": {
+          "matches": 2013,
+          "winrate": 38
+        },
+        "2": {
+          "matches": 1792,
+          "winrate": 38
+        },
+        "3": {
+          "matches": 24,
+          "winrate": 54
+        },
+        "4": {
+          "matches": 22,
+          "winrate": 36
+        },
+        "5": {
+          "matches": 21,
+          "winrate": 33
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "lane_pressure"
+      ]
+    },
+    {
+      "hero_id": 12,
+      "hero_name": "Phantom Lancer",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Phantom%2BLancer",
+      "evidence_roles": {
+        "1": {
+          "matches": 7563,
+          "winrate": 52
+        },
+        "2": {
+          "matches": 21,
+          "winrate": 38
+        },
+        "3": {
+          "matches": 26,
+          "winrate": 35
+        },
+        "4": {
+          "matches": 6,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 12,
+          "winrate": 33
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage",
+        "micro_practice",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 13,
+      "hero_name": "Puck",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Puck",
+      "evidence_roles": {
+        "1": {
+          "matches": 8,
+          "winrate": 38
+        },
+        "2": {
+          "matches": 2851,
+          "winrate": 52
+        },
+        "3": {
+          "matches": 14,
+          "winrate": 36
+        },
+        "4": {
+          "matches": 14,
+          "winrate": 36
+        },
+        "5": {
+          "matches": 10,
+          "winrate": 30
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "evasive_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 14,
+      "hero_name": "Pudge",
+      "positions": [
+        4,
+        3,
+        5
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        4,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Pudge",
+      "evidence_roles": {
+        "1": {
+          "matches": 200,
+          "winrate": 53
+        },
+        "2": {
+          "matches": 823,
+          "winrate": 50
+        },
+        "3": {
+          "matches": 3138,
+          "winrate": 55
+        },
+        "4": {
+          "matches": 5731,
+          "winrate": 48
+        },
+        "5": {
+          "matches": 3757,
+          "winrate": 49
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 15,
+      "hero_name": "Razor",
+      "positions": [
+        3,
+        2,
+        1
+      ],
+      "conditional_positions": [
+        2,
+        1
+      ],
+      "previous_positions": [
+        3,
+        2,
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Razor",
+      "evidence_roles": {
+        "1": {
+          "matches": 465,
+          "winrate": 52
+        },
+        "2": {
+          "matches": 230,
+          "winrate": 44
+        },
+        "3": {
+          "matches": 1182,
+          "winrate": 51
+        },
+        "4": {
+          "matches": 32,
+          "winrate": 41
+        },
+        "5": {
+          "matches": 33,
+          "winrate": 42
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "lane_pressure"
+      ]
+    },
+    {
+      "hero_id": 16,
+      "hero_name": "Sand King",
+      "positions": [
+        3,
+        2
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        3,
+        4
+      ],
+      "removed_positions": [
+        4
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Sand%2BKing",
+      "evidence_roles": {
+        "1": {
+          "matches": 6,
+          "winrate": 33
+        },
+        "2": {
+          "matches": 394,
+          "winrate": 45
+        },
+        "3": {
+          "matches": 564,
+          "winrate": 47
+        },
+        "4": {
+          "matches": 3,
+          "winrate": 0
+        },
+        "5": {
+          "matches": 2,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 17,
+      "hero_name": "Storm Spirit",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Storm%2BSpirit",
+      "evidence_roles": {
+        "1": {
+          "matches": 78,
+          "winrate": 44
+        },
+        "2": {
+          "matches": 3385,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 25,
+          "winrate": 56
+        },
+        "4": {
+          "matches": 5,
+          "winrate": 0
+        },
+        "5": {
+          "matches": 7,
+          "winrate": 43
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage"
+      ]
+    },
+    {
+      "hero_id": 18,
+      "hero_name": "Sven",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Sven",
+      "evidence_roles": {
+        "1": {
+          "matches": 8173,
+          "winrate": 52
+        },
+        "2": {
+          "matches": 16,
+          "winrate": 50
+        },
+        "3": {
+          "matches": 55,
+          "winrate": 47
+        },
+        "4": {
+          "matches": 13,
+          "winrate": 46
+        },
+        "5": {
+          "matches": 16,
+          "winrate": 31
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "objective_damage",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 19,
+      "hero_name": "Tiny",
+      "positions": [
+        1,
+        2,
+        4
+      ],
+      "conditional_positions": [
+        2,
+        4
+      ],
+      "previous_positions": [
+        2,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Tiny",
+      "evidence_roles": {
+        "1": {
+          "matches": 1841,
+          "winrate": 46
+        },
+        "2": {
+          "matches": 533,
+          "winrate": 42
+        },
+        "3": {
+          "matches": 230,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 461,
+          "winrate": 48
+        },
+        "5": {
+          "matches": 62,
+          "winrate": 47
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 20,
+      "hero_name": "Vengeful Spirit",
+      "positions": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "conditional_positions": [
+        1,
+        3
+      ],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Vengeful%2BSpirit",
+      "evidence_roles": {
+        "1": {
+          "matches": 802,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 93,
+          "winrate": 46
+        },
+        "3": {
+          "matches": 586,
+          "winrate": 46
+        },
+        "4": {
+          "matches": 483,
+          "winrate": 52
+        },
+        "5": {
+          "matches": 833,
+          "winrate": 52
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 21,
+      "hero_name": "Windranger",
+      "positions": [
+        4,
+        2,
+        3,
+        1,
+        5
+      ],
+      "conditional_positions": [
+        2,
+        3,
+        1
+      ],
+      "previous_positions": [
+        2,
+        3,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Windranger",
+      "evidence_roles": {
+        "1": {
+          "matches": 3004,
+          "winrate": 53
+        },
+        "2": {
+          "matches": 1058,
+          "winrate": 50
+        },
+        "3": {
+          "matches": 1961,
+          "winrate": 51
+        },
+        "4": {
+          "matches": 3190,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 881,
+          "winrate": 45
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": []
+    },
+    {
+      "hero_id": 22,
+      "hero_name": "Zeus",
+      "positions": [
+        4,
+        5,
+        2
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        2,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Zeus",
+      "evidence_roles": {
+        "1": {
+          "matches": 12,
+          "winrate": 42
+        },
+        "2": {
+          "matches": 846,
+          "winrate": 44
+        },
+        "3": {
+          "matches": 38,
+          "winrate": 34
+        },
+        "4": {
+          "matches": 2391,
+          "winrate": 51
+        },
+        "5": {
+          "matches": 1096,
+          "winrate": 51
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "lane_pressure"
+      ]
+    },
+    {
+      "hero_id": 23,
+      "hero_name": "Kunkka",
+      "positions": [
+        2,
+        3
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        2,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Kunkka",
+      "evidence_roles": {
+        "1": {
+          "matches": 27,
+          "winrate": 44
+        },
+        "2": {
+          "matches": 550,
+          "winrate": 49
+        },
+        "3": {
+          "matches": 1012,
+          "winrate": 50
+        },
+        "4": {
+          "matches": 55,
+          "winrate": 42
+        },
+        "5": {
+          "matches": 40,
+          "winrate": 55
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 25,
+      "hero_name": "Lina",
+      "positions": [
+        2,
+        1
+      ],
+      "conditional_positions": [
+        1
+      ],
+      "previous_positions": [
+        2,
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Lina",
+      "evidence_roles": {
+        "1": {
+          "matches": 344,
+          "winrate": 44
+        },
+        "2": {
+          "matches": 6676,
+          "winrate": 47
+        },
+        "3": {
+          "matches": 45,
+          "winrate": 38
+        },
+        "4": {
+          "matches": 260,
+          "winrate": 47
+        },
+        "5": {
+          "matches": 120,
+          "winrate": 45
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "lane_pressure",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 26,
+      "hero_name": "Lion",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Lion",
+      "evidence_roles": {
+        "1": {
+          "matches": 20,
+          "winrate": 40
+        },
+        "2": {
+          "matches": 761,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 35,
+          "winrate": 40
+        },
+        "4": {
+          "matches": 3125,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 3845,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 27,
+      "hero_name": "Shadow Shaman",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Shadow%2BShaman",
+      "evidence_roles": {
+        "1": {
+          "matches": 1,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 8,
+          "winrate": 25
+        },
+        "3": {
+          "matches": 4,
+          "winrate": 0
+        },
+        "4": {
+          "matches": 1024,
+          "winrate": 49
+        },
+        "5": {
+          "matches": 2269,
+          "winrate": 51
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 28,
+      "hero_name": "Slardar",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Slardar",
+      "evidence_roles": {
+        "1": {
+          "matches": 18,
+          "winrate": 44
+        },
+        "2": {
+          "matches": 364,
+          "winrate": 46
+        },
+        "3": {
+          "matches": 1888,
+          "winrate": 45
+        },
+        "4": {
+          "matches": 19,
+          "winrate": 37
+        },
+        "5": {
+          "matches": 5,
+          "winrate": 40
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 29,
+      "hero_name": "Tidehunter",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Tidehunter",
+      "evidence_roles": {
+        "1": {
+          "matches": 5,
+          "winrate": 80
+        },
+        "2": {
+          "matches": 17,
+          "winrate": 29
+        },
+        "3": {
+          "matches": 2278,
+          "winrate": 48
+        },
+        "4": {
+          "matches": 27,
+          "winrate": 52
+        },
+        "5": {
+          "matches": 27,
+          "winrate": 37
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 30,
+      "hero_name": "Witch Doctor",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Witch%2BDoctor",
+      "evidence_roles": {
+        "1": {
+          "matches": 1,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 9,
+          "winrate": 11
+        },
+        "3": {
+          "matches": 8,
+          "winrate": 50
+        },
+        "4": {
+          "matches": 801,
+          "winrate": 49
+        },
+        "5": {
+          "matches": 3744,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "reliable_disable",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 31,
+      "hero_name": "Lich",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Lich",
+      "evidence_roles": {
+        "1": {
+          "matches": 3,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 7,
+          "winrate": 43
+        },
+        "3": {
+          "matches": 2,
+          "winrate": 50
+        },
+        "4": {
+          "matches": 813,
+          "winrate": 47
+        },
+        "5": {
+          "matches": 4759,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage"
+      ]
+    },
+    {
+      "hero_id": 32,
+      "hero_name": "Riki",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Riki",
+      "evidence_roles": {
+        "1": {
+          "matches": 514,
+          "winrate": 54
+        },
+        "2": {
+          "matches": 420,
+          "winrate": 56
+        },
+        "3": {
+          "matches": 107,
+          "winrate": 44
+        },
+        "4": {
+          "matches": 148,
+          "winrate": 38
+        },
+        "5": {
+          "matches": 27,
+          "winrate": 48
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage"
+      ]
+    },
+    {
+      "hero_id": 33,
+      "hero_name": "Enigma",
+      "positions": [
+        3,
+        4
+      ],
+      "conditional_positions": [
+        4
+      ],
+      "previous_positions": [
+        3,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/Enigma",
+      "evidence_roles": {
+        "1": {
+          "matches": 13,
+          "winrate": 38.5
+        },
+        "2": {
+          "matches": 165,
+          "winrate": 59.4
+        },
+        "3": {
+          "matches": 4016,
+          "winrate": 56.9
+        },
+        "4": {
+          "matches": 171,
+          "winrate": 45
+        },
+        "5": {
+          "matches": 113,
+          "winrate": 50.4
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "micro_practice",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 34,
+      "hero_name": "Tinker",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Tinker",
+      "evidence_roles": {
+        "1": {
+          "matches": 46,
+          "winrate": 57
+        },
+        "2": {
+          "matches": 2472,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 36,
+          "winrate": 58
+        },
+        "4": {
+          "matches": 26,
+          "winrate": 38
+        },
+        "5": {
+          "matches": 80,
+          "winrate": 53
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage"
+      ]
+    },
+    {
+      "hero_id": 35,
+      "hero_name": "Sniper",
+      "positions": [
+        2,
+        1
+      ],
+      "conditional_positions": [
+        1
+      ],
+      "previous_positions": [
+        2,
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Sniper",
+      "evidence_roles": {
+        "1": {
+          "matches": 216,
+          "winrate": 44
+        },
+        "2": {
+          "matches": 1957,
+          "winrate": 47
+        },
+        "3": {
+          "matches": 37,
+          "winrate": 57
+        },
+        "4": {
+          "matches": 206,
+          "winrate": 43
+        },
+        "5": {
+          "matches": 82,
+          "winrate": 45
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "lane_pressure",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 36,
+      "hero_name": "Necrophos",
+      "positions": [
+        3,
+        2,
+        1
+      ],
+      "conditional_positions": [
+        2,
+        1
+      ],
+      "previous_positions": [
+        3,
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Necrophos",
+      "evidence_roles": {
+        "1": {
+          "matches": 1754,
+          "winrate": 52
+        },
+        "2": {
+          "matches": 2085,
+          "winrate": 46
+        },
+        "3": {
+          "matches": 2263,
+          "winrate": 48
+        },
+        "4": {
+          "matches": 14,
+          "winrate": 29
+        },
+        "5": {
+          "matches": 12,
+          "winrate": 25
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "lane_pressure",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 37,
+      "hero_name": "Warlock",
+      "positions": [
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Warlock",
+      "evidence_roles": {
+        "1": {
+          "matches": 0,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 5,
+          "winrate": 20
+        },
+        "3": {
+          "matches": 3,
+          "winrate": 67
+        },
+        "4": {
+          "matches": 153,
+          "winrate": 40
+        },
+        "5": {
+          "matches": 1527,
+          "winrate": 48
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 38,
+      "hero_name": "Beastmaster",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Beastmaster",
+      "evidence_roles": {
+        "1": {
+          "matches": 26,
+          "winrate": 62
+        },
+        "2": {
+          "matches": 312,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 1204,
+          "winrate": 53
+        },
+        "4": {
+          "matches": 8,
+          "winrate": 63
+        },
+        "5": {
+          "matches": 8,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "micro_practice"
+      ]
+    },
+    {
+      "hero_id": 39,
+      "hero_name": "Queen of Pain",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Queen%2Bof%2BPain",
+      "evidence_roles": {
+        "1": {
+          "matches": 35,
+          "winrate": 46
+        },
+        "2": {
+          "matches": 2852,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 193,
+          "winrate": 42
+        },
+        "4": {
+          "matches": 210,
+          "winrate": 44
+        },
+        "5": {
+          "matches": 84,
+          "winrate": 48
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "evasive_damage",
+        "lane_pressure"
+      ]
+    },
+    {
+      "hero_id": 40,
+      "hero_name": "Venomancer",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3,
+        4,
+        5
+      ],
+      "removed_positions": [
+        3
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Venomancer",
+      "evidence_roles": {
+        "1": {
+          "matches": 10,
+          "winrate": 80
+        },
+        "2": {
+          "matches": 14,
+          "winrate": 7
+        },
+        "3": {
+          "matches": 76,
+          "winrate": 38
+        },
+        "4": {
+          "matches": 421,
+          "winrate": 42
+        },
+        "5": {
+          "matches": 750,
+          "winrate": 49
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage"
+      ]
+    },
+    {
+      "hero_id": 41,
+      "hero_name": "Faceless Void",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Faceless%2BVoid",
+      "evidence_roles": {
+        "1": {
+          "matches": 2314,
+          "winrate": 51
+        },
+        "2": {
+          "matches": 22,
+          "winrate": 41
+        },
+        "3": {
+          "matches": 68,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 29,
+          "winrate": 28
+        },
+        "5": {
+          "matches": 22,
+          "winrate": 32
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 42,
+      "hero_name": "Wraith King",
+      "positions": [
+        1,
+        3
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        1,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Wraith%2BKing",
+      "evidence_roles": {
+        "1": {
+          "matches": 866,
+          "winrate": 55
+        },
+        "2": {
+          "matches": 12,
+          "winrate": 42
+        },
+        "3": {
+          "matches": 1176,
+          "winrate": 51
+        },
+        "4": {
+          "matches": 11,
+          "winrate": 18
+        },
+        "5": {
+          "matches": 8,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "objective_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 43,
+      "hero_name": "Death Prophet",
+      "positions": [
+        2,
+        3
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        2,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Death%2BProphet",
+      "evidence_roles": {
+        "1": {
+          "matches": 26,
+          "winrate": 62
+        },
+        "2": {
+          "matches": 777,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 984,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 57,
+          "winrate": 53
+        },
+        "5": {
+          "matches": 65,
+          "winrate": 46
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "lane_pressure",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 44,
+      "hero_name": "Phantom Assassin",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Phantom%2BAssassin",
+      "evidence_roles": {
+        "1": {
+          "matches": 2133,
+          "winrate": 49
+        },
+        "2": {
+          "matches": 31,
+          "winrate": 55
+        },
+        "3": {
+          "matches": 22,
+          "winrate": 23
+        },
+        "4": {
+          "matches": 6,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 8,
+          "winrate": 38
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage",
+        "objective_damage",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 45,
+      "hero_name": "Pugna",
+      "positions": [
+        4,
+        5,
+        2
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        2,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Pugna",
+      "evidence_roles": {
+        "1": {
+          "matches": 1,
+          "winrate": 100
+        },
+        "2": {
+          "matches": 269,
+          "winrate": 46
+        },
+        "3": {
+          "matches": 55,
+          "winrate": 47
+        },
+        "4": {
+          "matches": 577,
+          "winrate": 51
+        },
+        "5": {
+          "matches": 769,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "area_spell_damage",
+        "lane_pressure",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 46,
+      "hero_name": "Templar Assassin",
+      "positions": [
+        1,
+        2
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        2,
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Templar%2BAssassin",
+      "evidence_roles": {
+        "1": {
+          "matches": 2223,
+          "winrate": 46
+        },
+        "2": {
+          "matches": 160,
+          "winrate": 34
+        },
+        "3": {
+          "matches": 5,
+          "winrate": 20
+        },
+        "4": {
+          "matches": 0,
+          "winrate": 0
+        },
+        "5": {
+          "matches": 2,
+          "winrate": 100
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "objective_damage",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 47,
+      "hero_name": "Viper",
+      "positions": [
+        2,
+        3
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        2,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Viper",
+      "evidence_roles": {
+        "1": {
+          "matches": 115,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 1309,
+          "winrate": 50
+        },
+        "3": {
+          "matches": 920,
+          "winrate": 46
+        },
+        "4": {
+          "matches": 103,
+          "winrate": 49
+        },
+        "5": {
+          "matches": 108,
+          "winrate": 52
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "lane_pressure"
+      ]
+    },
+    {
+      "hero_id": 48,
+      "hero_name": "Luna",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Luna",
+      "evidence_roles": {
+        "1": {
+          "matches": 8701,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 36,
+          "winrate": 39
+        },
+        "3": {
+          "matches": 19,
+          "winrate": 47
+        },
+        "4": {
+          "matches": 6,
+          "winrate": 17
+        },
+        "5": {
+          "matches": 12,
+          "winrate": 25
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "objective_damage",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 49,
+      "hero_name": "Dragon Knight",
+      "positions": [
+        3,
+        2,
+        1
+      ],
+      "conditional_positions": [
+        2,
+        1
+      ],
+      "previous_positions": [
+        3,
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Dragon%2BKnight",
+      "evidence_roles": {
+        "1": {
+          "matches": 611,
+          "winrate": 52
+        },
+        "2": {
+          "matches": 4779,
+          "winrate": 54
+        },
+        "3": {
+          "matches": 4770,
+          "winrate": 52
+        },
+        "4": {
+          "matches": 31,
+          "winrate": 35
+        },
+        "5": {
+          "matches": 8,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 50,
+      "hero_name": "Dazzle",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Explicit user role restrictions take precedence over niche observations.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Dazzle",
+      "evidence_roles": {
+        "1": {
+          "matches": 2,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 14,
+          "winrate": 36
+        },
+        "3": {
+          "matches": 12,
+          "winrate": 33
+        },
+        "4": {
+          "matches": 170,
+          "winrate": 48
+        },
+        "5": {
+          "matches": 2492,
+          "winrate": 54
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 51,
+      "hero_name": "Clockwerk",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        3
+      ],
+      "removed_positions": [
+        3
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Clockwerk",
+      "evidence_roles": {
+        "1": {
+          "matches": 1,
+          "winrate": 100
+        },
+        "2": {
+          "matches": 4,
+          "winrate": 25
+        },
+        "3": {
+          "matches": 30,
+          "winrate": 47
+        },
+        "4": {
+          "matches": 1165,
+          "winrate": 51
+        },
+        "5": {
+          "matches": 1264,
+          "winrate": 51
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 52,
+      "hero_name": "Leshrac",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Leshrac",
+      "evidence_roles": {
+        "1": {
+          "matches": 144,
+          "winrate": 65
+        },
+        "2": {
+          "matches": 1267,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 87,
+          "winrate": 54
+        },
+        "4": {
+          "matches": 69,
+          "winrate": 38
+        },
+        "5": {
+          "matches": 48,
+          "winrate": 46
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "lane_pressure",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 53,
+      "hero_name": "Nature's Prophet",
+      "positions": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "conditional_positions": [
+        3,
+        2,
+        4
+      ],
+      "previous_positions": [
+        3,
+        1,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Nature's%2BProphet",
+      "evidence_roles": {
+        "1": {
+          "matches": 1901,
+          "winrate": 46
+        },
+        "2": {
+          "matches": 812,
+          "winrate": 45
+        },
+        "3": {
+          "matches": 386,
+          "winrate": 48
+        },
+        "4": {
+          "matches": 458,
+          "winrate": 44
+        },
+        "5": {
+          "matches": 312,
+          "winrate": 41
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "global_presence",
+        "micro_practice",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 54,
+      "hero_name": "Lifestealer",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Lifestealer",
+      "evidence_roles": {
+        "1": {
+          "matches": 8055,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 9,
+          "winrate": 56
+        },
+        "3": {
+          "matches": 53,
+          "winrate": 38
+        },
+        "4": {
+          "matches": 1,
+          "winrate": 100
+        },
+        "5": {
+          "matches": 18,
+          "winrate": 28
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "objective_damage",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 55,
+      "hero_name": "Dark Seer",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Dark%2BSeer",
+      "evidence_roles": {
+        "1": {
+          "matches": 16,
+          "winrate": 44
+        },
+        "2": {
+          "matches": 81,
+          "winrate": 56
+        },
+        "3": {
+          "matches": 7040,
+          "winrate": 51
+        },
+        "4": {
+          "matches": 12,
+          "winrate": 25
+        },
+        "5": {
+          "matches": 12,
+          "winrate": 42
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": []
+    },
+    {
+      "hero_id": 56,
+      "hero_name": "Clinkz",
+      "positions": [
+        1,
+        2
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        1,
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Clinkz",
+      "evidence_roles": {
+        "1": {
+          "matches": 1606,
+          "winrate": 53
+        },
+        "2": {
+          "matches": 303,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 18,
+          "winrate": 33
+        },
+        "4": {
+          "matches": 21,
+          "winrate": 33
+        },
+        "5": {
+          "matches": 9,
+          "winrate": 33
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage",
+        "lane_pressure",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 57,
+      "hero_name": "Omniknight",
+      "positions": [
+        3,
+        5
+      ],
+      "conditional_positions": [
+        5
+      ],
+      "previous_positions": [
+        3,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Omniknight",
+      "evidence_roles": {
+        "1": {
+          "matches": 24,
+          "winrate": 42
+        },
+        "2": {
+          "matches": 22,
+          "winrate": 45
+        },
+        "3": {
+          "matches": 393,
+          "winrate": 48
+        },
+        "4": {
+          "matches": 109,
+          "winrate": 53
+        },
+        "5": {
+          "matches": 582,
+          "winrate": 53
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 58,
+      "hero_name": "Enchantress",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Enchantress",
+      "evidence_roles": {
+        "1": {
+          "matches": 4,
+          "winrate": 25
+        },
+        "2": {
+          "matches": 177,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 467,
+          "winrate": 52
+        },
+        "4": {
+          "matches": 402,
+          "winrate": 46
+        },
+        "5": {
+          "matches": 954,
+          "winrate": 48
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "micro_practice",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 59,
+      "hero_name": "Huskar",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Huskar",
+      "evidence_roles": {
+        "1": {
+          "matches": 74,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 1711,
+          "winrate": 49
+        },
+        "3": {
+          "matches": 369,
+          "winrate": 40
+        },
+        "4": {
+          "matches": 65,
+          "winrate": 60
+        },
+        "5": {
+          "matches": 67,
+          "winrate": 37
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "lane_pressure",
+        "objective_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 60,
+      "hero_name": "Night Stalker",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Night%2BStalker",
+      "evidence_roles": {
+        "1": {
+          "matches": 34,
+          "winrate": 53
+        },
+        "2": {
+          "matches": 181,
+          "winrate": 55
+        },
+        "3": {
+          "matches": 6013,
+          "winrate": 50
+        },
+        "4": {
+          "matches": 43,
+          "winrate": 49
+        },
+        "5": {
+          "matches": 13,
+          "winrate": 31
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 61,
+      "hero_name": "Broodmother",
+      "positions": [
+        2,
+        3
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        2,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Broodmother",
+      "evidence_roles": {
+        "1": {
+          "matches": 188,
+          "winrate": 54
+        },
+        "2": {
+          "matches": 510,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 158,
+          "winrate": 53
+        },
+        "4": {
+          "matches": 0,
+          "winrate": 0
+        },
+        "5": {
+          "matches": 1,
+          "winrate": 100
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "micro_practice",
+        "objective_damage",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 62,
+      "hero_name": "Bounty Hunter",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        3
+      ],
+      "removed_positions": [
+        3
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Bounty%2BHunter",
+      "evidence_roles": {
+        "1": {
+          "matches": 7,
+          "winrate": 57
+        },
+        "2": {
+          "matches": 41,
+          "winrate": 41
+        },
+        "3": {
+          "matches": 48,
+          "winrate": 35
+        },
+        "4": {
+          "matches": 8082,
+          "winrate": 57
+        },
+        "5": {
+          "matches": 1033,
+          "winrate": 53
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": []
+    },
+    {
+      "hero_id": 63,
+      "hero_name": "Weaver",
+      "positions": [
+        1,
+        4
+      ],
+      "conditional_positions": [
+        4
+      ],
+      "previous_positions": [
+        1,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Weaver",
+      "evidence_roles": {
+        "1": {
+          "matches": 541,
+          "winrate": 43
+        },
+        "2": {
+          "matches": 40,
+          "winrate": 45
+        },
+        "3": {
+          "matches": 222,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 695,
+          "winrate": 45
+        },
+        "5": {
+          "matches": 294,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage"
+      ]
+    },
+    {
+      "hero_id": 64,
+      "hero_name": "Jakiro",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Jakiro",
+      "evidence_roles": {
+        "1": {
+          "matches": 1,
+          "winrate": 100
+        },
+        "2": {
+          "matches": 49,
+          "winrate": 45
+        },
+        "3": {
+          "matches": 29,
+          "winrate": 59
+        },
+        "4": {
+          "matches": 342,
+          "winrate": 42
+        },
+        "5": {
+          "matches": 1547,
+          "winrate": 46
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "reliable_disable",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 65,
+      "hero_name": "Batrider",
+      "positions": [
+        2,
+        3,
+        4
+      ],
+      "conditional_positions": [
+        3,
+        4
+      ],
+      "previous_positions": [
+        2,
+        3,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Batrider",
+      "evidence_roles": {
+        "1": {
+          "matches": 1,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 268,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 260,
+          "winrate": 48
+        },
+        "4": {
+          "matches": 144,
+          "winrate": 45
+        },
+        "5": {
+          "matches": 80,
+          "winrate": 41
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 66,
+      "hero_name": "Chen",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Chen",
+      "evidence_roles": {
+        "1": {
+          "matches": 4,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 2,
+          "winrate": 0
+        },
+        "3": {
+          "matches": 0,
+          "winrate": 0
+        },
+        "4": {
+          "matches": 28,
+          "winrate": 64
+        },
+        "5": {
+          "matches": 386,
+          "winrate": 51
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "micro_practice",
+        "reliable_disable",
+        "sustain",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 67,
+      "hero_name": "Spectre",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Spectre",
+      "evidence_roles": {
+        "1": {
+          "matches": 3496,
+          "winrate": 52
+        },
+        "2": {
+          "matches": 7,
+          "winrate": 29
+        },
+        "3": {
+          "matches": 32,
+          "winrate": 59
+        },
+        "4": {
+          "matches": 18,
+          "winrate": 44
+        },
+        "5": {
+          "matches": 15,
+          "winrate": 47
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "global_presence"
+      ]
+    },
+    {
+      "hero_id": 68,
+      "hero_name": "Ancient Apparition",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Ancient%2BApparition",
+      "evidence_roles": {
+        "1": {
+          "matches": 0,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 21,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 1,
+          "winrate": 100
+        },
+        "4": {
+          "matches": 348,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 1451,
+          "winrate": 49
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": []
+    },
+    {
+      "hero_id": 69,
+      "hero_name": "Doom",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3,
+        4
+      ],
+      "removed_positions": [
+        4
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Doom",
+      "evidence_roles": {
+        "1": {
+          "matches": 90,
+          "winrate": 44
+        },
+        "2": {
+          "matches": 63,
+          "winrate": 40
+        },
+        "3": {
+          "matches": 4554,
+          "winrate": 50
+        },
+        "4": {
+          "matches": 107,
+          "winrate": 41
+        },
+        "5": {
+          "matches": 48,
+          "winrate": 54
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 70,
+      "hero_name": "Ursa",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Ursa",
+      "evidence_roles": {
+        "1": {
+          "matches": 2543,
+          "winrate": 52
+        },
+        "2": {
+          "matches": 77,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 115,
+          "winrate": 55
+        },
+        "4": {
+          "matches": 4,
+          "winrate": 0
+        },
+        "5": {
+          "matches": 8,
+          "winrate": 25
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "objective_damage"
+      ]
+    },
+    {
+      "hero_id": 71,
+      "hero_name": "Spirit Breaker",
+      "positions": [
+        4,
+        3,
+        5
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        4,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Spirit%2BBreaker",
+      "evidence_roles": {
+        "1": {
+          "matches": 6,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 87,
+          "winrate": 44
+        },
+        "3": {
+          "matches": 543,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 7855,
+          "winrate": 53
+        },
+        "5": {
+          "matches": 1103,
+          "winrate": 51
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 72,
+      "hero_name": "Gyrocopter",
+      "positions": [
+        1,
+        4,
+        5
+      ],
+      "conditional_positions": [
+        4,
+        5
+      ],
+      "previous_positions": [
+        1,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Gyrocopter",
+      "evidence_roles": {
+        "1": {
+          "matches": 462,
+          "winrate": 43
+        },
+        "2": {
+          "matches": 35,
+          "winrate": 40
+        },
+        "3": {
+          "matches": 48,
+          "winrate": 52
+        },
+        "4": {
+          "matches": 569,
+          "winrate": 49
+        },
+        "5": {
+          "matches": 331,
+          "winrate": 48
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": []
+    },
+    {
+      "hero_id": 73,
+      "hero_name": "Alchemist",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1,
+        2
+      ],
+      "removed_positions": [
+        2
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable. Pos 5: only 85 observed games, rounded 42% win rate; insufficient to approve a pub support recommendation.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Alchemist",
+      "evidence_roles": {
+        "1": {
+          "matches": 366,
+          "winrate": 43
+        },
+        "2": {
+          "matches": 92,
+          "winrate": 37
+        },
+        "3": {
+          "matches": 91,
+          "winrate": 33
+        },
+        "4": {
+          "matches": 109,
+          "winrate": 48
+        },
+        "5": {
+          "matches": 85,
+          "winrate": 42
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "objective_damage",
+        "reliable_disable",
+        "sustain",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 74,
+      "hero_name": "Invoker",
+      "positions": [
+        2,
+        4
+      ],
+      "conditional_positions": [
+        4
+      ],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Invoker",
+      "evidence_roles": {
+        "1": {
+          "matches": 12,
+          "winrate": 42
+        },
+        "2": {
+          "matches": 8125,
+          "winrate": 53
+        },
+        "3": {
+          "matches": 50,
+          "winrate": 48
+        },
+        "4": {
+          "matches": 948,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 314,
+          "winrate": 49
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage"
+      ]
+    },
+    {
+      "hero_id": 75,
+      "hero_name": "Silencer",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Silencer",
+      "evidence_roles": {
+        "1": {
+          "matches": 11,
+          "winrate": 55
+        },
+        "2": {
+          "matches": 138,
+          "winrate": 46
+        },
+        "3": {
+          "matches": 52,
+          "winrate": 46
+        },
+        "4": {
+          "matches": 854,
+          "winrate": 47
+        },
+        "5": {
+          "matches": 1773,
+          "winrate": 49
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 76,
+      "hero_name": "Outworld Destroyer",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Outworld%2BDestroyer",
+      "evidence_roles": {
+        "1": {
+          "matches": 180,
+          "winrate": 48
+        },
+        "2": {
+          "matches": 8964,
+          "winrate": 54
+        },
+        "3": {
+          "matches": 193,
+          "winrate": 56
+        },
+        "4": {
+          "matches": 74,
+          "winrate": 38
+        },
+        "5": {
+          "matches": 47,
+          "winrate": 47
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "lane_pressure"
+      ]
+    },
+    {
+      "hero_id": 77,
+      "hero_name": "Lycan",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3,
+        1
+      ],
+      "removed_positions": [
+        1
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Lycan",
+      "evidence_roles": {
+        "1": {
+          "matches": 6,
+          "winrate": 67
+        },
+        "2": {
+          "matches": 171,
+          "winrate": 54
+        },
+        "3": {
+          "matches": 1157,
+          "winrate": 52
+        },
+        "4": {
+          "matches": 17,
+          "winrate": 35
+        },
+        "5": {
+          "matches": 0,
+          "winrate": 0
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "micro_practice",
+        "objective_damage",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 78,
+      "hero_name": "Brewmaster",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Brewmaster",
+      "evidence_roles": {
+        "1": {
+          "matches": 7,
+          "winrate": 14
+        },
+        "2": {
+          "matches": 90,
+          "winrate": 52
+        },
+        "3": {
+          "matches": 2216,
+          "winrate": 53
+        },
+        "4": {
+          "matches": 42,
+          "winrate": 40
+        },
+        "5": {
+          "matches": 26,
+          "winrate": 58
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "micro_practice",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 79,
+      "hero_name": "Shadow Demon",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Shadow%2BDemon",
+      "evidence_roles": {
+        "1": {
+          "matches": 1,
+          "winrate": 100
+        },
+        "2": {
+          "matches": 17,
+          "winrate": 53
+        },
+        "3": {
+          "matches": 21,
+          "winrate": 52
+        },
+        "4": {
+          "matches": 610,
+          "winrate": 44
+        },
+        "5": {
+          "matches": 903,
+          "winrate": 46
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 80,
+      "hero_name": "Lone Druid",
+      "positions": [
+        1,
+        2,
+        3
+      ],
+      "conditional_positions": [
+        2,
+        3
+      ],
+      "previous_positions": [
+        2,
+        1,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Lone%2BDruid",
+      "evidence_roles": {
+        "1": {
+          "matches": 1957,
+          "winrate": 51
+        },
+        "2": {
+          "matches": 473,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 197,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 14,
+          "winrate": 36
+        },
+        "5": {
+          "matches": 24,
+          "winrate": 21
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "micro_practice",
+        "objective_damage",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 81,
+      "hero_name": "Chaos Knight",
+      "positions": [
+        1,
+        3
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        1,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Chaos%2BKnight",
+      "evidence_roles": {
+        "1": {
+          "matches": 529,
+          "winrate": 48
+        },
+        "2": {
+          "matches": 45,
+          "winrate": 38
+        },
+        "3": {
+          "matches": 575,
+          "winrate": 53
+        },
+        "4": {
+          "matches": 54,
+          "winrate": 54
+        },
+        "5": {
+          "matches": 17,
+          "winrate": 47
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "objective_damage",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 82,
+      "hero_name": "Meepo",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Explicit user role restrictions take precedence over niche observations.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Meepo",
+      "evidence_roles": {
+        "1": {
+          "matches": 219,
+          "winrate": 57
+        },
+        "2": {
+          "matches": 704,
+          "winrate": 57
+        },
+        "3": {
+          "matches": 34,
+          "winrate": 47
+        },
+        "4": {
+          "matches": 3,
+          "winrate": 0
+        },
+        "5": {
+          "matches": 1,
+          "winrate": 0
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "micro_practice",
+        "objective_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 83,
+      "hero_name": "Treant Protector",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Treant%2BProtector",
+      "evidence_roles": {
+        "1": {
+          "matches": 0,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 1,
+          "winrate": 0
+        },
+        "3": {
+          "matches": 18,
+          "winrate": 28
+        },
+        "4": {
+          "matches": 156,
+          "winrate": 49
+        },
+        "5": {
+          "matches": 937,
+          "winrate": 45
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 84,
+      "hero_name": "Ogre Magi",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Ogre%2BMagi",
+      "evidence_roles": {
+        "1": {
+          "matches": 34,
+          "winrate": 41
+        },
+        "2": {
+          "matches": 254,
+          "winrate": 42
+        },
+        "3": {
+          "matches": 511,
+          "winrate": 46
+        },
+        "4": {
+          "matches": 575,
+          "winrate": 44
+        },
+        "5": {
+          "matches": 1972,
+          "winrate": 49
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 85,
+      "hero_name": "Undying",
+      "positions": [
+        5,
+        4,
+        3
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        5,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Undying",
+      "evidence_roles": {
+        "1": {
+          "matches": 9,
+          "winrate": 33
+        },
+        "2": {
+          "matches": 88,
+          "winrate": 40
+        },
+        "3": {
+          "matches": 1404,
+          "winrate": 45
+        },
+        "4": {
+          "matches": 1026,
+          "winrate": 46
+        },
+        "5": {
+          "matches": 3553,
+          "winrate": 48
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "lane_pressure",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 86,
+      "hero_name": "Rubick",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Rubick",
+      "evidence_roles": {
+        "1": {
+          "matches": 2,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 1260,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 100,
+          "winrate": 57
+        },
+        "4": {
+          "matches": 8623,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 2504,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 87,
+      "hero_name": "Disruptor",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Disruptor",
+      "evidence_roles": {
+        "1": {
+          "matches": 1,
+          "winrate": 100
+        },
+        "2": {
+          "matches": 5,
+          "winrate": 40
+        },
+        "3": {
+          "matches": 1,
+          "winrate": 0
+        },
+        "4": {
+          "matches": 696,
+          "winrate": 46
+        },
+        "5": {
+          "matches": 5521,
+          "winrate": 53
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 88,
+      "hero_name": "Nyx Assassin",
+      "positions": [
+        4,
+        5,
+        2
+      ],
+      "conditional_positions": [
+        2,
+        5
+      ],
+      "previous_positions": [
+        4,
+        3
+      ],
+      "removed_positions": [
+        3
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Nyx%2BAssassin",
+      "evidence_roles": {
+        "1": {
+          "matches": 15,
+          "winrate": 40
+        },
+        "2": {
+          "matches": 456,
+          "winrate": 52
+        },
+        "3": {
+          "matches": 238,
+          "winrate": 53
+        },
+        "4": {
+          "matches": 3398,
+          "winrate": 55
+        },
+        "5": {
+          "matches": 437,
+          "winrate": 55
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 89,
+      "hero_name": "Naga Siren",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Naga%2BSiren",
+      "evidence_roles": {
+        "1": {
+          "matches": 585,
+          "winrate": 54
+        },
+        "2": {
+          "matches": 6,
+          "winrate": 67
+        },
+        "3": {
+          "matches": 20,
+          "winrate": 45
+        },
+        "4": {
+          "matches": 9,
+          "winrate": 56
+        },
+        "5": {
+          "matches": 8,
+          "winrate": 38
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "micro_practice",
+        "objective_damage",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 90,
+      "hero_name": "Keeper of the Light",
+      "positions": [
+        4,
+        2,
+        5
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        5,
+        4,
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Keeper%2Bof%2Bthe%2BLight",
+      "evidence_roles": {
+        "1": {
+          "matches": 9,
+          "winrate": 56
+        },
+        "2": {
+          "matches": 2433,
+          "winrate": 53
+        },
+        "3": {
+          "matches": 130,
+          "winrate": 43
+        },
+        "4": {
+          "matches": 1181,
+          "winrate": 49
+        },
+        "5": {
+          "matches": 187,
+          "winrate": 52
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "global_presence"
+      ]
+    },
+    {
+      "hero_id": 91,
+      "hero_name": "Io",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Io",
+      "evidence_roles": {
+        "1": {
+          "matches": 428,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 974,
+          "winrate": 49
+        },
+        "3": {
+          "matches": 135,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 406,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 1179,
+          "winrate": 53
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "global_presence",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 92,
+      "hero_name": "Visage",
+      "positions": [
+        3,
+        2
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        2,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Visage",
+      "evidence_roles": {
+        "1": {
+          "matches": 2,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 482,
+          "winrate": 56
+        },
+        "3": {
+          "matches": 1004,
+          "winrate": 55
+        },
+        "4": {
+          "matches": 192,
+          "winrate": 48
+        },
+        "5": {
+          "matches": 76,
+          "winrate": 45
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "micro_practice",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 93,
+      "hero_name": "Slark",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Slark",
+      "evidence_roles": {
+        "1": {
+          "matches": 5058,
+          "winrate": 53
+        },
+        "2": {
+          "matches": 937,
+          "winrate": 52
+        },
+        "3": {
+          "matches": 408,
+          "winrate": 50
+        },
+        "4": {
+          "matches": 252,
+          "winrate": 46
+        },
+        "5": {
+          "matches": 112,
+          "winrate": 45
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage"
+      ]
+    },
+    {
+      "hero_id": 94,
+      "hero_name": "Medusa",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1,
+        2
+      ],
+      "removed_positions": [
+        2
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Medusa",
+      "evidence_roles": {
+        "1": {
+          "matches": 644,
+          "winrate": 46
+        },
+        "2": {
+          "matches": 14,
+          "winrate": 36
+        },
+        "3": {
+          "matches": 9,
+          "winrate": 56
+        },
+        "4": {
+          "matches": 1,
+          "winrate": 0
+        },
+        "5": {
+          "matches": 7,
+          "winrate": 57
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "objective_damage",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 95,
+      "hero_name": "Troll Warlord",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Troll%2BWarlord",
+      "evidence_roles": {
+        "1": {
+          "matches": 760,
+          "winrate": 53
+        },
+        "2": {
+          "matches": 33,
+          "winrate": 55
+        },
+        "3": {
+          "matches": 24,
+          "winrate": 58
+        },
+        "4": {
+          "matches": 6,
+          "winrate": 83
+        },
+        "5": {
+          "matches": 17,
+          "winrate": 41
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "objective_damage",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 96,
+      "hero_name": "Centaur Warrunner",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Centaur%2BWarrunner",
+      "evidence_roles": {
+        "1": {
+          "matches": 3,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 41,
+          "winrate": 46
+        },
+        "3": {
+          "matches": 2454,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 26,
+          "winrate": 42
+        },
+        "5": {
+          "matches": 12,
+          "winrate": 17
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 97,
+      "hero_name": "Magnus",
+      "positions": [
+        3,
+        4,
+        2
+      ],
+      "conditional_positions": [
+        4,
+        2
+      ],
+      "previous_positions": [
+        3,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Magnus",
+      "evidence_roles": {
+        "1": {
+          "matches": 70,
+          "winrate": 43
+        },
+        "2": {
+          "matches": 946,
+          "winrate": 50
+        },
+        "3": {
+          "matches": 2871,
+          "winrate": 50
+        },
+        "4": {
+          "matches": 643,
+          "winrate": 48
+        },
+        "5": {
+          "matches": 395,
+          "winrate": 51
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 98,
+      "hero_name": "Timbersaw",
+      "positions": [
+        3,
+        2
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        3,
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Timbersaw",
+      "evidence_roles": {
+        "1": {
+          "matches": 45,
+          "winrate": 42
+        },
+        "2": {
+          "matches": 367,
+          "winrate": 47
+        },
+        "3": {
+          "matches": 3747,
+          "winrate": 46
+        },
+        "4": {
+          "matches": 20,
+          "winrate": 40
+        },
+        "5": {
+          "matches": 11,
+          "winrate": 27
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "lane_pressure"
+      ]
+    },
+    {
+      "hero_id": 99,
+      "hero_name": "Bristleback",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Bristleback",
+      "evidence_roles": {
+        "1": {
+          "matches": 65,
+          "winrate": 45
+        },
+        "2": {
+          "matches": 33,
+          "winrate": 42
+        },
+        "3": {
+          "matches": 807,
+          "winrate": 43
+        },
+        "4": {
+          "matches": 3,
+          "winrate": 67
+        },
+        "5": {
+          "matches": 11,
+          "winrate": 18
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "lane_pressure",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 100,
+      "hero_name": "Tusk",
+      "positions": [
+        4,
+        5,
+        3
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        4,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Tusk",
+      "evidence_roles": {
+        "1": {
+          "matches": 6,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 155,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 217,
+          "winrate": 44
+        },
+        "4": {
+          "matches": 1802,
+          "winrate": 48
+        },
+        "5": {
+          "matches": 2681,
+          "winrate": 48
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 101,
+      "hero_name": "Skywrath Mage",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Skywrath%2BMage",
+      "evidence_roles": {
+        "1": {
+          "matches": 0,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 499,
+          "winrate": 52
+        },
+        "3": {
+          "matches": 24,
+          "winrate": 58
+        },
+        "4": {
+          "matches": 2666,
+          "winrate": 48
+        },
+        "5": {
+          "matches": 886,
+          "winrate": 49
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 102,
+      "hero_name": "Abaddon",
+      "positions": [
+        5,
+        3
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        5,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/Abaddon",
+      "evidence_roles": {
+        "1": {
+          "matches": 57,
+          "winrate": 49.1
+        },
+        "2": {
+          "matches": 1,
+          "winrate": 0
+        },
+        "3": {
+          "matches": 149,
+          "winrate": 39.6
+        },
+        "4": {
+          "matches": 111,
+          "winrate": 48.6
+        },
+        "5": {
+          "matches": 581,
+          "winrate": 53.5
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 103,
+      "hero_name": "Elder Titan",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Elder%2BTitan",
+      "evidence_roles": {
+        "1": {
+          "matches": 15,
+          "winrate": 67
+        },
+        "2": {
+          "matches": 14,
+          "winrate": 50
+        },
+        "3": {
+          "matches": 200,
+          "winrate": 51
+        },
+        "4": {
+          "matches": 161,
+          "winrate": 55
+        },
+        "5": {
+          "matches": 471,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 104,
+      "hero_name": "Legion Commander",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Legion%2BCommander",
+      "evidence_roles": {
+        "1": {
+          "matches": 21,
+          "winrate": 48
+        },
+        "2": {
+          "matches": 84,
+          "winrate": 44
+        },
+        "3": {
+          "matches": 3600,
+          "winrate": 53
+        },
+        "4": {
+          "matches": 36,
+          "winrate": 47
+        },
+        "5": {
+          "matches": 16,
+          "winrate": 44
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 105,
+      "hero_name": "Techies",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Techies",
+      "evidence_roles": {
+        "1": {
+          "matches": 2,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 303,
+          "winrate": 44
+        },
+        "3": {
+          "matches": 57,
+          "winrate": 35
+        },
+        "4": {
+          "matches": 4216,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 2554,
+          "winrate": 51
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 106,
+      "hero_name": "Ember Spirit",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Ember%2BSpirit",
+      "evidence_roles": {
+        "1": {
+          "matches": 53,
+          "winrate": 42
+        },
+        "2": {
+          "matches": 7616,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 90,
+          "winrate": 48
+        },
+        "4": {
+          "matches": 37,
+          "winrate": 30
+        },
+        "5": {
+          "matches": 29,
+          "winrate": 59
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "evasive_damage"
+      ]
+    },
+    {
+      "hero_id": 107,
+      "hero_name": "Earth Spirit",
+      "positions": [
+        4,
+        2,
+        3
+      ],
+      "conditional_positions": [
+        2,
+        3
+      ],
+      "previous_positions": [
+        4,
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Earth%2BSpirit",
+      "evidence_roles": {
+        "1": {
+          "matches": 5,
+          "winrate": 40
+        },
+        "2": {
+          "matches": 2670,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 580,
+          "winrate": 55
+        },
+        "4": {
+          "matches": 1528,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 256,
+          "winrate": 49
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 108,
+      "hero_name": "Underlord",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Underlord",
+      "evidence_roles": {
+        "1": {
+          "matches": 4,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 30,
+          "winrate": 37
+        },
+        "3": {
+          "matches": 2671,
+          "winrate": 45
+        },
+        "4": {
+          "matches": 18,
+          "winrate": 33
+        },
+        "5": {
+          "matches": 12,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 109,
+      "hero_name": "Terrorblade",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Explicit user role restrictions take precedence over niche observations.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Terrorblade",
+      "evidence_roles": {
+        "1": {
+          "matches": 4704,
+          "winrate": 48
+        },
+        "2": {
+          "matches": 1,
+          "winrate": 0
+        },
+        "3": {
+          "matches": 59,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 19,
+          "winrate": 42
+        },
+        "5": {
+          "matches": 9,
+          "winrate": 0
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "micro_practice",
+        "objective_damage",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 110,
+      "hero_name": "Phoenix",
+      "positions": [
+        4,
+        3,
+        5
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        4,
+        3,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Phoenix",
+      "evidence_roles": {
+        "1": {
+          "matches": 7,
+          "winrate": 57
+        },
+        "2": {
+          "matches": 784,
+          "winrate": 53
+        },
+        "3": {
+          "matches": 1133,
+          "winrate": 54
+        },
+        "4": {
+          "matches": 1181,
+          "winrate": 47
+        },
+        "5": {
+          "matches": 1090,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 111,
+      "hero_name": "Oracle",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Oracle",
+      "evidence_roles": {
+        "1": {
+          "matches": 0,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 52,
+          "winrate": 44
+        },
+        "3": {
+          "matches": 4,
+          "winrate": 0
+        },
+        "4": {
+          "matches": 286,
+          "winrate": 53
+        },
+        "5": {
+          "matches": 2998,
+          "winrate": 53
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "reliable_disable",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 112,
+      "hero_name": "Winter Wyvern",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Winter%2BWyvern",
+      "evidence_roles": {
+        "1": {
+          "matches": 5,
+          "winrate": 40
+        },
+        "2": {
+          "matches": 69,
+          "winrate": 42
+        },
+        "3": {
+          "matches": 365,
+          "winrate": 56
+        },
+        "4": {
+          "matches": 1225,
+          "winrate": 49
+        },
+        "5": {
+          "matches": 7466,
+          "winrate": 53
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "reliable_disable",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 113,
+      "hero_name": "Arc Warden",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2,
+        1
+      ],
+      "removed_positions": [
+        1
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Arc%2BWarden",
+      "evidence_roles": {
+        "1": {
+          "matches": 107,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 1968,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 7,
+          "winrate": 71
+        },
+        "4": {
+          "matches": 38,
+          "winrate": 21
+        },
+        "5": {
+          "matches": 42,
+          "winrate": 43
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage",
+        "micro_practice",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 114,
+      "hero_name": "Monkey King",
+      "positions": [
+        1,
+        2
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        1,
+        2,
+        4
+      ],
+      "removed_positions": [
+        4
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Monkey%2BKing",
+      "evidence_roles": {
+        "1": {
+          "matches": 972,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 689,
+          "winrate": 46
+        },
+        "3": {
+          "matches": 179,
+          "winrate": 55
+        },
+        "4": {
+          "matches": 107,
+          "winrate": 41
+        },
+        "5": {
+          "matches": 33,
+          "winrate": 39
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "evasive_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 119,
+      "hero_name": "Dark Willow",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Dark%2BWillow",
+      "evidence_roles": {
+        "1": {
+          "matches": 1,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 53,
+          "winrate": 47
+        },
+        "3": {
+          "matches": 19,
+          "winrate": 53
+        },
+        "4": {
+          "matches": 3698,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 1860,
+          "winrate": 52
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 120,
+      "hero_name": "Pangolier",
+      "positions": [
+        2,
+        3
+      ],
+      "conditional_positions": [
+        3
+      ],
+      "previous_positions": [
+        2,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Pangolier",
+      "evidence_roles": {
+        "1": {
+          "matches": 5,
+          "winrate": 20
+        },
+        "2": {
+          "matches": 2751,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 744,
+          "winrate": 44
+        },
+        "4": {
+          "matches": 12,
+          "winrate": 25
+        },
+        "5": {
+          "matches": 4,
+          "winrate": 25
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 121,
+      "hero_name": "Grimstroke",
+      "positions": [
+        5,
+        4
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        5,
+        4
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Grimstroke",
+      "evidence_roles": {
+        "1": {
+          "matches": 3,
+          "winrate": 33
+        },
+        "2": {
+          "matches": 124,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 29,
+          "winrate": 38
+        },
+        "4": {
+          "matches": 2273,
+          "winrate": 51
+        },
+        "5": {
+          "matches": 2291,
+          "winrate": 51
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 123,
+      "hero_name": "Hoodwink",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Hoodwink",
+      "evidence_roles": {
+        "1": {
+          "matches": 12,
+          "winrate": 17
+        },
+        "2": {
+          "matches": 22,
+          "winrate": 32
+        },
+        "3": {
+          "matches": 37,
+          "winrate": 41
+        },
+        "4": {
+          "matches": 5448,
+          "winrate": 47
+        },
+        "5": {
+          "matches": 2795,
+          "winrate": 48
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 126,
+      "hero_name": "Void Spirit",
+      "positions": [
+        2
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Void%2BSpirit",
+      "evidence_roles": {
+        "1": {
+          "matches": 78,
+          "winrate": 49
+        },
+        "2": {
+          "matches": 2891,
+          "winrate": 46
+        },
+        "3": {
+          "matches": 456,
+          "winrate": 50
+        },
+        "4": {
+          "matches": 54,
+          "winrate": 37
+        },
+        "5": {
+          "matches": 16,
+          "winrate": 38
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "evasive_damage"
+      ]
+    },
+    {
+      "hero_id": 128,
+      "hero_name": "Snapfire",
+      "positions": [
+        4,
+        5,
+        3,
+        2
+      ],
+      "conditional_positions": [
+        3,
+        2
+      ],
+      "previous_positions": [
+        4,
+        5,
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Snapfire",
+      "evidence_roles": {
+        "1": {
+          "matches": 18,
+          "winrate": 44
+        },
+        "2": {
+          "matches": 2235,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 981,
+          "winrate": 50
+        },
+        "4": {
+          "matches": 1950,
+          "winrate": 47
+        },
+        "5": {
+          "matches": 1238,
+          "winrate": 47
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 129,
+      "hero_name": "Mars",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Mars",
+      "evidence_roles": {
+        "1": {
+          "matches": 5,
+          "winrate": 60
+        },
+        "2": {
+          "matches": 70,
+          "winrate": 46
+        },
+        "3": {
+          "matches": 2255,
+          "winrate": 48
+        },
+        "4": {
+          "matches": 35,
+          "winrate": 60
+        },
+        "5": {
+          "matches": 25,
+          "winrate": 48
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 131,
+      "hero_name": "Ringmaster",
+      "positions": [
+        4,
+        5
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        4,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Ringmaster",
+      "evidence_roles": {
+        "1": {
+          "matches": 2,
+          "winrate": 0
+        },
+        "2": {
+          "matches": 6,
+          "winrate": 17
+        },
+        "3": {
+          "matches": 3,
+          "winrate": 67
+        },
+        "4": {
+          "matches": 2171,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 3332,
+          "winrate": 51
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 135,
+      "hero_name": "Dawnbreaker",
+      "positions": [
+        3
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        3
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Explicit user role restrictions take precedence over niche observations.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Dawnbreaker",
+      "evidence_roles": {
+        "1": {
+          "matches": 42,
+          "winrate": 55
+        },
+        "2": {
+          "matches": 233,
+          "winrate": 49
+        },
+        "3": {
+          "matches": 6642,
+          "winrate": 51
+        },
+        "4": {
+          "matches": 155,
+          "winrate": 43
+        },
+        "5": {
+          "matches": 94,
+          "winrate": 44
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "global_presence",
+        "reliable_disable",
+        "sustain"
+      ]
+    },
+    {
+      "hero_id": 136,
+      "hero_name": "Marci",
+      "positions": [
+        4,
+        3,
+        2,
+        5
+      ],
+      "conditional_positions": [
+        3,
+        2,
+        5
+      ],
+      "previous_positions": [
+        4,
+        3,
+        1
+      ],
+      "removed_positions": [
+        1
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Marci",
+      "evidence_roles": {
+        "1": {
+          "matches": 63,
+          "winrate": 54
+        },
+        "2": {
+          "matches": 799,
+          "winrate": 57
+        },
+        "3": {
+          "matches": 542,
+          "winrate": 55
+        },
+        "4": {
+          "matches": 379,
+          "winrate": 46
+        },
+        "5": {
+          "matches": 391,
+          "winrate": 45
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 137,
+      "hero_name": "Primal Beast",
+      "positions": [
+        3,
+        2
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        3,
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Primal%2BBeast",
+      "evidence_roles": {
+        "1": {
+          "matches": 4,
+          "winrate": 75
+        },
+        "2": {
+          "matches": 734,
+          "winrate": 54
+        },
+        "3": {
+          "matches": 1323,
+          "winrate": 54
+        },
+        "4": {
+          "matches": 19,
+          "winrate": 42
+        },
+        "5": {
+          "matches": 6,
+          "winrate": 50
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "initiation",
+        "reliable_disable"
+      ]
+    },
+    {
+      "hero_id": 138,
+      "hero_name": "Muerta",
+      "positions": [
+        1
+      ],
+      "conditional_positions": [],
+      "previous_positions": [
+        1,
+        4,
+        2
+      ],
+      "removed_positions": [
+        2,
+        4
+      ],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance. Removed weak or unverified alternatives from automatic eligibility; this does not prove those roles unplayable.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Muerta",
+      "evidence_roles": {
+        "1": {
+          "matches": 1006,
+          "winrate": 49
+        },
+        "2": {
+          "matches": 57,
+          "winrate": 51
+        },
+        "3": {
+          "matches": 49,
+          "winrate": 49
+        },
+        "4": {
+          "matches": 125,
+          "winrate": 50
+        },
+        "5": {
+          "matches": 65,
+          "winrate": 40
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "lane_pressure",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 145,
+      "hero_name": "Kez",
+      "positions": [
+        1,
+        2
+      ],
+      "conditional_positions": [
+        2
+      ],
+      "previous_positions": [
+        1,
+        2
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Kez",
+      "evidence_roles": {
+        "1": {
+          "matches": 2360,
+          "winrate": 45
+        },
+        "2": {
+          "matches": 834,
+          "winrate": 48
+        },
+        "3": {
+          "matches": 97,
+          "winrate": 47
+        },
+        "4": {
+          "matches": 5,
+          "winrate": 40
+        },
+        "5": {
+          "matches": 8,
+          "winrate": 13
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "area_spell_damage",
+        "evasive_damage",
+        "reliable_disable",
+        "tower_pressure"
+      ]
+    },
+    {
+      "hero_id": 155,
+      "hero_name": "Largo",
+      "positions": [
+        3,
+        4,
+        5
+      ],
+      "conditional_positions": [
+        4,
+        5
+      ],
+      "previous_positions": [
+        3,
+        4,
+        5
+      ],
+      "removed_positions": [],
+      "audit_note": "Reviewed all five high-MMR role counts; curated pub eligibility is a product policy, not validated lower-rank role performance.",
+      "evidence_source": "https://dota2protracker.com/hero/legacy/Largo",
+      "evidence_roles": {
+        "1": {
+          "matches": 14,
+          "winrate": 50
+        },
+        "2": {
+          "matches": 238,
+          "winrate": 57
+        },
+        "3": {
+          "matches": 1332,
+          "winrate": 45
+        },
+        "4": {
+          "matches": 393,
+          "winrate": 52
+        },
+        "5": {
+          "matches": 438,
+          "winrate": 52
+        }
+      },
+      "lower_rank_exact_role_validation": "not established",
+      "strategic_capabilities": [
+        "ally_save",
+        "sustain"
+      ]
+    }
+  ],
+  "limitations": [
+    "All 127 hero pages reviewed; high-MMR role classification is provider-inferred, not ground truth.",
+    "20 recent public matches cover Herald through Divine, plus 3 high-MMR examples; this is not an exhaustive rank-by-hero-role validation.",
+    "Conditional positions require verified current-patch target-rank exact-role statistics; no rank fallback."
+  ]
+}

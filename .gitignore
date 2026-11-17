@@ -1,0 +1,34 @@
+# Local configuration and provider credentials
+.env
+.env.*
+!.env.example
+*.local
+
+# SQLite and test data
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend
+node_modules/
+dist/
+dist-ssr/
+
+# Editor and OS files
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
