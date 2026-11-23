@@ -10,7 +10,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-backend-263445?logo=fastapi&logoColor=6bd3bb)
 ![SQLite](https://img.shields.io/badge/SQLite-local%20storage-263445?logo=sqlite&logoColor=9dd2ef)
 
-[One-minute tour](#a-one-minute-tour) · [Screenshots](#screenshots) · [What you can do](#what-you-can-do) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Configuration](#configuration)
+[**Explore a sample draft in your browser**](https://never-stress-yahu.github.io/metagodlike/) · [One-minute tour](#a-one-minute-tour) · [Screenshots](#screenshots) · [What you can do](#what-you-can-do) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Configuration](#configuration)
 
 </div>
 
@@ -22,11 +22,35 @@ metagodlike helps Dota 2 players choose a hero for their role, decide which hero
 
 **1. Filter the candidates.** Start with the player's role and skill bracket. Check that each hero has enough qualifying matches and label whether the data covers the current patch or comes from a historical source.
 
-**2. Score the hero for the player.** Combine the hero's meta performance with the player's recent results on that role, how familiar they are with the hero, and how difficult the hero is to learn. Recent games carry more weight, and a small personal sample is pulled toward the meta baseline. For example, **4 weighted wins in 5 weighted games** and a **52% meta baseline** give a personal estimate of **55.1%** after adding the weight of 40 baseline games. That estimate contributes to the ranking. A separate **Worth learning** ranking looks for heroes that add useful skills to the player's pool.
+**2. Score the hero for the player.** Combine the hero's meta performance with the player's recent results on that role, how familiar they are with the hero, and how difficult the hero is to learn. Recent games carry more weight, and a small personal sample is pulled toward the meta baseline. A separate **Worth learning** ranking looks for heroes that add useful skills to the player's pool.
 
 **3. Score the pick for a specific draft.** Given a complete pick log, reconstruct which enemy heroes were visible at the player's turn. Remove unavailable heroes and rank up to three alternatives using meta, the player's experience before that match, and both favorable and unfavorable matchups. The interface shows how each factor contributed.
 
 The **Logic** page documents the formulas in English and Russian. [General recommendation scoring](backend/main.py) · [Draft scoring](backend/draft_recommendations.py)
+
+## Why five games are different from a hundred
+
+Arnur designed and implemented the hero recommendation algorithms and backend, and contributed to the frontend. Margulan developed the frontend with him.
+
+For the personal recommendation, let $W$ and $G$ be weighted wins and games on this hero and role. A game from 30 days ago carries half the weight of a new game. Given a population baseline $p$, the estimate is
+
+$$
+\hat p = \frac{W + 40p}{G+40}.
+$$
+
+With a 52% baseline, four effective wins in five games give **55.1%**. At the same personal win rate, 80 wins in 100 games give **72%**. The weight of 40 is a design choice. The separate draft algorithm adds matchup evidence for each visible opponent. The browser demo lets you inspect those contributions.
+
+### Does smoothing help on held-out games?
+
+We processed one player's 1,000 recorded games chronologically. For each pick with earlier experience on that hero in the preceding 90 days, we predicted its observed outcome using only earlier results. Roles were missing in this snapshot and contemporaneous population rates were unavailable, so this experiment pools roles and fixes the prior at 50%.
+
+| Estimate | Predictions | Mean squared probability error (Brier, lower is better) |
+| --- | ---: | ---: |
+| Always predict 50% | 874 | 0.2500 |
+| Recent personal win rate | 874 | 0.3130 |
+| Personal rate smoothed toward 50% | 874 | 0.2489 |
+
+Smoothing reduced error relative to the raw personal rate on this player. Its advantage over the neutral baseline was small. This experiment isolates smoothing and evaluates only heroes actually picked. To repeat on a synced local snapshot, run `python evaluate_smoothing.py dota_helper.db` from the backend directory. [Evaluation code](backend/evaluate_smoothing.py)
 
 ## Team
 
