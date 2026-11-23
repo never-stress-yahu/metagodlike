@@ -15,7 +15,7 @@ function AboutUs() {
             <div className="about-grid">
                 {developers.map(({ name, roles, avatar }) => (
                     <article className="about-card" key={name}>
-                        <img className="about-avatar" src={avatar} alt="" width="88" height="88" />
+                        <img className="about-avatar" src={import.meta.env.BASE_URL + avatar.slice(1)} alt="" width="88" height="88" />
                         <div>
                             <h2>{name}</h2>
                             <p>{roles}</p>

@@ -125,13 +125,21 @@ Player experience includes only games preceding the reviewed match. Population a
 
 ## 6. Shrinkage and a minimum penalty — score matchup risk
 
+The candidate baseline p_h and opponent baseline p_e are aggregate win proportions computed from their complete matchup tables from the same OpenDota endpoint. Each underlying match contributes one row per opponent, so the summed table counts are repeated observations and are used only to estimate a proportion.
+
+$$
+b_e=\frac{p_h(1-p_e)}{p_h(1-p_e)+(1-p_h)p_e}.
+$$
+
+This is an independent hero-strength expectation on the odds scale. Equal baselines yield 50%. A 58% candidate facing a 50% opponent has an expected rate of 58%, making a 53% observed pair rate an unfavorable residual. Both baselines must be available. The endpoint has no rank, position or patch filter. Adjustment reduces general-strength confounding but cannot establish causal counterpick effects or control team composition and player selection.
+
 For enemy e, w_e is the candidate's wins and n_e is the pair's sample size. A pair needs at least 20 games. Coverage must include strictly more than half of the N visible enemies.
 
 $$
-E_e=\mathrm{round}_2\left(100\frac{w_e-n_e/2}{n_e+50}\right),\quad M_{\mathrm{pairs}}=\frac{2}{N}\sum_e E_e,\quad R_{\mathrm{risk}}=\min(0,E_1,\ldots).
+E_e=\mathrm{round}_2\left(100\frac{w_e-n_e b_e}{n_e+50}\right),\quad M_{\mathrm{pairs}}=\frac{2}{N}\sum_e E_e,\quad R_{\mathrm{risk}}=\min(0,E_1,\ldots).
 $$
 
-Thirty-six wins in 60 games yields an edge of 5.45 points. Missing pairs contribute zero to the numerator while N still counts every visible enemy. Both matchup terms are zero when no enemies are visible.
+With an expected rate of 50%, thirty-six wins in 60 games yields an edge of 5.45 points. Missing pairs contribute zero to the numerator while N still counts every visible enemy. Both matchup terms are zero when no enemies are visible.
 
 The minimum term makes a single bad matchup matter even when the average is favorable. This is an explicit risk penalty. Pairwise observations cannot fully capture interactions between all ten heroes or isolate causal counterpick effects.
 
@@ -165,9 +173,9 @@ $$
 \mathrm{Brier}=\frac{1}{m}\sum_{j=1}^{m}(P_j-y_j)^2.
 $$
 
-It uses only earlier matches when computing each personal prediction. On one 1,000-game snapshot, 874 matches had earlier experience on the selected hero within 90 days. Raw personal rate scored 0.3130, a constant 50% scored 0.2500, and smoothing toward 50% scored 0.2489.
+The current frozen experiment uses four public histories with chronological 60/20/20 warm-up, validation and test periods. The prior weight is selected from 10, 20, 40 and 80 on validation data. On 613 held-out predictions, selected weight 20 achieves mean per-player Brier 0.2488 versus 0.2500 for a neutral estimate. The production weight remains 40 because four convenience-sampled players provide limited calibration evidence.
 
-The snapshot lacks role labels and historical population baselines. This experiment pools roles and uses a fixed neutral prior. The small improvement over that neutral baseline needs evaluation across more players. It does not evaluate the complete next-game or draft ranking. Outcomes for unpicked alternatives are unobserved.
+The experiment pools roles and fixes the prior at 50% because historical role-and-patch baselines are unavailable. It evaluates smoothing. A separate comparison records how the full draft score changes rankings across three real drafts. Results for heroes not selected in a match remain unobserved. [Full protocol, results and reproduction command](evaluation.md)
 
 The constants 30, 40, 50, 500 and ranking weights are engineering choices. Evaluating alternative settings should use separate chronological tuning and test periods to avoid selecting coefficients on the final evaluation sample.
 

@@ -17,7 +17,7 @@ import httpx
 from fastapi import FastAPI, HTTPException, Path, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 
-from draft_recommendations import rank_draft_picks
+from draft_recommendations import rank_draft_picks, population_rate
 from dotabuff_role_meta import MAX_AGE as DOTABUFF_SAMPLE_MAX_AGE, ROLES as DOTABUFF_ROLES, load_role_sample
 from database import init_db, load_active_player, save_active_player
 from recommendation_context import (PERSONAL_UNKNOWN_ROLE_WEIGHT, learning_value,
@@ -2343,9 +2343,23 @@ async def get_draft_recommendations(
                      or (verified and not meta.get("rank_fallback_applied")))}
     if meta.get("dotabuff_role_sample"):
         eligible = {hero_id for hero_id, row in meta["heroes"].items() if position in row["positions"]}
+    eligible -= set(own_pick["unavailable_hero_ids"])
+    # Matchup baselines use the same endpoint and scope as the pair evidence.
+    # Bounded concurrency and the existing one-hour cache limit provider load.
+    semaphore = asyncio.Semaphore(3)
+
+    async def baseline(hero_id, client):
+        async with semaphore:
+            return hero_id, population_rate(await fetch_enemy_matchups(client, hero_id, params))
+
+    async with httpx.AsyncClient(timeout=8.0) as client:
+        baseline_rates = dict(await asyncio.gather(
+            *(baseline(hero_id, client) for hero_id in eligible | {e["hero_id"] for e in enemies})
+        )) if enemies else {}
     ranked = rank_draft_picks(
-        cache["heroes"], eligible - set(own_pick["unavailable_hero_ids"]),
+        cache["heroes"], eligible,
         meta["heroes"], position, bool(verified), enemies, matchup_rows, experience,
+        baseline_rates=baseline_rates,
     )
     return {
         "account_id": cache["account_id"], "position": position, "position_name": POSITION_NAMES[position],
@@ -2354,6 +2368,10 @@ async def get_draft_recommendations(
         "meta_rank_fallback": meta.get("rank_fallback_applied", False),
         "dotabuff_role_sample": bool(meta.get("dotabuff_role_sample")),
         "enemies_revealed": enemies, "recommendations": ranked,
+        "matchup_model": "population-adjusted-odds-v1",
+        "matchup_scope": "OpenDota matchup aggregates; no rank, role or patch filter. "
+                         "Expected rates use both heroes' aggregate strength from the same endpoint.",
+        "baseline_coverage": sum(value is not None for value in baseline_rates.values()),
     }
 
 

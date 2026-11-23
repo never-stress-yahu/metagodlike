@@ -1,0 +1,146 @@
+{
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png?": {
+    "path": "demo/heroes/antimage.png",
+    "sha256": "7e47a9f52f7f1cdcb77b38e1f3e26ce967a3ed0eceb4b0d808f5ea14d347ce39"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/axe.png?": {
+    "path": "demo/heroes/axe.png",
+    "sha256": "9bf3a200b8d4ff797718a1615c3b3f3fa61c3bb4fb7abb0f51ee0597ae3f4138"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dark_willow.png?": {
+    "path": "demo/heroes/dark_willow.png",
+    "sha256": "bd50b13cb5e43054313ee5ecc69d0ceb564f1b9a601f38652e53a9de2cd07a23"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dazzle.png?": {
+    "path": "demo/heroes/dazzle.png",
+    "sha256": "8de9659c0db1e1c29f13ee83e658b80b5d98eae4949b122fd083503baa0e2a2c"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dragon_knight.png?": {
+    "path": "demo/heroes/dragon_knight.png",
+    "sha256": "152b92cbb49c548941baa2643c5e9b27a9ea211a75630edf072cc2c8131f6f28"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earth_spirit.png?": {
+    "path": "demo/heroes/earth_spirit.png",
+    "sha256": "b94a84217ff937e617b9d8b21a1d5f56bbd8e0e26ae0dbac526eb5f2f66b6a46"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earthshaker.png?": {
+    "path": "demo/heroes/earthshaker.png",
+    "sha256": "6866d114db50a5e6e7766ef0f6f2bddda0394c9c6f05dbd9576a2160a8b0a213"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/hoodwink.png?": {
+    "path": "demo/heroes/hoodwink.png",
+    "sha256": "2ad15c1d2deb8e82ff69ee96166a5afd05885803f871c0da7cdcba99d0f0040f"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/huskar.png?": {
+    "path": "demo/heroes/huskar.png",
+    "sha256": "63ac198d255bc6cf24d5dbe91eeac9d6cc9305d97e1f7ea7d57b00bd3a328d7a"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/clinkz.png?": {
+    "path": "demo/heroes/icon-clinkz.png",
+    "sha256": "79a24e392a0b3b5293a742d9501f9d673b145774b3fcaaa6271b1114e4876fc2"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/faceless_void.png?": {
+    "path": "demo/heroes/icon-faceless_void.png",
+    "sha256": "163f44596ccd17ec8bc957d6269bdff2a74b8a2bcd3674ba240ed0ff067aee0e"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/medusa.png?": {
+    "path": "demo/heroes/icon-medusa.png",
+    "sha256": "8f0bee6e3045b2a277887d0457dbab371bbf30b0d3e52fd13499bf3f040e97b5"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/monkey_king.png?": {
+    "path": "demo/heroes/icon-monkey_king.png",
+    "sha256": "5f0d1c7cf3708f0c9ecf63eea23de89f06c2d67e3a2e5c975f2db7f5eb1b6084"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/phantom_assassin.png?": {
+    "path": "demo/heroes/icon-phantom_assassin.png",
+    "sha256": "29df096e3a2e2043e58c9dd8b4229d43cb3ed3971a9ae6dfaee07dea7809db7f"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/skeleton_king.png?": {
+    "path": "demo/heroes/icon-skeleton_king.png",
+    "sha256": "cf56bcd676be208f27f52384bf128eccdb523fcbab82795612f608813571ec52"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/spectre.png?": {
+    "path": "demo/heroes/icon-spectre.png",
+    "sha256": "e2bf2d20f5e5871d606a3935e5e7b663c11888c7274876c73dcc40200853d42d"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/sven.png?": {
+    "path": "demo/heroes/icon-sven.png",
+    "sha256": "b84df7179120352558502da5ec1d81700f3da91ac90d144606ef6fb6104d8f50"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/templar_assassin.png?": {
+    "path": "demo/heroes/icon-templar_assassin.png",
+    "sha256": "9825f32803e311c9532343b5b60e1fb35ddd7f5768986741f05d4f69e66e2901"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/tiny.png?": {
+    "path": "demo/heroes/icon-tiny.png",
+    "sha256": "0bc87e40f1a1a1745ffd3576daad2b79f352de3d61b63d8766e63951966cf604"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/troll_warlord.png?": {
+    "path": "demo/heroes/icon-troll_warlord.png",
+    "sha256": "54530db05cdee1fc9509becfb220886d40bc830e8e9ce7856647c0988b020d89"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/ursa.png?": {
+    "path": "demo/heroes/icon-ursa.png",
+    "sha256": "94d31de7ca8d8f0781b1c4c5328435f260f744a26b32d0552e89cdcb715909ec"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/weaver.png?": {
+    "path": "demo/heroes/icon-weaver.png",
+    "sha256": "c263bdd3145e7504f2dc9b03d32764d1d9d30997c4886dd9e894066815461979"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/jakiro.png?": {
+    "path": "demo/heroes/jakiro.png",
+    "sha256": "ac5932d6a4f56c1903415c1786ecde06c905e7e24817eefa70d286c885e4d8d3"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/largo.png?": {
+    "path": "demo/heroes/largo.png",
+    "sha256": "5fa1ff41035b6d84886275c88df4f446a376e742d744509488291181a845fa78"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mars.png?": {
+    "path": "demo/heroes/mars.png",
+    "sha256": "35f0eba3f689d3946a4fd34b003b6c434ba19c54b95ffb907354c6d3a70f0ac0"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/necrolyte.png?": {
+    "path": "demo/heroes/necrolyte.png",
+    "sha256": "11852e2d8a155bd728beb3e4675be3e9ff5594cd536b92106eab5247791538be"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/obsidian_destroyer.png?": {
+    "path": "demo/heroes/obsidian_destroyer.png",
+    "sha256": "3be45497050944ea086b27705a81b37d9422f4265866519848220ba4334a2e97"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pangolier.png?": {
+    "path": "demo/heroes/pangolier.png",
+    "sha256": "bcfd3da12516742fa225f47b269e9496f33f1563a60713609716d135c491b7b3"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/queenofpain.png?": {
+    "path": "demo/heroes/queenofpain.png",
+    "sha256": "b4641bdbe20bd22cefedab127fd4a8a6848383dd406ca9bd6b59529bcb9af6e8"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_demon.png?": {
+    "path": "demo/heroes/shadow_demon.png",
+    "sha256": "322ab51dd6ebf87b90083578d1472020b52fa3991fccaeb4f7aff07b6ec868c4"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shredder.png?": {
+    "path": "demo/heroes/shredder.png",
+    "sha256": "eb575910042e55ade7bbd825a89b71e62a67fe1d8f656371975a617f3ae8b871"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slark.png?": {
+    "path": "demo/heroes/slark.png",
+    "sha256": "3bc8eaeef1348281cad6d80ef7c54171548f8d1e37cd6cd6c807102268a4dc37"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png?": {
+    "path": "demo/heroes/sven.png",
+    "sha256": "2ef4911b24269feaa1d8e49fb2af64ad48e3d3146863b20d692b17a81d207214"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/viper.png?": {
+    "path": "demo/heroes/viper.png",
+    "sha256": "8cd994aaf58120ee367305d06448a370f7f3b2713a80ef1c2e90c3578b33a4f9"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windrunner.png?": {
+    "path": "demo/heroes/windrunner.png",
+    "sha256": "930289266abff95335896a3cd9fb61242e039068182b8e16848e9850b7911fa6"
+  },
+  "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/winter_wyvern.png?": {
+    "path": "demo/heroes/winter_wyvern.png",
+    "sha256": "23ebf845f662ab7784884a74e4f503a07904b01461d7bbc8d4730e0449dc89d2"
+  }
+}

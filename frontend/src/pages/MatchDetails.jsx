@@ -89,7 +89,7 @@ function MatchComparison({ data }) {
 }
 
 
-function MatchLineups({ request }) {
+export function MatchLineups({ request }) {
     const lineups = request.data;
 
     return (
@@ -108,7 +108,7 @@ function MatchLineups({ request }) {
                             <ul>
                                 {heroes.map((hero) => (
                                     <li className="hero-name" key={hero.slot}>
-                                        {hero.image_url && <img src={hero.image_url} alt="" />}
+                                        {hero.image_url && <img src={hero.image_url.startsWith("demo/") ? import.meta.env.BASE_URL + hero.image_url : hero.image_url} alt="" />}
                                         <span>{hero.name}{hero.is_you && " (You)"}</span>
                                     </li>
                                 ))}
@@ -121,7 +121,7 @@ function MatchLineups({ request }) {
     );
 }
 
-function MatchDraft({ draft }) {
+export function MatchDraft({ draft }) {
     const allPick = draft?.format === "all_pick";
     const yourPhase = draft?.picks.find((pick) => pick.hero.is_you)?.phase;
     return (

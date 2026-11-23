@@ -66,7 +66,8 @@ export const logicFormulas = {
         null,
         null,
         [
-            String.raw`E_e = \operatorname{round}_2\!\left(100 \cdot \frac{w_e - n_e/2}{n_e+50}\right)`,
+            String.raw`b_e = \frac{p_h(1-p_e)}{p_h(1-p_e)+(1-p_h)p_e}`,
+            String.raw`E_e = \operatorname{round}_2\!\left(100 \cdot \frac{w_e - n_e b_e}{n_e+50}\right)`,
             String.raw`M_{\mathrm{pairs}} = 2 \cdot \frac{\sum_e E_e}{N}`,
             String.raw`R_{\mathrm{risk}} = \min(0, E_1, E_2, \ldots)`,
         ],

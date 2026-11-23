@@ -128,7 +128,7 @@ export const logicStagesEn = [
             },
             {
                 title: "Score matchups and counterpick risk",
-                body: "Each visible enemy e needs at least 20 matchup games for the pair to count. wₑ is the candidate's wins and nₑ is the matchup sample size. When OpenDota reports the enemy's wins, the candidate's wins are the matchup games minus those wins. Matchup evidence must cover strictly more than half the revealed enemies. N is the total revealed enemies, including those without enough pair data. For example, 36 wins in 60 games gives a +5.45 edge. With no revealed enemies, matchup and risk contributions are both zero.",
+                body: "Each visible enemy e needs at least 20 matchup games and both heroes' population baselines from the same OpenDota matchup endpoint for the pair to count. p_h and p_e are the candidate and enemy aggregate win rates on a 0–1 scale. Their odds define the expected pair rate b_e. E_e measures deviation from this expectation, reducing the influence of general hero strength. Matchup data has no rank, role or patch filter. This is an observational adjustment with unmeasured confounding. wₑ is the candidate's wins and nₑ is the matchup sample size. When OpenDota reports the enemy's wins, the candidate's wins are the matchup games minus those wins. Matchup evidence must cover strictly more than half the revealed enemies. N is the total revealed enemies, including those without enough pair data. With an expected rate of 50%, 36 wins in 60 games gives a +5.45 edge. At a 58% expected rate, 53 wins in 100 games gives a negative edge. With no revealed enemies, matchup and risk contributions are both zero.",
             },
             {
                 title: "Calculate the draft score",

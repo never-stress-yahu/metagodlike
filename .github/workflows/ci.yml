@@ -42,3 +42,5 @@ jobs:
           cache-dependency-path: backend/requirements.txt
       - run: python -m pip install -r requirements.txt
       - run: python -m pytest -q
+      - run: python research/evaluate.py
+      - run: git diff --exit-code -- ../data/research/results.json ../frontend/src/data/draft-demo.json ../docs/evaluation.md

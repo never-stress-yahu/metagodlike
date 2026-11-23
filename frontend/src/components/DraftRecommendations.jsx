@@ -4,11 +4,11 @@ import useApi from "../useApi";
 
 const positions = ["Carry", "Mid", "Offlane", "Soft Support", "Hard Support"];
 
-function PickCard({ hero, revealedCount }) {
+export function PickCard({ hero, revealedCount }) {
     return (
         <li>
             <div className="hero-name">
-                {hero.icon_url && <img src={hero.icon_url} alt="" />}
+                {hero.icon_url && <img src={hero.icon_url.startsWith("demo/") ? import.meta.env.BASE_URL + hero.icon_url : hero.icon_url} alt="" />}
                 <strong>{hero.name}</strong>
             </div>
             <p>Meta win rate {hero.meta_winrate}% · {hero.meta_games} games</p>
@@ -26,6 +26,7 @@ function PickCard({ hero, revealedCount }) {
                                     {pair.winrate}% vs {pair.enemy}
                                 </span>
                                 {" · "}{pair.games} games
+                                {pair.expected_winrate != null && <> · Expected {pair.expected_winrate}% · Adjusted edge {pair.edge > 0 ? "+" : ""}{pair.edge} pp</>}
                             </li>
                         ))}
                     </ul>
@@ -72,7 +73,7 @@ export default function DraftRecommendations({ accountId, matchId }) {
                                 : "Historical all-position meta"}
                         {" · "}{result.meta_rank?.replaceAll("_", " ") || "Rank unavailable"}
                         {result.meta_rank_fallback && " (rank proxy)"}
-                        {" · "}Historical matchup data across ranks
+                        {" · "}{result.matchup_scope || "Historical matchup data across ranks"}
                     </p>
                     <p>{result.enemies_revealed.length
                         ? "Enemies revealed before your pick: " + result.enemies_revealed.map((hero) => hero.name).join(", ")

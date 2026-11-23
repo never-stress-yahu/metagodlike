@@ -1,5 +1,6 @@
 import { lazy, Suspense, useState } from "react";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router-dom";
+import Demo from "./pages/Demo";
 import Dashboard from "./pages/Dashboard";
 import Matches from "./pages/Matches";
 import MatchDetails from "./pages/MatchDetails";
@@ -9,20 +10,24 @@ import AboutUs from "./pages/AboutUs";
 import Layout from "./components/Layout";
 import useApi from "./useApi";
 
+const demoOnly = import.meta.env.VITE_DEMO_MODE === "true";
+const Router = demoOnly ? HashRouter : BrowserRouter;
+
 const Logic = lazy(() => import("./pages/Logic"));
 
 function App() {
     const [revision, setRevision] = useState(0);
-    const stats = useApi("/player/stats?recent_limit=20", undefined, revision);
+    const stats = useApi(demoOnly ? null : "/player/stats?recent_limit=20", undefined, revision);
     const accountId = stats.data?.overview.account_id;
 
     return (
-        <BrowserRouter>
+        <Router>
             <Layout>
                 <Routes>
-                    <Route path="/" element={
+                    <Route path="/" element={demoOnly ? <Navigate to="/demo" replace /> :
                         <Dashboard stats={stats} onSync={() => setRevision((value) => value + 1)} />
                     } />
+                    <Route path="/demo" element={<Demo />} />
                     <Route path="/matches" element={<Matches accountId={accountId} stats={stats} />} />
                     <Route path="/matches/:matchId" element={<MatchDetails accountId={accountId} stats={stats} />} />
                     <Route path="/heroes" element={<Heroes accountId={accountId} stats={stats} />} />
@@ -36,7 +41,7 @@ function App() {
                     <Route path="*" element={<Navigate to="/" replace />} />
                 </Routes>
             </Layout>
-        </BrowserRouter>
+        </Router>
     );
 }
 

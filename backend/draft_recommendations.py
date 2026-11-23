@@ -4,7 +4,26 @@ from math import isfinite, log1p
 from recommendation_context import hero_learning_cost
 
 
-def rank_draft_picks(heroes, eligible, meta, position, verified, enemies, matchup_rows, experience):
+def population_rate(opponent_results):
+    """Rows contain opponents' wins against this hero; each match appears per enemy."""
+    games = sum(sample for _, sample in opponent_results.values())
+    if not games:
+        return None
+    wins = sum(sample - opponent_wins for opponent_wins, sample in opponent_results.values())
+    return wins / games
+
+
+def expected_matchup(candidate_rate, enemy_rate):
+    """Independent hero-strength baseline on the odds scale."""
+    numerator = candidate_rate * (1 - enemy_rate)
+    denominator = numerator + (1 - candidate_rate) * enemy_rate
+    return numerator / denominator if denominator else 0.5
+
+
+def rank_draft_picks(heroes, eligible, meta, position, verified, enemies, matchup_rows, experience,
+                    *, baseline_rates=None, limit=3):
+    # None explicitly retains the original score for reproducible ablations.
+
     ranked = []
     for hero in heroes:
         hero_id = hero["hero_id"]
@@ -21,11 +40,19 @@ def rank_draft_picks(heroes, eligible, meta, position, verified, enemies, matchu
         matches = []
         for enemy, results in zip(enemies, matchup_rows):
             wins, sample = results.get(hero_id, (0, 0))
+            expected = 0.5
+            if baseline_rates is not None:
+                candidate_rate = baseline_rates.get(hero_id)
+                enemy_rate = baseline_rates.get(enemy.get("hero_id"))
+                if candidate_rate is None or enemy_rate is None:
+                    continue
+                expected = expected_matchup(candidate_rate, enemy_rate)
             if sample >= 20:
-                edge = 100 * (wins - sample / 2) / (sample + 50)
+                edge = 100 * (wins - sample * expected) / (sample + 50)
                 matches.append({
                     "enemy": enemy["name"], "games": sample,
                     "winrate": round(100 * wins / sample, 2), "edge": round(edge, 2),
+                    "expected_winrate": round(100 * expected, 2),
                 })
         # Require evidence for a majority of revealed opponents. Missing pairs
         # contribute zero to the mean and remain visible as missing coverage.
@@ -56,4 +83,4 @@ def rank_draft_picks(heroes, eligible, meta, position, verified, enemies, matchu
                 "learning_cost": round(-learning_cost, 2),
             },
         })
-    return sorted(ranked, key=lambda row: (-row["score"], -row["meta_games"], row["hero_id"]))[:3]
+    return sorted(ranked, key=lambda row: (-row["score"], -row["meta_games"], row["hero_id"]))[:limit]

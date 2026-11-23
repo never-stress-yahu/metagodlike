@@ -59,10 +59,10 @@ $$
 
 Here $a_i$ is match age in days and $y_i$ is 1 for a win or 0 for a loss. Only the preceding 90 days on the selected hero and position contribute to $W$ and $G$. The estimate $P$ blends the population baseline with the player's recent results. With $p=0.52$, four weighted wins in five weighted games produce 55.1%.
 
-For a draft, each visible opponent has a sample-adjusted matchup edge $E_e$. The score rewards average advantage and penalizes the worst observed matchup separately.
+For a draft, each visible opponent has a sample-adjusted matchup edge $E_e$ relative to an expected win rate $b_e$ based on both heroes' overall strength in the same source. The score rewards average advantage and penalizes the worst observed matchup separately.
 
 $$
-E_e=\mathrm{round}_2\left(100\frac{w_e-n_e/2}{n_e+50}\right)
+E_e=\mathrm{round}_2\left(100\frac{w_e-n_e b_e}{n_e+50}\right)
 $$
 
 $$
@@ -77,19 +77,17 @@ The terms represent population strength, average matchup advantage, worst-matchu
 
 [**Read the full mathematical derivation and engineering decisions**](docs/mathematical-model.md) — definitions, all three ranking functions, sensitivity analysis, eligibility rules, draft visibility, validation, and code references. The bilingual **Logic** tab exposes these calculations inside the app.
 
-### Does smoothing help on held-out games?
+### Evidence and development
 
-We processed one player's 1,000 recorded games chronologically. For each pick with earlier experience on that hero in the preceding 90 days, we predicted its observed outcome using only earlier results. Roles were missing in this snapshot and contemporaneous population rates were unavailable, so this experiment pools roles and fixes the prior at 50%.
+The reproducible evaluation covers **four public player histories and 613 held-out predictions**. A prior weight selected on a separate validation period achieved mean per-player Brier error **0.2488**, compared with **0.2500** for a neutral 50% prediction. One player's result was worse than the neutral baseline. This tests the smoothing component. Three frozen drafts compare population-only, personal, full, and previous-model rankings on the same candidate sets.
 
-| Estimate | Predictions | Mean squared probability error (Brier, lower is better) |
-| --- | ---: | ---: |
-| Always predict 50% | 874 | 0.2500 |
-| Recent personal win rate | 874 | 0.3130 |
-| Personal rate smoothed toward 50% | 874 | 0.2489 |
+[Evaluation and reproducible inputs](docs/evaluation.md) · [Engineering decisions and contributions](docs/development.md)
 
-Smoothing reduced error relative to the raw personal rate on this player. Its advantage over the neutral baseline was small. This experiment isolates smoothing and evaluates only heroes actually picked. To repeat on a synced local snapshot, run `python evaluate_smoothing.py dota_helper.db` from the backend directory. [Evaluation code](backend/evaluate_smoothing.py)
+The browser demo runs the application's React layout, hero cards, team lineups, draft sequence, and bilingual Logic page on saved data. Switch matches and scoring variants to inspect changes without installing the backend.
 
 ## Team
+
+Development used substantial AI assistance for implementation, debugging, documentation, and evaluation tooling. The [development record](docs/development.md) distinguishes project direction, collaboration, and assisted implementation.
 
 - **Abdolla Margulan** — Frontend
 - **Kaldybekov Arnur** — Backend, scoring logic, and frontend
@@ -183,6 +181,16 @@ npm run dev -- --host 127.0.0.1 --port 5173
 ```
 
 Open [metagodlike](http://127.0.0.1:5173/). In **Overview**, enter your Steam32 or Steam64 ID and select **Sync player**. Enable **Expose Public Match Data** in Dota 2 so the provider can read your matches. The app stores one active player per instance. Syncing another account replaces the active profile.
+
+### Explore the saved demo locally
+
+Open the Demo tab after starting the frontend. Its three saved drafts and model comparisons work without the API. The published GitHub Pages build uses this same React interface with the Demo, Logic and About Us routes.
+
+To reproduce the evaluation, run the following from the backend directory.
+
+    python research/evaluate.py
+
+The committed evidence and generated results are checked by GitHub Actions. [Protocol and limitations](docs/evaluation.md)
 
 ### Try the recommendation engine offline
 

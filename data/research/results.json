@@ -1,0 +1,173 @@
+{
+  "selected_weight": 20,
+  "selection": "Lowest mean per-player validation Brier; chronological 60/20/20",
+  "input_sha256": {
+    "personal-history.json": "6e09eff22d509b68a434bc2bf3548f69fd213b63a3d944f14873fe9b7a2ec202",
+    "drafts.json": "81e627d3ae0db8e83fefab0a6cdd4d260420b261f9be281555a28d928a60eb47"
+  },
+  "players": {
+    "player-1": {
+      "validation_count": 166,
+      "test_count": 165,
+      "validation": {
+        "neutral": 0.25,
+        "personal": 0.34110607952361405,
+        "10": 0.2518479153058596,
+        "20": 0.25068124394114205,
+        "40": 0.2502578392183341,
+        "80": 0.2501044916686596
+      },
+      "test": {
+        "neutral": 0.25,
+        "personal": 0.35855836890137127,
+        "10": 0.24947584892929395,
+        "20": 0.24888097017975885,
+        "40": 0.24913018460293124,
+        "80": 0.24946968672504247
+      }
+    },
+    "player-2": {
+      "validation_count": 98,
+      "test_count": 98,
+      "validation": {
+        "neutral": 0.25,
+        "personal": 0.31052949941503355,
+        "10": 0.2405056009667557,
+        "20": 0.24141060095690442,
+        "40": 0.24368540300729,
+        "80": 0.2460021477382487
+      },
+      "test": {
+        "neutral": 0.25,
+        "personal": 0.3313828838746909,
+        "10": 0.25459398483865725,
+        "20": 0.25176232687721484,
+        "40": 0.25047727477080145,
+        "80": 0.25003736046066344
+      }
+    },
+    "player-3": {
+      "validation_count": 177,
+      "test_count": 173,
+      "validation": {
+        "neutral": 0.25,
+        "personal": 0.30667446209188015,
+        "10": 0.24570725799319793,
+        "20": 0.24670439566749905,
+        "40": 0.24792429246462067,
+        "80": 0.24882729223751598
+      },
+      "test": {
+        "neutral": 0.25,
+        "personal": 0.354273910570992,
+        "10": 0.2486404999650505,
+        "20": 0.24779935799362598,
+        "40": 0.24825860100868613,
+        "80": 0.24890977306014744
+      }
+    },
+    "player-4": {
+      "validation_count": 175,
+      "test_count": 177,
+      "validation": {
+        "neutral": 0.25,
+        "personal": 0.33264342848026046,
+        "10": 0.2574470193494442,
+        "20": 0.2539899999923012,
+        "40": 0.2520719240586991,
+        "80": 0.2510566527997357
+      },
+      "test": {
+        "neutral": 0.25,
+        "personal": 0.3393335820162233,
+        "10": 0.24707132396219003,
+        "20": 0.24669863930612793,
+        "40": 0.24751496827387046,
+        "80": 0.24845472225671184
+      }
+    }
+  },
+  "drafts": [
+    {
+      "match_id": 9094461999,
+      "eligible": 29,
+      "scored": 26,
+      "top_three": {
+        "population": [
+          "Troll Warlord",
+          "Phantom Assassin",
+          "Sven"
+        ],
+        "personal": [
+          "Troll Warlord",
+          "Sven",
+          "Phantom Assassin"
+        ],
+        "full": [
+          "Troll Warlord",
+          "Clinkz",
+          "Sven"
+        ],
+        "raw": [
+          "Clinkz",
+          "Monkey King",
+          "Troll Warlord"
+        ]
+      }
+    },
+    {
+      "match_id": 9094375739,
+      "eligible": 29,
+      "scored": 15,
+      "top_three": {
+        "population": [
+          "Sven",
+          "Wraith King",
+          "Monkey King"
+        ],
+        "personal": [
+          "Sven",
+          "Wraith King",
+          "Ursa"
+        ],
+        "full": [
+          "Wraith King",
+          "Medusa",
+          "Faceless Void"
+        ],
+        "raw": [
+          "Wraith King",
+          "Monkey King",
+          "Tiny"
+        ]
+      }
+    },
+    {
+      "match_id": 9093259247,
+      "eligible": 25,
+      "scored": 18,
+      "top_three": {
+        "population": [
+          "Spectre",
+          "Monkey King",
+          "Clinkz"
+        ],
+        "personal": [
+          "Clinkz",
+          "Monkey King",
+          "Weaver"
+        ],
+        "full": [
+          "Spectre",
+          "Templar Assassin",
+          "Clinkz"
+        ],
+        "raw": [
+          "Clinkz",
+          "Monkey King",
+          "Spectre"
+        ]
+      }
+    }
+  ]
+}

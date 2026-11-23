@@ -1,0 +1,20 @@
+.demo-page { max-width: 1180px; }
+.demo-page .dashboard-title > p { max-width: 850px; line-height: 1.65; color: #a9b0bb; }
+.demo-eyebrow { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+.demo-controls { display: flex; flex-wrap: wrap; gap: 20px; }
+.demo-controls label { display: flex; flex-direction: column; gap: 8px; flex: 1; min-width: 220px; }
+.demo-controls select { background: #171a20; color: #e4e7eb; border: 1px solid #3b414a; padding: 12px; border-radius: 6px; font: inherit; width: 100%; }
+.demo-controls .data-warnings { flex-basis: 100%; margin: 0; }
+.demo-decision { margin-top: 20px; }
+.demo-decision p, .demo-page .match-comparison > p { line-height: 1.65; }
+.demo-enemies { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 20px; }
+.demo-enemies img { width: 64px; height: 36px; object-fit: cover; border-radius: 3px; }
+.demo-context { margin-top: 24px; border-top: 1px solid #32363e; padding-top: 18px; }
+.demo-context > summary { cursor: pointer; font-weight: 600; }
+.demo-links { display: flex; flex-wrap: wrap; gap: 20px; padding: 28px 0; }
+.demo-links a { color: #b3c5d2; }
+.demo-page .draft-picks > li { min-width: 0; }
+.demo-page .draft-picks details p { overflow-wrap: anywhere; line-height: 1.7; }
+@media (max-width: 640px) {
+    .demo-controls label { min-width: 0; flex-basis: 100%; }
+}

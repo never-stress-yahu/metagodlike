@@ -1,0 +1,3025 @@
+{
+  "collected_at": "2026-11-23T17:02:03.986860+00:00",
+  "scope": "Saved historical drafts with later population statistics. Positions are provider estimates.",
+  "cases": [
+    {
+      "match_id": 9094461999,
+      "position": 1,
+      "actual_hero": 76,
+      "position_source": "provider estimate",
+      "lineups": {
+        "account_id": 321580662,
+        "side": "Dire",
+        "player_position": 1,
+        "player_position_name": "Carry",
+        "allies": [
+          {
+            "slot": 128,
+            "hero_id": 50,
+            "is_you": false,
+            "name": "Dazzle",
+            "image_url": "demo/heroes/dazzle.png"
+          },
+          {
+            "slot": 129,
+            "hero_id": 76,
+            "is_you": true,
+            "name": "Outworld Devourer",
+            "image_url": "demo/heroes/obsidian_destroyer.png"
+          },
+          {
+            "slot": 130,
+            "hero_id": 7,
+            "is_you": false,
+            "name": "Earthshaker",
+            "image_url": "demo/heroes/earthshaker.png"
+          },
+          {
+            "slot": 131,
+            "hero_id": 119,
+            "is_you": false,
+            "name": "Dark Willow",
+            "image_url": "demo/heroes/dark_willow.png"
+          },
+          {
+            "slot": 132,
+            "hero_id": 129,
+            "is_you": false,
+            "name": "Mars",
+            "image_url": "demo/heroes/mars.png"
+          }
+        ],
+        "enemies": [
+          {
+            "slot": 0,
+            "hero_id": 93,
+            "is_you": false,
+            "name": "Slark",
+            "image_url": "demo/heroes/slark.png"
+          },
+          {
+            "slot": 1,
+            "hero_id": 39,
+            "is_you": false,
+            "name": "Queen of Pain",
+            "image_url": "demo/heroes/queenofpain.png"
+          },
+          {
+            "slot": 2,
+            "hero_id": 2,
+            "is_you": false,
+            "name": "Axe",
+            "image_url": "demo/heroes/axe.png"
+          },
+          {
+            "slot": 3,
+            "hero_id": 123,
+            "is_you": false,
+            "name": "Hoodwink",
+            "image_url": "demo/heroes/hoodwink.png"
+          },
+          {
+            "slot": 4,
+            "hero_id": 64,
+            "is_you": false,
+            "name": "Jakiro",
+            "image_url": "demo/heroes/jakiro.png"
+          }
+        ],
+        "draft": {
+          "format": "captains_mode",
+          "picks": [
+            {
+              "phase": 1,
+              "allied": false,
+              "hero": {
+                "slot": 0,
+                "hero_id": 93,
+                "is_you": false,
+                "name": "Slark",
+                "image_url": "demo/heroes/slark.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 1,
+              "allied": true,
+              "hero": {
+                "slot": 130,
+                "hero_id": 7,
+                "is_you": false,
+                "name": "Earthshaker",
+                "image_url": "demo/heroes/earthshaker.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 0,
+                  "hero_id": 93,
+                  "is_you": false,
+                  "name": "Slark",
+                  "image_url": "demo/heroes/slark.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                30,
+                33,
+                62,
+                80,
+                93,
+                105,
+                110,
+                155
+              ]
+            },
+            {
+              "phase": 2,
+              "allied": true,
+              "hero": {
+                "slot": 131,
+                "hero_id": 119,
+                "is_you": false,
+                "name": "Dark Willow",
+                "image_url": "demo/heroes/dark_willow.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 0,
+                  "hero_id": 93,
+                  "is_you": false,
+                  "name": "Slark",
+                  "image_url": "demo/heroes/slark.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                7,
+                30,
+                33,
+                49,
+                62,
+                69,
+                80,
+                93,
+                105,
+                107,
+                110,
+                155
+              ]
+            },
+            {
+              "phase": 2,
+              "allied": false,
+              "hero": {
+                "slot": 4,
+                "hero_id": 64,
+                "is_you": false,
+                "name": "Jakiro",
+                "image_url": "demo/heroes/jakiro.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 2,
+              "allied": false,
+              "hero": {
+                "slot": 3,
+                "hero_id": 123,
+                "is_you": false,
+                "name": "Hoodwink",
+                "image_url": "demo/heroes/hoodwink.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 2,
+              "allied": true,
+              "hero": {
+                "slot": 132,
+                "hero_id": 129,
+                "is_you": false,
+                "name": "Mars",
+                "image_url": "demo/heroes/mars.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 0,
+                  "hero_id": 93,
+                  "is_you": false,
+                  "name": "Slark",
+                  "image_url": "demo/heroes/slark.png"
+                },
+                {
+                  "slot": 4,
+                  "hero_id": 64,
+                  "is_you": false,
+                  "name": "Jakiro",
+                  "image_url": "demo/heroes/jakiro.png"
+                },
+                {
+                  "slot": 3,
+                  "hero_id": 123,
+                  "is_you": false,
+                  "name": "Hoodwink",
+                  "image_url": "demo/heroes/hoodwink.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                7,
+                30,
+                33,
+                49,
+                62,
+                64,
+                69,
+                80,
+                93,
+                105,
+                107,
+                110,
+                119,
+                123,
+                155
+              ]
+            },
+            {
+              "phase": 2,
+              "allied": true,
+              "hero": {
+                "slot": 128,
+                "hero_id": 50,
+                "is_you": false,
+                "name": "Dazzle",
+                "image_url": "demo/heroes/dazzle.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 0,
+                  "hero_id": 93,
+                  "is_you": false,
+                  "name": "Slark",
+                  "image_url": "demo/heroes/slark.png"
+                },
+                {
+                  "slot": 4,
+                  "hero_id": 64,
+                  "is_you": false,
+                  "name": "Jakiro",
+                  "image_url": "demo/heroes/jakiro.png"
+                },
+                {
+                  "slot": 3,
+                  "hero_id": 123,
+                  "is_you": false,
+                  "name": "Hoodwink",
+                  "image_url": "demo/heroes/hoodwink.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                7,
+                30,
+                33,
+                49,
+                62,
+                64,
+                69,
+                80,
+                93,
+                105,
+                107,
+                110,
+                119,
+                123,
+                129,
+                155
+              ]
+            },
+            {
+              "phase": 2,
+              "allied": false,
+              "hero": {
+                "slot": 1,
+                "hero_id": 39,
+                "is_you": false,
+                "name": "Queen of Pain",
+                "image_url": "demo/heroes/queenofpain.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 3,
+              "allied": false,
+              "hero": {
+                "slot": 2,
+                "hero_id": 2,
+                "is_you": false,
+                "name": "Axe",
+                "image_url": "demo/heroes/axe.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 3,
+              "allied": true,
+              "hero": {
+                "slot": 129,
+                "hero_id": 76,
+                "is_you": true,
+                "name": "Outworld Devourer",
+                "image_url": "demo/heroes/obsidian_destroyer.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 0,
+                  "hero_id": 93,
+                  "is_you": false,
+                  "name": "Slark",
+                  "image_url": "demo/heroes/slark.png"
+                },
+                {
+                  "slot": 4,
+                  "hero_id": 64,
+                  "is_you": false,
+                  "name": "Jakiro",
+                  "image_url": "demo/heroes/jakiro.png"
+                },
+                {
+                  "slot": 3,
+                  "hero_id": 123,
+                  "is_you": false,
+                  "name": "Hoodwink",
+                  "image_url": "demo/heroes/hoodwink.png"
+                },
+                {
+                  "slot": 1,
+                  "hero_id": 39,
+                  "is_you": false,
+                  "name": "Queen of Pain",
+                  "image_url": "demo/heroes/queenofpain.png"
+                },
+                {
+                  "slot": 2,
+                  "hero_id": 2,
+                  "is_you": false,
+                  "name": "Axe",
+                  "image_url": "demo/heroes/axe.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                1,
+                2,
+                7,
+                30,
+                33,
+                36,
+                39,
+                49,
+                50,
+                60,
+                62,
+                64,
+                69,
+                78,
+                80,
+                93,
+                105,
+                107,
+                110,
+                119,
+                123,
+                129,
+                155
+              ]
+            }
+          ],
+          "last_pick_allied": true
+        }
+      },
+      "enemies": [
+        {
+          "slot": 0,
+          "hero_id": 93,
+          "is_you": false,
+          "name": "Slark",
+          "image_url": "demo/heroes/slark.png"
+        },
+        {
+          "slot": 4,
+          "hero_id": 64,
+          "is_you": false,
+          "name": "Jakiro",
+          "image_url": "demo/heroes/jakiro.png"
+        },
+        {
+          "slot": 3,
+          "hero_id": 123,
+          "is_you": false,
+          "name": "Hoodwink",
+          "image_url": "demo/heroes/hoodwink.png"
+        },
+        {
+          "slot": 1,
+          "hero_id": 39,
+          "is_you": false,
+          "name": "Queen of Pain",
+          "image_url": "demo/heroes/queenofpain.png"
+        },
+        {
+          "slot": 2,
+          "hero_id": 2,
+          "is_you": false,
+          "name": "Axe",
+          "image_url": "demo/heroes/axe.png"
+        }
+      ],
+      "eligible_count": 29,
+      "scored_count": 26,
+      "variants": {
+        "population": [
+          {
+            "hero_id": 95,
+            "name": "Troll Warlord",
+            "icon_url": "demo/heroes/icon-troll_warlord.png",
+            "score": 5.57,
+            "complexity_name": "Moderate",
+            "meta_winrate": 54.83,
+            "meta_games": 12173,
+            "player_games": 31,
+            "player_winrate": 70.97,
+            "matchups": [
+              {
+                "enemy": "Queen of Pain",
+                "games": 44,
+                "winrate": 61.36,
+                "edge": 5.2,
+                "expected_winrate": 50.24
+              },
+              {
+                "enemy": "Slark",
+                "games": 23,
+                "winrate": 60.87,
+                "edge": 4.22,
+                "expected_winrate": 47.49
+              },
+              {
+                "enemy": "Jakiro",
+                "games": 62,
+                "winrate": 51.61,
+                "edge": 1.62,
+                "expected_winrate": 48.69
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 37,
+                "winrate": 43.24,
+                "edge": -2.01,
+                "expected_winrate": 47.97
+              },
+              {
+                "enemy": "Axe",
+                "games": 38,
+                "winrate": 42.11,
+                "edge": -2.71,
+                "expected_winrate": 48.38
+              }
+            ],
+            "score_breakdown": {
+              "meta": 5.57,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0,
+              "familiarity": 0,
+              "learning_cost": 0
+            }
+          },
+          {
+            "hero_id": 44,
+            "name": "Phantom Assassin",
+            "icon_url": "demo/heroes/icon-phantom_assassin.png",
+            "score": 4.52,
+            "complexity_name": "Simple",
+            "meta_winrate": 53.8,
+            "meta_games": 60552,
+            "player_games": 52,
+            "player_winrate": 51.92,
+            "matchups": [
+              {
+                "enemy": "Jakiro",
+                "games": 52,
+                "winrate": 50.0,
+                "edge": 2.61,
+                "expected_winrate": 44.88
+              },
+              {
+                "enemy": "Queen of Pain",
+                "games": 46,
+                "winrate": 45.65,
+                "edge": -0.37,
+                "expected_winrate": 46.42
+              },
+              {
+                "enemy": "Axe",
+                "games": 30,
+                "winrate": 43.33,
+                "edge": -0.46,
+                "expected_winrate": 44.57
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 35,
+                "winrate": 31.43,
+                "edge": -5.25,
+                "expected_winrate": 44.17
+              }
+            ],
+            "score_breakdown": {
+              "meta": 4.52,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0,
+              "familiarity": 0,
+              "learning_cost": 0
+            }
+          },
+          {
+            "hero_id": 18,
+            "name": "Sven",
+            "icon_url": "demo/heroes/icon-sven.png",
+            "score": 4.52,
+            "complexity_name": "Simple",
+            "meta_winrate": 53.8,
+            "meta_games": 54349,
+            "player_games": 27,
+            "player_winrate": 66.67,
+            "matchups": [
+              {
+                "enemy": "Axe",
+                "games": 56,
+                "winrate": 55.36,
+                "edge": 3.53,
+                "expected_winrate": 48.68
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 117,
+                "winrate": 52.14,
+                "edge": 2.71,
+                "expected_winrate": 48.27
+              },
+              {
+                "enemy": "Jakiro",
+                "games": 78,
+                "winrate": 47.44,
+                "edge": -0.95,
+                "expected_winrate": 49.0
+              },
+              {
+                "enemy": "Slark",
+                "games": 21,
+                "winrate": 42.86,
+                "edge": -1.46,
+                "expected_winrate": 47.79
+              },
+              {
+                "enemy": "Queen of Pain",
+                "games": 49,
+                "winrate": 44.9,
+                "edge": -2.8,
+                "expected_winrate": 50.55
+              }
+            ],
+            "score_breakdown": {
+              "meta": 4.52,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0,
+              "familiarity": 0,
+              "learning_cost": 0
+            }
+          }
+        ],
+        "personal": [
+          {
+            "hero_id": 95,
+            "name": "Troll Warlord",
+            "icon_url": "demo/heroes/icon-troll_warlord.png",
+            "score": 9.88,
+            "complexity_name": "Moderate",
+            "meta_winrate": 54.83,
+            "meta_games": 12173,
+            "player_games": 31,
+            "player_winrate": 70.97,
+            "matchups": [
+              {
+                "enemy": "Queen of Pain",
+                "games": 44,
+                "winrate": 61.36,
+                "edge": 5.2,
+                "expected_winrate": 50.24
+              },
+              {
+                "enemy": "Slark",
+                "games": 23,
+                "winrate": 60.87,
+                "edge": 4.22,
+                "expected_winrate": 47.49
+              },
+              {
+                "enemy": "Jakiro",
+                "games": 62,
+                "winrate": 51.61,
+                "edge": 1.62,
+                "expected_winrate": 48.69
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 37,
+                "winrate": 43.24,
+                "edge": -2.01,
+                "expected_winrate": 47.97
+              },
+              {
+                "enemy": "Axe",
+                "games": 38,
+                "winrate": 42.11,
+                "edge": -2.71,
+                "expected_winrate": 48.38
+              }
+            ],
+            "score_breakdown": {
+              "meta": 5.57,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 3,
+              "familiarity": 1.5,
+              "learning_cost": -0.19
+            }
+          },
+          {
+            "hero_id": 18,
+            "name": "Sven",
+            "icon_url": "demo/heroes/icon-sven.png",
+            "score": 8.96,
+            "complexity_name": "Simple",
+            "meta_winrate": 53.8,
+            "meta_games": 54349,
+            "player_games": 27,
+            "player_winrate": 66.67,
+            "matchups": [
+              {
+                "enemy": "Axe",
+                "games": 56,
+                "winrate": 55.36,
+                "edge": 3.53,
+                "expected_winrate": 48.68
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 117,
+                "winrate": 52.14,
+                "edge": 2.71,
+                "expected_winrate": 48.27
+              },
+              {
+                "enemy": "Jakiro",
+                "games": 78,
+                "winrate": 47.44,
+                "edge": -0.95,
+                "expected_winrate": 49.0
+              },
+              {
+                "enemy": "Slark",
+                "games": 21,
+                "winrate": 42.86,
+                "edge": -1.46,
+                "expected_winrate": 47.79
+              },
+              {
+                "enemy": "Queen of Pain",
+                "games": 49,
+                "winrate": 44.9,
+                "edge": -2.8,
+                "expected_winrate": 50.55
+              }
+            ],
+            "score_breakdown": {
+              "meta": 4.52,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 3,
+              "familiarity": 1.44,
+              "learning_cost": -0.0
+            }
+          },
+          {
+            "hero_id": 44,
+            "name": "Phantom Assassin",
+            "icon_url": "demo/heroes/icon-phantom_assassin.png",
+            "score": 6.89,
+            "complexity_name": "Simple",
+            "meta_winrate": 53.8,
+            "meta_games": 60552,
+            "player_games": 52,
+            "player_winrate": 51.92,
+            "matchups": [
+              {
+                "enemy": "Jakiro",
+                "games": 52,
+                "winrate": 50.0,
+                "edge": 2.61,
+                "expected_winrate": 44.88
+              },
+              {
+                "enemy": "Queen of Pain",
+                "games": 46,
+                "winrate": 45.65,
+                "edge": -0.37,
+                "expected_winrate": 46.42
+              },
+              {
+                "enemy": "Axe",
+                "games": 30,
+                "winrate": 43.33,
+                "edge": -0.46,
+                "expected_winrate": 44.57
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 35,
+                "winrate": 31.43,
+                "edge": -5.25,
+                "expected_winrate": 44.17
+              }
+            ],
+            "score_breakdown": {
+              "meta": 4.52,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0.65,
+              "familiarity": 1.72,
+              "learning_cost": -0.0
+            }
+          }
+        ],
+        "full": [
+          {
+            "hero_id": 95,
+            "name": "Troll Warlord",
+            "icon_url": "demo/heroes/icon-troll_warlord.png",
+            "score": 9.7,
+            "complexity_name": "Moderate",
+            "meta_winrate": 54.83,
+            "meta_games": 12173,
+            "player_games": 31,
+            "player_winrate": 70.97,
+            "matchups": [
+              {
+                "enemy": "Queen of Pain",
+                "games": 44,
+                "winrate": 61.36,
+                "edge": 5.2,
+                "expected_winrate": 50.24
+              },
+              {
+                "enemy": "Slark",
+                "games": 23,
+                "winrate": 60.87,
+                "edge": 4.22,
+                "expected_winrate": 47.49
+              },
+              {
+                "enemy": "Jakiro",
+                "games": 62,
+                "winrate": 51.61,
+                "edge": 1.62,
+                "expected_winrate": 48.69
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 37,
+                "winrate": 43.24,
+                "edge": -2.01,
+                "expected_winrate": 47.97
+              },
+              {
+                "enemy": "Axe",
+                "games": 38,
+                "winrate": 42.11,
+                "edge": -2.71,
+                "expected_winrate": 48.38
+              }
+            ],
+            "score_breakdown": {
+              "meta": 5.57,
+              "matchups": 2.53,
+              "worst_matchup": -2.71,
+              "personal": 3,
+              "familiarity": 1.5,
+              "learning_cost": -0.19
+            }
+          },
+          {
+            "hero_id": 56,
+            "name": "Clinkz",
+            "icon_url": "demo/heroes/icon-clinkz.png",
+            "score": 8.47,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.74,
+            "meta_games": 13530,
+            "player_games": 25,
+            "player_winrate": 72.0,
+            "matchups": [
+              {
+                "enemy": "Jakiro",
+                "games": 125,
+                "winrate": 60.0,
+                "edge": 5.39,
+                "expected_winrate": 52.45
+              },
+              {
+                "enemy": "Slark",
+                "games": 26,
+                "winrate": 53.85,
+                "edge": 0.89,
+                "expected_winrate": 51.24
+              },
+              {
+                "enemy": "Queen of Pain",
+                "games": 65,
+                "winrate": 53.85,
+                "edge": -0.08,
+                "expected_winrate": 54.0
+              },
+              {
+                "enemy": "Axe",
+                "games": 77,
+                "winrate": 51.95,
+                "edge": -0.11,
+                "expected_winrate": 52.13
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 97,
+                "winrate": 51.55,
+                "edge": -0.12,
+                "expected_winrate": 51.73
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.01,
+              "matchups": 2.39,
+              "worst_matchup": -0.12,
+              "personal": 3,
+              "familiarity": 1.41,
+              "learning_cost": -0.22
+            }
+          },
+          {
+            "hero_id": 18,
+            "name": "Sven",
+            "icon_url": "demo/heroes/icon-sven.png",
+            "score": 6.57,
+            "complexity_name": "Simple",
+            "meta_winrate": 53.8,
+            "meta_games": 54349,
+            "player_games": 27,
+            "player_winrate": 66.67,
+            "matchups": [
+              {
+                "enemy": "Axe",
+                "games": 56,
+                "winrate": 55.36,
+                "edge": 3.53,
+                "expected_winrate": 48.68
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 117,
+                "winrate": 52.14,
+                "edge": 2.71,
+                "expected_winrate": 48.27
+              },
+              {
+                "enemy": "Jakiro",
+                "games": 78,
+                "winrate": 47.44,
+                "edge": -0.95,
+                "expected_winrate": 49.0
+              },
+              {
+                "enemy": "Slark",
+                "games": 21,
+                "winrate": 42.86,
+                "edge": -1.46,
+                "expected_winrate": 47.79
+              },
+              {
+                "enemy": "Queen of Pain",
+                "games": 49,
+                "winrate": 44.9,
+                "edge": -2.8,
+                "expected_winrate": 50.55
+              }
+            ],
+            "score_breakdown": {
+              "meta": 4.52,
+              "matchups": 0.41,
+              "worst_matchup": -2.8,
+              "personal": 3,
+              "familiarity": 1.44,
+              "learning_cost": -0.0
+            }
+          }
+        ],
+        "raw": [
+          {
+            "hero_id": 56,
+            "name": "Clinkz",
+            "icon_url": "demo/heroes/icon-clinkz.png",
+            "score": 11.34,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.74,
+            "meta_games": 13530,
+            "player_games": 25,
+            "player_winrate": 72.0,
+            "matchups": [
+              {
+                "enemy": "Jakiro",
+                "games": 125,
+                "winrate": 60.0,
+                "edge": 7.14,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Queen of Pain",
+                "games": 65,
+                "winrate": 53.85,
+                "edge": 2.17,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Slark",
+                "games": 26,
+                "winrate": 53.85,
+                "edge": 1.32,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Axe",
+                "games": 77,
+                "winrate": 51.95,
+                "edge": 1.18,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 97,
+                "winrate": 51.55,
+                "edge": 1.02,
+                "expected_winrate": 50.0
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.01,
+              "matchups": 5.13,
+              "worst_matchup": 0,
+              "personal": 3,
+              "familiarity": 1.41,
+              "learning_cost": -0.22
+            }
+          },
+          {
+            "hero_id": 114,
+            "name": "Monkey King",
+            "icon_url": "demo/heroes/icon-monkey_king.png",
+            "score": 10.47,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.89,
+            "meta_games": 32295,
+            "player_games": 30,
+            "player_winrate": 50.0,
+            "matchups": [
+              {
+                "enemy": "Axe",
+                "games": 74,
+                "winrate": 64.86,
+                "edge": 8.87,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Queen of Pain",
+                "games": 119,
+                "winrate": 58.82,
+                "edge": 6.21,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Jakiro",
+                "games": 99,
+                "winrate": 56.57,
+                "edge": 4.36,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Slark",
+                "games": 29,
+                "winrate": 58.62,
+                "edge": 3.16,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 150,
+                "winrate": 48.0,
+                "edge": -1.5,
+                "expected_winrate": 50.0
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.23,
+              "matchups": 8.44,
+              "worst_matchup": -1.5,
+              "personal": 0.0,
+              "familiarity": 1.49,
+              "learning_cost": -0.19
+            }
+          },
+          {
+            "hero_id": 95,
+            "name": "Troll Warlord",
+            "icon_url": "demo/heroes/icon-troll_warlord.png",
+            "score": 7.81,
+            "complexity_name": "Moderate",
+            "meta_winrate": 54.83,
+            "meta_games": 12173,
+            "player_games": 31,
+            "player_winrate": 70.97,
+            "matchups": [
+              {
+                "enemy": "Queen of Pain",
+                "games": 44,
+                "winrate": 61.36,
+                "edge": 5.32,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Slark",
+                "games": 23,
+                "winrate": 60.87,
+                "edge": 3.42,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Jakiro",
+                "games": 62,
+                "winrate": 51.61,
+                "edge": 0.89,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Hoodwink",
+                "games": 37,
+                "winrate": 43.24,
+                "edge": -2.87,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Axe",
+                "games": 38,
+                "winrate": 42.11,
+                "edge": -3.41,
+                "expected_winrate": 50.0
+              }
+            ],
+            "score_breakdown": {
+              "meta": 5.57,
+              "matchups": 1.34,
+              "worst_matchup": -3.41,
+              "personal": 3,
+              "familiarity": 1.5,
+              "learning_cost": -0.19
+            }
+          }
+        ]
+      }
+    },
+    {
+      "match_id": 9094375739,
+      "position": 1,
+      "actual_hero": 49,
+      "position_source": "provider estimate",
+      "lineups": {
+        "account_id": 321580662,
+        "side": "Radiant",
+        "player_position": 1,
+        "player_position_name": "Carry",
+        "allies": [
+          {
+            "slot": 0,
+            "hero_id": 119,
+            "is_you": false,
+            "name": "Dark Willow",
+            "image_url": "demo/heroes/dark_willow.png"
+          },
+          {
+            "slot": 1,
+            "hero_id": 49,
+            "is_you": true,
+            "name": "Dragon Knight",
+            "image_url": "demo/heroes/dragon_knight.png"
+          },
+          {
+            "slot": 2,
+            "hero_id": 7,
+            "is_you": false,
+            "name": "Earthshaker",
+            "image_url": "demo/heroes/earthshaker.png"
+          },
+          {
+            "slot": 3,
+            "hero_id": 155,
+            "is_you": false,
+            "name": "Largo",
+            "image_url": "demo/heroes/largo.png"
+          },
+          {
+            "slot": 4,
+            "hero_id": 59,
+            "is_you": false,
+            "name": "Huskar",
+            "image_url": "demo/heroes/huskar.png"
+          }
+        ],
+        "enemies": [
+          {
+            "slot": 128,
+            "hero_id": 1,
+            "is_you": false,
+            "name": "Anti-Mage",
+            "image_url": "demo/heroes/antimage.png"
+          },
+          {
+            "slot": 129,
+            "hero_id": 47,
+            "is_you": false,
+            "name": "Viper",
+            "image_url": "demo/heroes/viper.png"
+          },
+          {
+            "slot": 130,
+            "hero_id": 120,
+            "is_you": false,
+            "name": "Pangolier",
+            "image_url": "demo/heroes/pangolier.png"
+          },
+          {
+            "slot": 131,
+            "hero_id": 21,
+            "is_you": false,
+            "name": "Windranger",
+            "image_url": "demo/heroes/windrunner.png"
+          },
+          {
+            "slot": 132,
+            "hero_id": 79,
+            "is_you": false,
+            "name": "Shadow Demon",
+            "image_url": "demo/heroes/shadow_demon.png"
+          }
+        ],
+        "draft": {
+          "format": "captains_mode",
+          "picks": [
+            {
+              "phase": 1,
+              "allied": true,
+              "hero": {
+                "slot": 3,
+                "hero_id": 155,
+                "is_you": false,
+                "name": "Largo",
+                "image_url": "demo/heroes/largo.png"
+              },
+              "enemies_revealed": [],
+              "unavailable_hero_ids": [
+                30,
+                33,
+                62,
+                69,
+                80,
+                93,
+                105
+              ]
+            },
+            {
+              "phase": 1,
+              "allied": false,
+              "hero": {
+                "slot": 128,
+                "hero_id": 1,
+                "is_you": false,
+                "name": "Anti-Mage",
+                "image_url": "demo/heroes/antimage.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 2,
+              "allied": false,
+              "hero": {
+                "slot": 131,
+                "hero_id": 21,
+                "is_you": false,
+                "name": "Windranger",
+                "image_url": "demo/heroes/windrunner.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 2,
+              "allied": true,
+              "hero": {
+                "slot": 0,
+                "hero_id": 119,
+                "is_you": false,
+                "name": "Dark Willow",
+                "image_url": "demo/heroes/dark_willow.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 128,
+                  "hero_id": 1,
+                  "is_you": false,
+                  "name": "Anti-Mage",
+                  "image_url": "demo/heroes/antimage.png"
+                },
+                {
+                  "slot": 131,
+                  "hero_id": 21,
+                  "is_you": false,
+                  "name": "Windranger",
+                  "image_url": "demo/heroes/windrunner.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                1,
+                21,
+                30,
+                33,
+                50,
+                62,
+                69,
+                80,
+                93,
+                105,
+                107,
+                112,
+                155
+              ]
+            },
+            {
+              "phase": 2,
+              "allied": true,
+              "hero": {
+                "slot": 1,
+                "hero_id": 49,
+                "is_you": true,
+                "name": "Dragon Knight",
+                "image_url": "demo/heroes/dragon_knight.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 128,
+                  "hero_id": 1,
+                  "is_you": false,
+                  "name": "Anti-Mage",
+                  "image_url": "demo/heroes/antimage.png"
+                },
+                {
+                  "slot": 131,
+                  "hero_id": 21,
+                  "is_you": false,
+                  "name": "Windranger",
+                  "image_url": "demo/heroes/windrunner.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                1,
+                21,
+                30,
+                33,
+                50,
+                62,
+                69,
+                80,
+                93,
+                105,
+                107,
+                112,
+                119,
+                155
+              ]
+            },
+            {
+              "phase": 2,
+              "allied": false,
+              "hero": {
+                "slot": 132,
+                "hero_id": 79,
+                "is_you": false,
+                "name": "Shadow Demon",
+                "image_url": "demo/heroes/shadow_demon.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 2,
+              "allied": false,
+              "hero": {
+                "slot": 130,
+                "hero_id": 120,
+                "is_you": false,
+                "name": "Pangolier",
+                "image_url": "demo/heroes/pangolier.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 2,
+              "allied": true,
+              "hero": {
+                "slot": 4,
+                "hero_id": 59,
+                "is_you": false,
+                "name": "Huskar",
+                "image_url": "demo/heroes/huskar.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 128,
+                  "hero_id": 1,
+                  "is_you": false,
+                  "name": "Anti-Mage",
+                  "image_url": "demo/heroes/antimage.png"
+                },
+                {
+                  "slot": 131,
+                  "hero_id": 21,
+                  "is_you": false,
+                  "name": "Windranger",
+                  "image_url": "demo/heroes/windrunner.png"
+                },
+                {
+                  "slot": 132,
+                  "hero_id": 79,
+                  "is_you": false,
+                  "name": "Shadow Demon",
+                  "image_url": "demo/heroes/shadow_demon.png"
+                },
+                {
+                  "slot": 130,
+                  "hero_id": 120,
+                  "is_you": false,
+                  "name": "Pangolier",
+                  "image_url": "demo/heroes/pangolier.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                1,
+                21,
+                30,
+                33,
+                49,
+                50,
+                62,
+                69,
+                79,
+                80,
+                93,
+                105,
+                107,
+                112,
+                119,
+                120,
+                155
+              ]
+            },
+            {
+              "phase": 3,
+              "allied": true,
+              "hero": {
+                "slot": 2,
+                "hero_id": 7,
+                "is_you": false,
+                "name": "Earthshaker",
+                "image_url": "demo/heroes/earthshaker.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 128,
+                  "hero_id": 1,
+                  "is_you": false,
+                  "name": "Anti-Mage",
+                  "image_url": "demo/heroes/antimage.png"
+                },
+                {
+                  "slot": 131,
+                  "hero_id": 21,
+                  "is_you": false,
+                  "name": "Windranger",
+                  "image_url": "demo/heroes/windrunner.png"
+                },
+                {
+                  "slot": 132,
+                  "hero_id": 79,
+                  "is_you": false,
+                  "name": "Shadow Demon",
+                  "image_url": "demo/heroes/shadow_demon.png"
+                },
+                {
+                  "slot": 130,
+                  "hero_id": 120,
+                  "is_you": false,
+                  "name": "Pangolier",
+                  "image_url": "demo/heroes/pangolier.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                1,
+                21,
+                30,
+                33,
+                49,
+                50,
+                59,
+                62,
+                68,
+                69,
+                79,
+                80,
+                93,
+                98,
+                105,
+                107,
+                109,
+                112,
+                119,
+                120,
+                123,
+                155
+              ]
+            },
+            {
+              "phase": 3,
+              "allied": false,
+              "hero": {
+                "slot": 129,
+                "hero_id": 47,
+                "is_you": false,
+                "name": "Viper",
+                "image_url": "demo/heroes/viper.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            }
+          ],
+          "last_pick_allied": false
+        }
+      },
+      "enemies": [
+        {
+          "slot": 128,
+          "hero_id": 1,
+          "is_you": false,
+          "name": "Anti-Mage",
+          "image_url": "demo/heroes/antimage.png"
+        },
+        {
+          "slot": 131,
+          "hero_id": 21,
+          "is_you": false,
+          "name": "Windranger",
+          "image_url": "demo/heroes/windrunner.png"
+        }
+      ],
+      "eligible_count": 29,
+      "scored_count": 15,
+      "variants": {
+        "population": [
+          {
+            "hero_id": 18,
+            "name": "Sven",
+            "icon_url": "demo/heroes/icon-sven.png",
+            "score": 4.52,
+            "complexity_name": "Simple",
+            "meta_winrate": 53.8,
+            "meta_games": 54349,
+            "player_games": 27,
+            "player_winrate": 66.67,
+            "matchups": [
+              {
+                "enemy": "Windranger",
+                "games": 107,
+                "winrate": 49.53,
+                "edge": 0.94,
+                "expected_winrate": 48.15
+              },
+              {
+                "enemy": "Anti-Mage",
+                "games": 27,
+                "winrate": 37.04,
+                "edge": -4.78,
+                "expected_winrate": 50.68
+              }
+            ],
+            "score_breakdown": {
+              "meta": 4.52,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0,
+              "familiarity": 0,
+              "learning_cost": 0
+            }
+          },
+          {
+            "hero_id": 42,
+            "name": "Wraith King",
+            "icon_url": "demo/heroes/icon-skeleton_king.png",
+            "score": 3.44,
+            "complexity_name": "Simple",
+            "meta_winrate": 52.9,
+            "meta_games": 39975,
+            "player_games": 7,
+            "player_winrate": 57.14,
+            "matchups": [
+              {
+                "enemy": "Anti-Mage",
+                "games": 25,
+                "winrate": 68.0,
+                "edge": 5.71,
+                "expected_winrate": 50.86
+              },
+              {
+                "enemy": "Windranger",
+                "games": 28,
+                "winrate": 50.0,
+                "edge": 0.6,
+                "expected_winrate": 48.34
+              }
+            ],
+            "score_breakdown": {
+              "meta": 3.44,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0,
+              "familiarity": 0,
+              "learning_cost": 0
+            }
+          },
+          {
+            "hero_id": 114,
+            "name": "Monkey King",
+            "icon_url": "demo/heroes/icon-monkey_king.png",
+            "score": 2.23,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.89,
+            "meta_games": 32295,
+            "player_games": 30,
+            "player_winrate": 50.0,
+            "matchups": [
+              {
+                "enemy": "Windranger",
+                "games": 82,
+                "winrate": 54.88,
+                "edge": 1.32,
+                "expected_winrate": 52.75
+              },
+              {
+                "enemy": "Anti-Mage",
+                "games": 26,
+                "winrate": 46.15,
+                "edge": -3.12,
+                "expected_winrate": 55.26
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.23,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0,
+              "familiarity": 0,
+              "learning_cost": 0
+            }
+          }
+        ],
+        "personal": [
+          {
+            "hero_id": 18,
+            "name": "Sven",
+            "icon_url": "demo/heroes/icon-sven.png",
+            "score": 8.96,
+            "complexity_name": "Simple",
+            "meta_winrate": 53.8,
+            "meta_games": 54349,
+            "player_games": 27,
+            "player_winrate": 66.67,
+            "matchups": [
+              {
+                "enemy": "Windranger",
+                "games": 107,
+                "winrate": 49.53,
+                "edge": 0.94,
+                "expected_winrate": 48.15
+              },
+              {
+                "enemy": "Anti-Mage",
+                "games": 27,
+                "winrate": 37.04,
+                "edge": -4.78,
+                "expected_winrate": 50.68
+              }
+            ],
+            "score_breakdown": {
+              "meta": 4.52,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 3,
+              "familiarity": 1.44,
+              "learning_cost": -0.0
+            }
+          },
+          {
+            "hero_id": 42,
+            "name": "Wraith King",
+            "icon_url": "demo/heroes/icon-skeleton_king.png",
+            "score": 4.98,
+            "complexity_name": "Simple",
+            "meta_winrate": 52.9,
+            "meta_games": 39975,
+            "player_games": 7,
+            "player_winrate": 57.14,
+            "matchups": [
+              {
+                "enemy": "Anti-Mage",
+                "games": 25,
+                "winrate": 68.0,
+                "edge": 5.71,
+                "expected_winrate": 50.86
+              },
+              {
+                "enemy": "Windranger",
+                "games": 28,
+                "winrate": 50.0,
+                "edge": 0.6,
+                "expected_winrate": 48.34
+              }
+            ],
+            "score_breakdown": {
+              "meta": 3.44,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0.64,
+              "familiarity": 0.9,
+              "learning_cost": -0.0
+            }
+          },
+          {
+            "hero_id": 70,
+            "name": "Ursa",
+            "icon_url": "demo/heroes/icon-ursa.png",
+            "score": 3.96,
+            "complexity_name": "Simple",
+            "meta_winrate": 49.6,
+            "meta_games": 23203,
+            "player_games": 26,
+            "player_winrate": 76.92,
+            "matchups": [
+              {
+                "enemy": "Windranger",
+                "games": 158,
+                "winrate": 44.94,
+                "edge": -1.36,
+                "expected_winrate": 46.72
+              },
+              {
+                "enemy": "Anti-Mage",
+                "games": 40,
+                "winrate": 45.0,
+                "edge": -1.89,
+                "expected_winrate": 49.24
+              }
+            ],
+            "score_breakdown": {
+              "meta": -0.47,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 3,
+              "familiarity": 1.43,
+              "learning_cost": -0.0
+            }
+          }
+        ],
+        "full": [
+          {
+            "hero_id": 42,
+            "name": "Wraith King",
+            "icon_url": "demo/heroes/icon-skeleton_king.png",
+            "score": 11.29,
+            "complexity_name": "Simple",
+            "meta_winrate": 52.9,
+            "meta_games": 39975,
+            "player_games": 7,
+            "player_winrate": 57.14,
+            "matchups": [
+              {
+                "enemy": "Anti-Mage",
+                "games": 25,
+                "winrate": 68.0,
+                "edge": 5.71,
+                "expected_winrate": 50.86
+              },
+              {
+                "enemy": "Windranger",
+                "games": 28,
+                "winrate": 50.0,
+                "edge": 0.6,
+                "expected_winrate": 48.34
+              }
+            ],
+            "score_breakdown": {
+              "meta": 3.44,
+              "matchups": 6.31,
+              "worst_matchup": 0,
+              "personal": 0.64,
+              "familiarity": 0.9,
+              "learning_cost": -0.0
+            }
+          },
+          {
+            "hero_id": 94,
+            "name": "Medusa",
+            "icon_url": "demo/heroes/icon-medusa.png",
+            "score": 5.62,
+            "complexity_name": "Simple",
+            "meta_winrate": 48.97,
+            "meta_games": 8111,
+            "player_games": 27,
+            "player_winrate": 70.37,
+            "matchups": [
+              {
+                "enemy": "Anti-Mage",
+                "games": 25,
+                "winrate": 56.0,
+                "edge": 3.26,
+                "expected_winrate": 46.23
+              },
+              {
+                "enemy": "Windranger",
+                "games": 56,
+                "winrate": 42.86,
+                "edge": -0.46,
+                "expected_winrate": 43.73
+              }
+            ],
+            "score_breakdown": {
+              "meta": -1.16,
+              "matchups": 2.8,
+              "worst_matchup": -0.46,
+              "personal": 3,
+              "familiarity": 1.44,
+              "learning_cost": -0.0
+            }
+          },
+          {
+            "hero_id": 41,
+            "name": "Faceless Void",
+            "icon_url": "demo/heroes/icon-faceless_void.png",
+            "score": 4.16,
+            "complexity_name": "Moderate",
+            "meta_winrate": 49.69,
+            "meta_games": 17184,
+            "player_games": 21,
+            "player_winrate": 57.14,
+            "matchups": [
+              {
+                "enemy": "Anti-Mage",
+                "games": 29,
+                "winrate": 55.17,
+                "edge": 1.9,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Windranger",
+                "games": 82,
+                "winrate": 47.56,
+                "edge": 0.05,
+                "expected_winrate": 47.48
+              }
+            ],
+            "score_breakdown": {
+              "meta": -0.36,
+              "matchups": 1.95,
+              "worst_matchup": 0,
+              "personal": 1.48,
+              "familiarity": 1.34,
+              "learning_cost": -0.25
+            }
+          }
+        ],
+        "raw": [
+          {
+            "hero_id": 42,
+            "name": "Wraith King",
+            "icon_url": "demo/heroes/icon-skeleton_king.png",
+            "score": 10.98,
+            "complexity_name": "Simple",
+            "meta_winrate": 52.9,
+            "meta_games": 39975,
+            "player_games": 7,
+            "player_winrate": 57.14,
+            "matchups": [
+              {
+                "enemy": "Anti-Mage",
+                "games": 25,
+                "winrate": 68.0,
+                "edge": 6.0,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Windranger",
+                "games": 28,
+                "winrate": 50.0,
+                "edge": 0.0,
+                "expected_winrate": 50.0
+              }
+            ],
+            "score_breakdown": {
+              "meta": 3.44,
+              "matchups": 6.0,
+              "worst_matchup": 0,
+              "personal": 0.64,
+              "familiarity": 0.9,
+              "learning_cost": -0.0
+            }
+          },
+          {
+            "hero_id": 114,
+            "name": "Monkey King",
+            "icon_url": "demo/heroes/icon-monkey_king.png",
+            "score": 3.92,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.89,
+            "meta_games": 32295,
+            "player_games": 30,
+            "player_winrate": 50.0,
+            "matchups": [
+              {
+                "enemy": "Windranger",
+                "games": 82,
+                "winrate": 54.88,
+                "edge": 3.03,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Anti-Mage",
+                "games": 26,
+                "winrate": 46.15,
+                "edge": -1.32,
+                "expected_winrate": 50.0
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.23,
+              "matchups": 1.71,
+              "worst_matchup": -1.32,
+              "personal": 0.0,
+              "familiarity": 1.49,
+              "learning_cost": -0.19
+            }
+          },
+          {
+            "hero_id": 19,
+            "name": "Tiny",
+            "icon_url": "demo/heroes/icon-tiny.png",
+            "score": 2.57,
+            "complexity_name": "Moderate",
+            "meta_winrate": 47.02,
+            "meta_games": 17988,
+            "player_games": 41,
+            "player_winrate": 56.1,
+            "matchups": [
+              {
+                "enemy": "Anti-Mage",
+                "games": 37,
+                "winrate": 64.86,
+                "edge": 6.32,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Windranger",
+                "games": 338,
+                "winrate": 47.93,
+                "edge": -1.8,
+                "expected_winrate": 50.0
+              }
+            ],
+            "score_breakdown": {
+              "meta": -3.48,
+              "matchups": 4.52,
+              "worst_matchup": -1.8,
+              "personal": 1.85,
+              "familiarity": 1.62,
+              "learning_cost": -0.14
+            }
+          }
+        ]
+      }
+    },
+    {
+      "match_id": 9093259247,
+      "position": 1,
+      "actual_hero": 36,
+      "position_source": "provider estimate",
+      "lineups": {
+        "account_id": 321580662,
+        "side": "Dire",
+        "player_position": 1,
+        "player_position_name": "Carry",
+        "allies": [
+          {
+            "slot": 128,
+            "hero_id": 50,
+            "is_you": false,
+            "name": "Dazzle",
+            "image_url": "demo/heroes/dazzle.png"
+          },
+          {
+            "slot": 129,
+            "hero_id": 36,
+            "is_you": true,
+            "name": "Necrophos",
+            "image_url": "demo/heroes/necrolyte.png"
+          },
+          {
+            "slot": 130,
+            "hero_id": 49,
+            "is_you": false,
+            "name": "Dragon Knight",
+            "image_url": "demo/heroes/dragon_knight.png"
+          },
+          {
+            "slot": 131,
+            "hero_id": 123,
+            "is_you": false,
+            "name": "Hoodwink",
+            "image_url": "demo/heroes/hoodwink.png"
+          },
+          {
+            "slot": 132,
+            "hero_id": 155,
+            "is_you": false,
+            "name": "Largo",
+            "image_url": "demo/heroes/largo.png"
+          }
+        ],
+        "enemies": [
+          {
+            "slot": 0,
+            "hero_id": 18,
+            "is_you": false,
+            "name": "Sven",
+            "image_url": "demo/heroes/sven.png"
+          },
+          {
+            "slot": 1,
+            "hero_id": 98,
+            "is_you": false,
+            "name": "Timbersaw",
+            "image_url": "demo/heroes/shredder.png"
+          },
+          {
+            "slot": 2,
+            "hero_id": 107,
+            "is_you": false,
+            "name": "Earth Spirit",
+            "image_url": "demo/heroes/earth_spirit.png"
+          },
+          {
+            "slot": 3,
+            "hero_id": 21,
+            "is_you": false,
+            "name": "Windranger",
+            "image_url": "demo/heroes/windrunner.png"
+          },
+          {
+            "slot": 4,
+            "hero_id": 112,
+            "is_you": false,
+            "name": "Winter Wyvern",
+            "image_url": "demo/heroes/winter_wyvern.png"
+          }
+        ],
+        "draft": {
+          "format": "captains_mode",
+          "picks": [
+            {
+              "phase": 1,
+              "allied": false,
+              "hero": {
+                "slot": 2,
+                "hero_id": 107,
+                "is_you": false,
+                "name": "Earth Spirit",
+                "image_url": "demo/heroes/earth_spirit.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 1,
+              "allied": true,
+              "hero": {
+                "slot": 132,
+                "hero_id": 155,
+                "is_you": false,
+                "name": "Largo",
+                "image_url": "demo/heroes/largo.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 2,
+                  "hero_id": 107,
+                  "is_you": false,
+                  "name": "Earth Spirit",
+                  "image_url": "demo/heroes/earth_spirit.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                33,
+                62,
+                69,
+                80,
+                93,
+                105,
+                107,
+                120
+              ]
+            },
+            {
+              "phase": 2,
+              "allied": true,
+              "hero": {
+                "slot": 128,
+                "hero_id": 50,
+                "is_you": false,
+                "name": "Dazzle",
+                "image_url": "demo/heroes/dazzle.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 2,
+                  "hero_id": 107,
+                  "is_you": false,
+                  "name": "Earth Spirit",
+                  "image_url": "demo/heroes/earth_spirit.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                1,
+                30,
+                33,
+                62,
+                69,
+                80,
+                93,
+                105,
+                107,
+                119,
+                120,
+                155
+              ]
+            },
+            {
+              "phase": 2,
+              "allied": false,
+              "hero": {
+                "slot": 3,
+                "hero_id": 21,
+                "is_you": false,
+                "name": "Windranger",
+                "image_url": "demo/heroes/windrunner.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 2,
+              "allied": false,
+              "hero": {
+                "slot": 4,
+                "hero_id": 112,
+                "is_you": false,
+                "name": "Winter Wyvern",
+                "image_url": "demo/heroes/winter_wyvern.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 2,
+              "allied": true,
+              "hero": {
+                "slot": 130,
+                "hero_id": 49,
+                "is_you": false,
+                "name": "Dragon Knight",
+                "image_url": "demo/heroes/dragon_knight.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 2,
+                  "hero_id": 107,
+                  "is_you": false,
+                  "name": "Earth Spirit",
+                  "image_url": "demo/heroes/earth_spirit.png"
+                },
+                {
+                  "slot": 3,
+                  "hero_id": 21,
+                  "is_you": false,
+                  "name": "Windranger",
+                  "image_url": "demo/heroes/windrunner.png"
+                },
+                {
+                  "slot": 4,
+                  "hero_id": 112,
+                  "is_you": false,
+                  "name": "Winter Wyvern",
+                  "image_url": "demo/heroes/winter_wyvern.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                1,
+                21,
+                30,
+                33,
+                50,
+                62,
+                69,
+                80,
+                93,
+                105,
+                107,
+                112,
+                119,
+                120,
+                155
+              ]
+            },
+            {
+              "phase": 2,
+              "allied": true,
+              "hero": {
+                "slot": 131,
+                "hero_id": 123,
+                "is_you": false,
+                "name": "Hoodwink",
+                "image_url": "demo/heroes/hoodwink.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 2,
+                  "hero_id": 107,
+                  "is_you": false,
+                  "name": "Earth Spirit",
+                  "image_url": "demo/heroes/earth_spirit.png"
+                },
+                {
+                  "slot": 3,
+                  "hero_id": 21,
+                  "is_you": false,
+                  "name": "Windranger",
+                  "image_url": "demo/heroes/windrunner.png"
+                },
+                {
+                  "slot": 4,
+                  "hero_id": 112,
+                  "is_you": false,
+                  "name": "Winter Wyvern",
+                  "image_url": "demo/heroes/winter_wyvern.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                1,
+                21,
+                30,
+                33,
+                49,
+                50,
+                62,
+                69,
+                80,
+                93,
+                105,
+                107,
+                112,
+                119,
+                120,
+                155
+              ]
+            },
+            {
+              "phase": 2,
+              "allied": false,
+              "hero": {
+                "slot": 1,
+                "hero_id": 98,
+                "is_you": false,
+                "name": "Timbersaw",
+                "image_url": "demo/heroes/shredder.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 3,
+              "allied": false,
+              "hero": {
+                "slot": 0,
+                "hero_id": 18,
+                "is_you": false,
+                "name": "Sven",
+                "image_url": "demo/heroes/sven.png"
+              },
+              "enemies_revealed": null,
+              "unavailable_hero_ids": null
+            },
+            {
+              "phase": 3,
+              "allied": true,
+              "hero": {
+                "slot": 129,
+                "hero_id": 36,
+                "is_you": true,
+                "name": "Necrophos",
+                "image_url": "demo/heroes/necrolyte.png"
+              },
+              "enemies_revealed": [
+                {
+                  "slot": 2,
+                  "hero_id": 107,
+                  "is_you": false,
+                  "name": "Earth Spirit",
+                  "image_url": "demo/heroes/earth_spirit.png"
+                },
+                {
+                  "slot": 3,
+                  "hero_id": 21,
+                  "is_you": false,
+                  "name": "Windranger",
+                  "image_url": "demo/heroes/windrunner.png"
+                },
+                {
+                  "slot": 4,
+                  "hero_id": 112,
+                  "is_you": false,
+                  "name": "Winter Wyvern",
+                  "image_url": "demo/heroes/winter_wyvern.png"
+                },
+                {
+                  "slot": 1,
+                  "hero_id": 98,
+                  "is_you": false,
+                  "name": "Timbersaw",
+                  "image_url": "demo/heroes/shredder.png"
+                },
+                {
+                  "slot": 0,
+                  "hero_id": 18,
+                  "is_you": false,
+                  "name": "Sven",
+                  "image_url": "demo/heroes/sven.png"
+                }
+              ],
+              "unavailable_hero_ids": [
+                1,
+                18,
+                19,
+                21,
+                30,
+                33,
+                49,
+                50,
+                62,
+                69,
+                70,
+                76,
+                80,
+                93,
+                98,
+                105,
+                107,
+                112,
+                119,
+                120,
+                123,
+                145,
+                155
+              ]
+            }
+          ],
+          "last_pick_allied": true
+        }
+      },
+      "enemies": [
+        {
+          "slot": 2,
+          "hero_id": 107,
+          "is_you": false,
+          "name": "Earth Spirit",
+          "image_url": "demo/heroes/earth_spirit.png"
+        },
+        {
+          "slot": 3,
+          "hero_id": 21,
+          "is_you": false,
+          "name": "Windranger",
+          "image_url": "demo/heroes/windrunner.png"
+        },
+        {
+          "slot": 4,
+          "hero_id": 112,
+          "is_you": false,
+          "name": "Winter Wyvern",
+          "image_url": "demo/heroes/winter_wyvern.png"
+        },
+        {
+          "slot": 1,
+          "hero_id": 98,
+          "is_you": false,
+          "name": "Timbersaw",
+          "image_url": "demo/heroes/shredder.png"
+        },
+        {
+          "slot": 0,
+          "hero_id": 18,
+          "is_you": false,
+          "name": "Sven",
+          "image_url": "demo/heroes/sven.png"
+        }
+      ],
+      "eligible_count": 25,
+      "scored_count": 18,
+      "variants": {
+        "population": [
+          {
+            "hero_id": 67,
+            "name": "Spectre",
+            "icon_url": "demo/heroes/icon-spectre.png",
+            "score": 3.25,
+            "complexity_name": "Moderate",
+            "meta_winrate": 52.78,
+            "meta_games": 19753,
+            "player_games": 12,
+            "player_winrate": 33.33,
+            "matchups": [
+              {
+                "enemy": "Windranger",
+                "games": 30,
+                "winrate": 60.0,
+                "edge": 6.54,
+                "expected_winrate": 42.57
+              },
+              {
+                "enemy": "Timbersaw",
+                "games": 20,
+                "winrate": 60.0,
+                "edge": 4.42,
+                "expected_winrate": 44.53
+              },
+              {
+                "enemy": "Winter Wyvern",
+                "games": 24,
+                "winrate": 41.67,
+                "edge": -0.24,
+                "expected_winrate": 42.39
+              }
+            ],
+            "score_breakdown": {
+              "meta": 3.25,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0,
+              "familiarity": 0,
+              "learning_cost": 0
+            }
+          },
+          {
+            "hero_id": 114,
+            "name": "Monkey King",
+            "icon_url": "demo/heroes/icon-monkey_king.png",
+            "score": 2.23,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.89,
+            "meta_games": 32295,
+            "player_games": 30,
+            "player_winrate": 50.0,
+            "matchups": [
+              {
+                "enemy": "Winter Wyvern",
+                "games": 35,
+                "winrate": 60.0,
+                "edge": 3.06,
+                "expected_winrate": 52.58
+              },
+              {
+                "enemy": "Timbersaw",
+                "games": 40,
+                "winrate": 60.0,
+                "edge": 2.34,
+                "expected_winrate": 54.74
+              },
+              {
+                "enemy": "Windranger",
+                "games": 82,
+                "winrate": 54.88,
+                "edge": 1.32,
+                "expected_winrate": 52.75
+              },
+              {
+                "enemy": "Earth Spirit",
+                "games": 30,
+                "winrate": 46.67,
+                "edge": -1.19,
+                "expected_winrate": 49.85
+              },
+              {
+                "enemy": "Sven",
+                "games": 20,
+                "winrate": 40.0,
+                "edge": -4.17,
+                "expected_winrate": 54.59
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.23,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0,
+              "familiarity": 0,
+              "learning_cost": 0
+            }
+          },
+          {
+            "hero_id": 56,
+            "name": "Clinkz",
+            "icon_url": "demo/heroes/icon-clinkz.png",
+            "score": 2.01,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.74,
+            "meta_games": 13530,
+            "player_games": 25,
+            "player_winrate": 72.0,
+            "matchups": [
+              {
+                "enemy": "Sven",
+                "games": 31,
+                "winrate": 54.84,
+                "edge": 0.53,
+                "expected_winrate": 53.45
+              },
+              {
+                "enemy": "Earth Spirit",
+                "games": 50,
+                "winrate": 48.0,
+                "edge": -0.35,
+                "expected_winrate": 48.7
+              },
+              {
+                "enemy": "Winter Wyvern",
+                "games": 38,
+                "winrate": 50.0,
+                "edge": -0.62,
+                "expected_winrate": 51.43
+              },
+              {
+                "enemy": "Windranger",
+                "games": 123,
+                "winrate": 49.59,
+                "edge": -1.43,
+                "expected_winrate": 51.61
+              },
+              {
+                "enemy": "Timbersaw",
+                "games": 93,
+                "winrate": 48.39,
+                "edge": -3.39,
+                "expected_winrate": 53.6
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.01,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0,
+              "familiarity": 0,
+              "learning_cost": 0
+            }
+          }
+        ],
+        "personal": [
+          {
+            "hero_id": 56,
+            "name": "Clinkz",
+            "icon_url": "demo/heroes/icon-clinkz.png",
+            "score": 6.2,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.74,
+            "meta_games": 13530,
+            "player_games": 25,
+            "player_winrate": 72.0,
+            "matchups": [
+              {
+                "enemy": "Sven",
+                "games": 31,
+                "winrate": 54.84,
+                "edge": 0.53,
+                "expected_winrate": 53.45
+              },
+              {
+                "enemy": "Earth Spirit",
+                "games": 50,
+                "winrate": 48.0,
+                "edge": -0.35,
+                "expected_winrate": 48.7
+              },
+              {
+                "enemy": "Winter Wyvern",
+                "games": 38,
+                "winrate": 50.0,
+                "edge": -0.62,
+                "expected_winrate": 51.43
+              },
+              {
+                "enemy": "Windranger",
+                "games": 123,
+                "winrate": 49.59,
+                "edge": -1.43,
+                "expected_winrate": 51.61
+              },
+              {
+                "enemy": "Timbersaw",
+                "games": 93,
+                "winrate": 48.39,
+                "edge": -3.39,
+                "expected_winrate": 53.6
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.01,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 3,
+              "familiarity": 1.41,
+              "learning_cost": -0.22
+            }
+          },
+          {
+            "hero_id": 114,
+            "name": "Monkey King",
+            "icon_url": "demo/heroes/icon-monkey_king.png",
+            "score": 3.53,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.89,
+            "meta_games": 32295,
+            "player_games": 30,
+            "player_winrate": 50.0,
+            "matchups": [
+              {
+                "enemy": "Winter Wyvern",
+                "games": 35,
+                "winrate": 60.0,
+                "edge": 3.06,
+                "expected_winrate": 52.58
+              },
+              {
+                "enemy": "Timbersaw",
+                "games": 40,
+                "winrate": 60.0,
+                "edge": 2.34,
+                "expected_winrate": 54.74
+              },
+              {
+                "enemy": "Windranger",
+                "games": 82,
+                "winrate": 54.88,
+                "edge": 1.32,
+                "expected_winrate": 52.75
+              },
+              {
+                "enemy": "Earth Spirit",
+                "games": 30,
+                "winrate": 46.67,
+                "edge": -1.19,
+                "expected_winrate": 49.85
+              },
+              {
+                "enemy": "Sven",
+                "games": 20,
+                "winrate": 40.0,
+                "edge": -4.17,
+                "expected_winrate": 54.59
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.23,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 0.0,
+              "familiarity": 1.49,
+              "learning_cost": -0.19
+            }
+          },
+          {
+            "hero_id": 63,
+            "name": "Weaver",
+            "icon_url": "demo/heroes/icon-weaver.png",
+            "score": 3.51,
+            "complexity_name": "Moderate",
+            "meta_winrate": 49.77,
+            "meta_games": 18799,
+            "player_games": 12,
+            "player_winrate": 75.0,
+            "matchups": [
+              {
+                "enemy": "Timbersaw",
+                "games": 52,
+                "winrate": 48.08,
+                "edge": 1.14,
+                "expected_winrate": 45.84
+              },
+              {
+                "enemy": "Sven",
+                "games": 31,
+                "winrate": 45.16,
+                "edge": -0.2,
+                "expected_winrate": 45.7
+              },
+              {
+                "enemy": "Winter Wyvern",
+                "games": 20,
+                "winrate": 35.0,
+                "edge": -2.48,
+                "expected_winrate": 43.69
+              },
+              {
+                "enemy": "Windranger",
+                "games": 74,
+                "winrate": 39.19,
+                "edge": -2.79,
+                "expected_winrate": 43.87
+              },
+              {
+                "enemy": "Earth Spirit",
+                "games": 22,
+                "winrate": 31.82,
+                "edge": -2.81,
+                "expected_winrate": 41.03
+              }
+            ],
+            "score_breakdown": {
+              "meta": -0.27,
+              "matchups": 0,
+              "worst_matchup": 0,
+              "personal": 3,
+              "familiarity": 1.11,
+              "learning_cost": -0.33
+            }
+          }
+        ],
+        "full": [
+          {
+            "hero_id": 67,
+            "name": "Spectre",
+            "icon_url": "demo/heroes/icon-spectre.png",
+            "score": 5.77,
+            "complexity_name": "Moderate",
+            "meta_winrate": 52.78,
+            "meta_games": 19753,
+            "player_games": 12,
+            "player_winrate": 33.33,
+            "matchups": [
+              {
+                "enemy": "Windranger",
+                "games": 30,
+                "winrate": 60.0,
+                "edge": 6.54,
+                "expected_winrate": 42.57
+              },
+              {
+                "enemy": "Timbersaw",
+                "games": 20,
+                "winrate": 60.0,
+                "edge": 4.42,
+                "expected_winrate": 44.53
+              },
+              {
+                "enemy": "Winter Wyvern",
+                "games": 24,
+                "winrate": 41.67,
+                "edge": -0.24,
+                "expected_winrate": 42.39
+              }
+            ],
+            "score_breakdown": {
+              "meta": 3.25,
+              "matchups": 4.29,
+              "worst_matchup": -0.24,
+              "personal": -2.31,
+              "familiarity": 1.11,
+              "learning_cost": -0.33
+            }
+          },
+          {
+            "hero_id": 46,
+            "name": "Templar Assassin",
+            "icon_url": "demo/heroes/icon-templar_assassin.png",
+            "score": 0.97,
+            "complexity_name": "Moderate",
+            "meta_winrate": 46.82,
+            "meta_games": 12349,
+            "player_games": 58,
+            "player_winrate": 56.9,
+            "matchups": [
+              {
+                "enemy": "Earth Spirit",
+                "games": 46,
+                "winrate": 54.35,
+                "edge": 4.08,
+                "expected_winrate": 45.84
+              },
+              {
+                "enemy": "Timbersaw",
+                "games": 106,
+                "winrate": 56.6,
+                "edge": 3.98,
+                "expected_winrate": 50.74
+              },
+              {
+                "enemy": "Sven",
+                "games": 44,
+                "winrate": 54.55,
+                "edge": 1.85,
+                "expected_winrate": 50.59
+              },
+              {
+                "enemy": "Winter Wyvern",
+                "games": 37,
+                "winrate": 48.65,
+                "edge": 0.03,
+                "expected_winrate": 48.57
+              },
+              {
+                "enemy": "Windranger",
+                "games": 154,
+                "winrate": 45.45,
+                "edge": -2.48,
+                "expected_winrate": 48.74
+              }
+            ],
+            "score_breakdown": {
+              "meta": -3.67,
+              "matchups": 2.98,
+              "worst_matchup": -2.48,
+              "personal": 2.45,
+              "familiarity": 1.77,
+              "learning_cost": -0.09
+            }
+          },
+          {
+            "hero_id": 56,
+            "name": "Clinkz",
+            "icon_url": "demo/heroes/icon-clinkz.png",
+            "score": 0.71,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.74,
+            "meta_games": 13530,
+            "player_games": 25,
+            "player_winrate": 72.0,
+            "matchups": [
+              {
+                "enemy": "Sven",
+                "games": 31,
+                "winrate": 54.84,
+                "edge": 0.53,
+                "expected_winrate": 53.45
+              },
+              {
+                "enemy": "Earth Spirit",
+                "games": 50,
+                "winrate": 48.0,
+                "edge": -0.35,
+                "expected_winrate": 48.7
+              },
+              {
+                "enemy": "Winter Wyvern",
+                "games": 38,
+                "winrate": 50.0,
+                "edge": -0.62,
+                "expected_winrate": 51.43
+              },
+              {
+                "enemy": "Windranger",
+                "games": 123,
+                "winrate": 49.59,
+                "edge": -1.43,
+                "expected_winrate": 51.61
+              },
+              {
+                "enemy": "Timbersaw",
+                "games": 93,
+                "winrate": 48.39,
+                "edge": -3.39,
+                "expected_winrate": 53.6
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.01,
+              "matchups": -2.1,
+              "worst_matchup": -3.39,
+              "personal": 3,
+              "familiarity": 1.41,
+              "learning_cost": -0.22
+            }
+          }
+        ],
+        "raw": [
+          {
+            "hero_id": 56,
+            "name": "Clinkz",
+            "icon_url": "demo/heroes/icon-clinkz.png",
+            "score": 4.96,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.74,
+            "meta_games": 13530,
+            "player_games": 25,
+            "player_winrate": 72.0,
+            "matchups": [
+              {
+                "enemy": "Sven",
+                "games": 31,
+                "winrate": 54.84,
+                "edge": 1.85,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Winter Wyvern",
+                "games": 38,
+                "winrate": 50.0,
+                "edge": 0.0,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Windranger",
+                "games": 123,
+                "winrate": 49.59,
+                "edge": -0.29,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Earth Spirit",
+                "games": 50,
+                "winrate": 48.0,
+                "edge": -1.0,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Timbersaw",
+                "games": 93,
+                "winrate": 48.39,
+                "edge": -1.05,
+                "expected_winrate": 50.0
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.01,
+              "matchups": -0.2,
+              "worst_matchup": -1.05,
+              "personal": 3,
+              "familiarity": 1.41,
+              "learning_cost": -0.22
+            }
+          },
+          {
+            "hero_id": 114,
+            "name": "Monkey King",
+            "icon_url": "demo/heroes/icon-monkey_king.png",
+            "score": 3.66,
+            "complexity_name": "Moderate",
+            "meta_winrate": 51.89,
+            "meta_games": 32295,
+            "player_games": 30,
+            "player_winrate": 50.0,
+            "matchups": [
+              {
+                "enemy": "Timbersaw",
+                "games": 40,
+                "winrate": 60.0,
+                "edge": 4.44,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Winter Wyvern",
+                "games": 35,
+                "winrate": 60.0,
+                "edge": 4.12,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Windranger",
+                "games": 82,
+                "winrate": 54.88,
+                "edge": 3.03,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Earth Spirit",
+                "games": 30,
+                "winrate": 46.67,
+                "edge": -1.25,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Sven",
+                "games": 20,
+                "winrate": 40.0,
+                "edge": -2.86,
+                "expected_winrate": 50.0
+              }
+            ],
+            "score_breakdown": {
+              "meta": 2.23,
+              "matchups": 2.99,
+              "worst_matchup": -2.86,
+              "personal": 0.0,
+              "familiarity": 1.49,
+              "learning_cost": -0.19
+            }
+          },
+          {
+            "hero_id": 67,
+            "name": "Spectre",
+            "icon_url": "demo/heroes/icon-spectre.png",
+            "score": 0.59,
+            "complexity_name": "Moderate",
+            "meta_winrate": 52.78,
+            "meta_games": 19753,
+            "player_games": 12,
+            "player_winrate": 33.33,
+            "matchups": [
+              {
+                "enemy": "Windranger",
+                "games": 30,
+                "winrate": 60.0,
+                "edge": 3.75,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Timbersaw",
+                "games": 20,
+                "winrate": 60.0,
+                "edge": 2.86,
+                "expected_winrate": 50.0
+              },
+              {
+                "enemy": "Winter Wyvern",
+                "games": 24,
+                "winrate": 41.67,
+                "edge": -2.7,
+                "expected_winrate": 50.0
+              }
+            ],
+            "score_breakdown": {
+              "meta": 3.25,
+              "matchups": 1.56,
+              "worst_matchup": -2.7,
+              "personal": -2.31,
+              "familiarity": 1.11,
+              "learning_cost": -0.33
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "meta_scope": "OpenDota rank aggregates with curated hero positions",
+  "meta_rank": "DIVINE",
+  "meta_rank_fallback": true
+}
