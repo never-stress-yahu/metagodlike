@@ -163,7 +163,19 @@ Clipping is a piecewise function. Below −3 the personal contribution stays at 
 
 C uses the same complexity function with pre-match g. Scores are rounded to two decimals, then sorted by score, population sample size, and hero ID. Up to three heroes are returned. Negative totals remain eligible and indicate that penalties exceeded bonuses. The score orders candidates and has no calibrated mapping to win probability.
 
-[Explore the real-match example](https://never-stress-yahu.github.io/metagodlike/) and inspect each contribution.
+### How matchups changed the top pick
+
+In saved match 9094375739, Sven scores 4.52 points from population performance and 8.96 points with the player's history included. Wraith King scores 3.44 and 4.98 points under the same two variants. The full model then includes matchups against the two visible opponents.
+
+Against Anti-Mage, Wraith King won 17 of 25 games. The baseline from both heroes' population rates gives an expected win rate of about 50.86%. Substituting into the matchup formula gives
+
+$$
+E_{\mathrm{AntiMage}}\approx 100\frac{17-25(0.5086)}{25+50}\approx 5.71.
+$$
+
+Windranger adds an edge of 0.60. With two visible opponents, twice the average edge contributes 6.31 ranking points. Both edges are positive, so the worst-matchup penalty is zero. The full score is 11.29 points, placing Wraith King first. The saved example shows how opponent information changes the ordering. The result of playing a different hero in that match is unknown.
+
+[Compare the scoring variants in the browser demo](https://never-stress-yahu.github.io/metagodlike/).
 
 ## 8. Mean squared error — evaluate observed outcomes
 

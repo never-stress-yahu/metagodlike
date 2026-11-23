@@ -18,6 +18,22 @@
 
 metagodlike helps Dota 2 players choose a hero for their role, decide which heroes to practice, and review the picks they could have made in a past match. Its recommendation engine turns public match statistics and each player's history into rankings with a visible score breakdown.
 
+## A draft decision in practice
+
+In match **9094375739**, **Sven** ranks first when the model uses only overall hero performance. Sven stays first when the player's history is added. At the moment of the pick, the player could already see **Anti-Mage** and **Windranger** on the opposing team. Once the model scores those matchups, **Wraith King** moves into first place.
+
+| Wraith King score component | Points |
+| --- | ---: |
+| Overall hero performance | +3.44 |
+| Matchups against the two visible opponents | +6.31 |
+| Worst-matchup penalty | 0.00 |
+| Player's past results | +0.64 |
+| Player's familiarity with the hero | +0.90 |
+| Learning cost | 0.00 |
+| **Total ranking score** | **11.29** |
+
+Most of Wraith King's matchup bonus comes from games against Anti-Mage. In the saved sample, Wraith King won **68% of 25 games** against him, compared with an expected **50.86%** based on both heroes' overall results. The model dampens the contribution of that small sample. [Try match 9094375739 in the demo](https://never-stress-yahu.github.io/metagodlike/) · [How the bonus is calculated](docs/mathematical-model.md#how-matchups-changed-the-top-pick)
+
 ## A one-minute tour
 
 **1. Filter the candidates.** Start with the player's role and skill bracket. Check that each hero has enough qualifying matches and label whether the data covers the current patch or comes from a historical source.
