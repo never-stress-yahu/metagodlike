@@ -46,7 +46,7 @@ The engine combines **statistical shrinkage, exponential time weighting, logarit
 For personal recommendations, population win rate $v$ is shrunk toward 50% according to sample size $n$ and evidence quality $q$. Recent results receive a 30-day half-life, giving weighted games $G$ and weighted wins $W$.
 
 $$
-A=\operatorname{round}_2\left(50+(v-50)\frac{n}{n+500}\right),\qquad
+A=\mathrm{round}_2\left(50+(v-50)\frac{n}{n+500}\right),\qquad
 p=\frac{50+(A-50)q}{100}
 $$
 
@@ -60,7 +60,7 @@ Here $a_i$ is match age in days and $y_i$ is 1 for a win or 0 for a loss. Only t
 For a draft, each visible opponent has a sample-adjusted matchup edge $E_e$. The score rewards average advantage and penalizes the worst observed matchup separately.
 
 $$
-E_e=\operatorname{round}_2\left(100\frac{w_e-n_e/2}{n_e+50}\right)
+E_e=\mathrm{round}_2\left(100\frac{w_e-n_e/2}{n_e+50}\right)
 $$
 
 $$

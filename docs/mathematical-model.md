@@ -9,7 +9,7 @@ The selected role and skill bracket determine candidate eligibility. Population 
 For the next-game ranking, evidence quality q starts at 1 for exact role data, 0.75 for the dated Dotabuff role sample, or 0.5 for an all-role aggregate. Staleness multiplies q by 0.75 and unverified patch coverage by 0.5.
 
 $$
-A=\operatorname{round}_2(50+(v-50)n/(n+500)),\quad p=(50+(A-50)q)/100,\quad M=100(p-0.5)
+A=\mathrm{round}_2(50+(v-50)n/(n+500)),\quad p=(50+(A-50)q)/100,\quad M=100(p-0.5)
 $$
 
 The factor n/(n+500) limits how strongly a small sample can move the baseline. At n=500, the population deviation from 50% is halved before the quality adjustment.
@@ -105,7 +105,7 @@ Player experience includes only games preceding the reviewed match. Population a
 For enemy e, w_e is the candidate's wins and n_e is the pair's sample size. A pair needs at least 20 games. Coverage must include strictly more than half of the N visible enemies.
 
 $$
-E_e=\operatorname{round}_2\left(100\frac{w_e-n_e/2}{n_e+50}\right),\quad M_{\mathrm{pairs}}=\frac{2}{N}\sum_e E_e,\quad R_{\mathrm{risk}}=\min(0,E_1,\ldots).
+E_e=\mathrm{round}_2\left(100\frac{w_e-n_e/2}{n_e+50}\right),\quad M_{\mathrm{pairs}}=\frac{2}{N}\sum_e E_e,\quad R_{\mathrm{risk}}=\min(0,E_1,\ldots).
 $$
 
 Thirty-six wins in 60 games yields an edge of 5.45 points. Missing pairs contribute zero to the numerator while N still counts every visible enemy. Both matchup terms are zero when no enemies are visible.
@@ -121,7 +121,7 @@ M_{\mathrm{meta}}=2(v-50)\frac{n}{n+500}q_d
 $$
 
 $$
-P_{\mathrm{draft}}=\operatorname{clip}_{[-3,3]}\left(60\frac{w-g/2}{g+40}\right),\quad F_{\mathrm{draft}}=2\min(1,\ln(1+g)/\ln(101))
+P_{\mathrm{draft}}=\mathrm{clip}_{[-3,3]}\left(60\frac{w-g/2}{g+40}\right),\quad F_{\mathrm{draft}}=2\min(1,\ln(1+g)/\ln(101))
 $$
 
 $$
