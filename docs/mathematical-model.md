@@ -2,7 +2,13 @@
 
 The system ranks heroes using population evidence, personal history, and information visible during a draft. All win rates named v below use the 0–100 scale. Probabilities p and P use the 0–1 scale. Scores use ranking points. Coefficients are explicit design choices and have yet to be calibrated across players.
 
-## 1. Establish which evidence is usable
+## Mathematical foundations
+
+The implementation uses exponential and logarithmic functions, weighted averages, statistical shrinkage, set similarity, and bounded scoring terms. The derivative and limit calculations below explain the behavior of these functions and the consequences of their parameter choices. The backend evaluates the scoring formulas directly.
+
+The stages follow the flow from evidence to output, with each mathematical topic attached to the decision it supports.
+
+## 1. Statistical shrinkage — establish a population baseline
 
 The selected role and skill bracket determine candidate eligibility. Population samples need at least 200 games. Exact role data also requires a role share of at least 10%. Historical data retains its provenance and receives lower influence. Provider-reported positions define the personal role sample. Unknown positions are handled separately.
 
@@ -14,7 +20,7 @@ $$
 
 The factor n/(n+500) limits how strongly a small sample can move the baseline. At n=500, the population deviation from 50% is halved before the quality adjustment.
 
-## 2. Estimate personal performance with recency and shrinkage
+## 2. Exponential decay and weighted averages — estimate personal performance
 
 For matches within 90 days on the selected hero and position, age a is measured in days and outcome y is 0 or 1.
 
@@ -36,7 +42,7 @@ $$
 U=0.35\min(0,100(P_0-p)).
 $$
 
-### Sensitivity of these choices
+### Derivatives and partial derivatives — sensitivity to age and prior weight
 
 Differentiation explains how these functions behave. These derivatives analyze the implemented scoring functions.
 
@@ -52,7 +58,24 @@ $$
 
 Increasing the prior weight pulls the estimate toward the population rate. Its effect diminishes as λ grows. The application currently fixes λ at 40.
 
-## 3. Convert experience into readiness
+### Limits — behavior as the evidence grows
+
+Holding the observed personal rate r and baseline p fixed gives
+
+$$
+\lim_{G\to\infty}\frac{Gr+40p}{G+40}=r,\qquad
+\lim_{G\to 0^+}\frac{Gr+40p}{G+40}=p.
+$$
+
+The same estimator moves continuously from population evidence toward personal evidence as the weighted sample grows. For the population adjustment,
+
+$$
+\lim_{n\to\infty}\frac{n}{n+500}=1.
+$$
+
+With a large sample, the sample-size adjustment approaches the observed population rate. The separate quality factor still controls how strongly that rate influences the baseline. At fixed outcome rate, rounding to two decimals introduces small steps in the implemented population adjustment.
+
+## 3. Logarithmic diminishing returns — convert experience into readiness
 
 Let g be the larger of recorded and recent games on the hero, r the recent all-role game count, c the complexity category (1, 2, or 3), and G_role the weighted game count across heroes on the chosen role.
 
@@ -80,7 +103,7 @@ $$
 
 A hero must have a nonnegative score and pass the Practice First filter. Complex heroes with fewer than five games require practice. Heroes with fewer than 20 games and at least three recent losses with zero wins on the selected or unknown role also require practice. Up to five qualifying heroes are returned.
 
-## 4. Find useful heroes to learn
+## 4. Set similarity — find useful heroes to learn
 
 Reference heroes are up to five frequently played, role-compatible heroes with at least 20 games each. T and T_a are hero tag sets after removing the broad Carry and Support labels.
 
@@ -100,7 +123,7 @@ Captains Mode processes picks and bans in order. Ranked All Pick reveals opponen
 
 Player experience includes only games preceding the reviewed match. Population and matchup statistics retain their actual collection scope. A retrospective ranking can use later aggregate statistics, as the demo does. Such a replay illustrates a decision using those statistics and does not establish what a historical live system would have predicted.
 
-## 6. Score revealed matchups and the worst opponent
+## 6. Shrinkage and a minimum penalty — score matchup risk
 
 For enemy e, w_e is the candidate's wins and n_e is the pair's sample size. A pair needs at least 20 games. Coverage must include strictly more than half of the N visible enemies.
 
@@ -112,7 +135,7 @@ Thirty-six wins in 60 games yields an edge of 5.45 points. Missing pairs contrib
 
 The minimum term makes a single bad matchup matter even when the average is favorable. This is an explicit risk penalty. Pairwise observations cannot fully capture interactions between all ten heroes or isolate causal counterpick effects.
 
-## 7. Combine the draft score
+## 7. Additive scoring and clipping — combine the draft score
 
 Here g and w count the player's pre-match games and wins on this hero across roles. The draft quality factor q_d is 1 for verified meta and 0.6 for historical meta.
 
@@ -128,11 +151,13 @@ $$
 R_{\mathrm{draft}}=M_{\mathrm{meta}}+M_{\mathrm{pairs}}+R_{\mathrm{risk}}+P_{\mathrm{draft}}+F_{\mathrm{draft}}-C.
 $$
 
+Clipping is a piecewise function. Below −3 the personal contribution stays at −3, between −3 and 3 it follows the calculated value, and above 3 it stays at 3. The experience cap and worst-matchup penalty likewise introduce boundaries where the slope changes. The logarithmic derivative in stage 3 applies before the experience cap is reached.
+
 C uses the same complexity function with pre-match g. Scores are rounded to two decimals, then sorted by score, population sample size, and hero ID. Up to three heroes are returned. Negative totals remain eligible and indicate that penalties exceeded bonuses. The score orders candidates and has no calibrated mapping to win probability.
 
 [Explore the real-match example](https://never-stress-yahu.github.io/metagodlike/) and inspect each contribution.
 
-## 8. Evaluate what can be measured
+## 8. Mean squared error — evaluate observed outcomes
 
 The included chronological experiment evaluates recency-weighted personal estimates against observed outcomes using
 

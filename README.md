@@ -41,7 +41,9 @@ flowchart LR
 
 ## Mathematical model
 
-The engine combines **statistical shrinkage, exponential time weighting, logarithmic experience, set similarity, and a penalty for the worst observed matchup**. Each term addresses a different source of uncertainty or player readiness.
+**Mathematical foundations** include exponential decay and half-life, logarithmic diminishing returns, statistical shrinkage, weighted averages, and Jaccard set similarity. These determine how the engine handles recency, experience, small samples, and transferable skills. The mathematical document uses **derivatives, partial derivatives, limits, and sensitivity analysis** to explain how the implemented functions respond to changing evidence and parameters.
+
+Each scoring term addresses a specific source of uncertainty or player readiness. The draft score also includes a penalty for the worst observed matchup.
 
 For personal recommendations, population win rate $v$ is shrunk toward 50% according to sample size $n$ and evidence quality $q$. Recent results receive a 30-day half-life, giving weighted games $G$ and weighted wins $W$.
 
