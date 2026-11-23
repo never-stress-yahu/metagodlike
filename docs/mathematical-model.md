@@ -185,7 +185,7 @@ $$
 \mathrm{Brier}=\frac{1}{m}\sum_{j=1}^{m}(P_j-y_j)^2.
 $$
 
-The current frozen experiment uses four public histories with chronological 60/20/20 warm-up, validation and test periods. The prior weight is selected from 10, 20, 40 and 80 on validation data. On 613 held-out predictions, selected weight 20 achieves mean per-player Brier 0.2488 versus 0.2500 for a neutral estimate. The production weight remains 40 because four convenience-sampled players provide limited calibration evidence.
+The frozen experiment uses 20 public histories with chronological 60/20/20 warm-up, validation, and test periods. The 3,096 validation predictions select a prior weight of 40 from 10, 20, 40, and 80. The selected value matches the production default. Across 3,080 held-out predictions, mean per-player Brier is 0.248137 with smoothing, 0.250000 for the constant 50% estimate, and 0.314492 for the raw personal win rate. Each player contributes equally to the mean.
 
 The experiment pools roles and fixes the prior at 50% because historical role-and-patch baselines are unavailable. It evaluates smoothing. A separate comparison records how the full draft score changes rankings across three real drafts. Results for heroes not selected in a match remain unobserved. [Full protocol, results and reproduction command](evaluation.md)
 

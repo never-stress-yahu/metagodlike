@@ -6,20 +6,45 @@ Run the following from the backend directory. All inputs are committed. No datab
 
 ## Personal estimates
 
-Four convenience-sampled public player histories are deduplicated and ordered by match time. The first 60% supplies warm-up history, the next 20% selects the prior weight, and the final 20% is held out. Each prediction uses only preceding games on the hero within 90 days. Outcomes already observed during validation and test may update later predictions. Roles are pooled because reliable position labels are unavailable.
+The frozen sample contains **20 distinct public player histories**. The original four accounts were selected by convenience. The additional accounts were drawn from distinct ranked All Pick matches in four average-rank bands. See the [sampling protocol and sources](../data/research/README.md).
 
-The selected prior weight is **20**, chosen from 10, 20, 40 and 80 by mean per-player validation Brier. The production default remains 40 pending broader evidence. All priors here are neutral 50% because historical role-and-patch baselines are unavailable.
+For each account, matches are deduplicated and ordered by time. The first 60% supplies warm-up history, the next 20% selects the prior weight, and the final 20% is held out. Each prediction uses only preceding games on the same hero within 90 days, weighted with a 30-day half-life. Outcomes already observed during validation and test may update later predictions. Matches without earlier appearances on the same hero in that window are excluded. Roles are pooled because reliable position labels are unavailable.
 
-| Player | Test predictions | Neutral | Personal | Fixed 40 | Selected weight |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| player-1 | 165 | 0.2500 | 0.3586 | 0.2491 | 0.2489 |
-| player-2 | 98 | 0.2500 | 0.3314 | 0.2505 | 0.2518 |
-| player-3 | 173 | 0.2500 | 0.3543 | 0.2483 | 0.2478 |
-| player-4 | 177 | 0.2500 | 0.3393 | 0.2475 | 0.2467 |
+The selected prior weight is **40**, chosen from 10, 20, 40 and 80 using **3,096 validation predictions**. The comparison gives each player equal weight by averaging their mean squared probability errors (Brier scores). Lower is better. The production default is 40. All priors here use 50% because historical role-and-patch baselines are unavailable.
 
-Mean per-player held-out Brier is **0.2488** with the selected weight, **0.3459** for personal rate, and **0.2500** for neutral prediction.
+| Prior weight | Validation Brier |
+| --- | ---: |
+| 10 | 0.250857 |
+| 20 | 0.249697 |
+| 40 | 0.249466 |
+| 80 | 0.249569 |
 
-Four players provide exploratory evidence only. These results evaluate a smoothing component. They do not establish the effectiveness of the full recommendation score or generalize to all ranks.
+| Player | Test predictions | Neutral | Personal | Selected weight |
+| --- | ---: | ---: | ---: | ---: |
+| player-1 | 165 | 0.2500 | 0.3586 | 0.2491 |
+| player-2 | 98 | 0.2500 | 0.3314 | 0.2505 |
+| player-3 | 173 | 0.2500 | 0.3543 | 0.2483 |
+| player-4 | 177 | 0.2500 | 0.3393 | 0.2475 |
+| player-5 | 65 | 0.2500 | 0.2497 | 0.2462 |
+| player-6 | 151 | 0.2500 | 0.2841 | 0.2487 |
+| player-7 | 103 | 0.2500 | 0.3547 | 0.2511 |
+| player-8 | 145 | 0.2500 | 0.3338 | 0.2512 |
+| player-9 | 95 | 0.2500 | 0.3988 | 0.2516 |
+| player-10 | 143 | 0.2500 | 0.2552 | 0.2281 |
+| player-11 | 167 | 0.2500 | 0.2616 | 0.2424 |
+| player-12 | 174 | 0.2500 | 0.3815 | 0.2502 |
+| player-13 | 171 | 0.2500 | 0.3073 | 0.2514 |
+| player-14 | 186 | 0.2500 | 0.2761 | 0.2510 |
+| player-15 | 182 | 0.2500 | 0.3276 | 0.2520 |
+| player-16 | 176 | 0.2500 | 0.3122 | 0.2495 |
+| player-17 | 140 | 0.2500 | 0.3115 | 0.2472 |
+| player-18 | 197 | 0.2500 | 0.2510 | 0.2491 |
+| player-19 | 174 | 0.2500 | 0.3246 | 0.2508 |
+| player-20 | 198 | 0.2500 | 0.2766 | 0.2468 |
+
+Across **3,080 held-out predictions**, mean per-player Brier is **0.248137** with weight 40, **0.314492** for the unsmoothed personal rate, and **0.250000** for a constant 50% estimate. The selected weight beats the neutral estimate for **11 of 20** players.
+
+The expanded sample is exploratory. It favors active accounts with public match histories, some players can share matches, and the first four accounts' final segments were reported in the earlier experiment. The rank bands describe seed matches. The evaluation pools each account's public history and measures a component of the recommendation score using a neutral prior.
 
 ## Draft ranking ablation
 

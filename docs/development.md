@@ -66,6 +66,8 @@ Codex substantially assisted with backend and frontend implementation, debugging
 
 **Finding.** The selected weight improves the average relative to a neutral prediction, while one player performs worse. Keep the production default pending wider validation.
 
+**Follow-up.** The expanded sample adds 16 public accounts across four seed-match rank bands. A new validation run selected the production prior weight of 40. The report shows the final scores for each player and records how the accounts were sampled.
+
 [Read the reproducible evaluation](evaluation.md)
 
 ## What has yet to be established

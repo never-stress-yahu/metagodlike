@@ -100,6 +100,21 @@ def run():
             "validation": validation[name], "test": errors(rows, "test"),
         } for name, rows in players.items()},
     }
+    tests = [row for row in report["players"].values() if row["test"]]
+    if not tests:
+        raise ValueError("No test predictions")
+    test_brier = {key: mean(row["test"][key] for row in tests) for key in tests[0]["test"]}
+    report["personal_summary"] = {
+        "player_count": len(players),
+        "validation_player_count": len(usable),
+        "test_player_count": len(tests),
+        "validation_count": sum(row["validation_count"] for row in report["players"].values()),
+        "test_count": sum(row["test_count"] for row in tests),
+        "validation_brier": {key: mean(scores[key] for scores in usable) for key in usable[0]},
+        "test_brier": test_brier,
+        "test_players_below_neutral": sum(row["test"][str(selected)] < row["test"]["neutral"]
+                                          for row in tests),
+    }
     evidence = json.loads((DATA / "drafts.json").read_text(encoding="utf8"))
     cases = draft_comparison(evidence)
     report["drafts"] = [{"match_id": c["match_id"], "eligible": c["eligible_count"],
@@ -130,23 +145,34 @@ def run():
     target = ROOT / "frontend/src/data/draft-demo.json"
     target.parent.mkdir(exist_ok=True)
     target.write_text(json.dumps(demo, indent=2) + "\n", encoding="utf8", newline="\n")
+    summary = report["personal_summary"]
     lines = [
         "# Reproducible evaluation", "",
         "Run the following from the backend directory. All inputs are committed. No database, account, or network is required.",
         "", "    python research/evaluate.py", "",
         "## Personal estimates", "",
-        "Four convenience-sampled public player histories are deduplicated and ordered by match time. The first 60% supplies warm-up history, the next 20% selects the prior weight, and the final 20% is held out. Each prediction uses only preceding games on the hero within 90 days. Outcomes already observed during validation and test may update later predictions. Roles are pooled because reliable position labels are unavailable.", "",
-        f"The selected prior weight is **{selected}**, chosen from 10, 20, 40 and 80 by mean per-player validation Brier. The production default remains 40 pending broader evidence. All priors here are neutral 50% because historical role-and-patch baselines are unavailable.", "",
-        "| Player | Test predictions | Neutral | Personal | Fixed 40 | Selected weight |",
-        "| --- | ---: | ---: | ---: | ---: | ---: |",
+        f'The frozen sample contains **{summary["player_count"]} distinct public player histories**. '
+        "The original four accounts were selected by convenience. The additional accounts were drawn from distinct ranked All Pick matches in four average-rank bands. "
+        "See the [sampling protocol and sources](../data/research/README.md).", "",
+        "For each account, matches are deduplicated and ordered by time. The first 60% supplies warm-up history, the next 20% selects the prior weight, and the final 20% is held out. "
+        "Each prediction uses only preceding games on the same hero within 90 days, weighted with a 30-day half-life. Outcomes already observed during validation and test may update later predictions. "
+        "Matches without earlier appearances on the same hero in that window are excluded. Roles are pooled because reliable position labels are unavailable.", "",
+        f'The selected prior weight is **{selected}**, chosen from 10, 20, 40 and 80 using **{summary["validation_count"]:,} validation predictions**. '
+        "The comparison gives each player equal weight by averaging their mean squared probability errors (Brier scores). Lower is better. "
+        "The production default is 40. All priors here use 50% because historical role-and-patch baselines are unavailable.", "",
+        "| Prior weight | Validation Brier |", "| --- | ---: |",
+        *(f'| {weight} | {summary["validation_brier"][str(weight)]:.6f} |' for weight in WEIGHTS), "",
+        "| Player | Test predictions | Neutral | Personal | Selected weight |",
+        "| --- | ---: | ---: | ---: | ---: |",
     ]
     for name, row in report["players"].items():
         values = row["test"]
         if values:
-            lines.append(f'| {name} | {row["test_count"]} | {values["neutral"]:.4f} | {values["personal"]:.4f} | {values["40"]:.4f} | {values[str(selected)]:.4f} |')
-    tests = [r["test"] for r in report["players"].values() if r["test"]]
-    lines.extend(["", f'Mean per-player held-out Brier is **{mean(r[str(selected)] for r in tests):.4f}** with the selected weight, **{mean(r["personal"] for r in tests):.4f}** for personal rate, and **0.2500** for neutral prediction.',
-                  "", "Four players provide exploratory evidence only. These results evaluate a smoothing component. They do not establish the effectiveness of the full recommendation score or generalize to all ranks.",
+            lines.append(f'| {name} | {row["test_count"]} | {values["neutral"]:.4f} | {values["personal"]:.4f} | {values[str(selected)]:.4f} |')
+    lines.extend(["", f'Across **{summary["test_count"]:,} held-out predictions**, mean per-player Brier is **{test_brier[str(selected)]:.6f}** with weight {selected}, **{test_brier["personal"]:.6f}** for the unsmoothed personal rate, and **{test_brier["neutral"]:.6f}** for a constant 50% estimate. '
+                  f'The selected weight beats the neutral estimate for **{summary["test_players_below_neutral"]} of {summary["test_player_count"]}** players.',
+                  "", "The expanded sample is exploratory. It favors active accounts with public match histories, some players can share matches, and the first four accounts' final segments were reported in the earlier experiment. "
+                  "The rank bands describe seed matches. The evaluation pools each account's public history and measures a component of the recommendation score using a neutral prior.",
                   "", "## Draft ranking ablation", "",
                   "Every variant ranks the same candidates that passed corrected-model evidence checks. Population uses meta alone. Personal adds experience, personal results and complexity. Full adds population-adjusted matchups and risk. Raw uses the previous 50% matchup baseline. All cases retain pre-match player history, while population statistics were collected later.",
                   "", "| Match | Candidates scored / eligible | Population top pick | Personal top pick | Full top pick | Previous model |",

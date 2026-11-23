@@ -98,7 +98,7 @@ The terms represent population strength, average matchup advantage, worst-matchu
 
 ### Evidence and development
 
-The reproducible evaluation covers **four public player histories and 613 held-out predictions**. A prior weight selected on a separate validation period achieved mean per-player Brier error **0.2488**, compared with **0.2500** for a neutral 50% prediction. One player's result was worse than the neutral baseline. This tests the smoothing component. Three frozen drafts compare population-only, personal, full, and previous-model rankings on the same candidate sets.
+The reproducible evaluation covers **20 public player histories and 3,080 held-out predictions**. A separate validation period selected a smoothing weight of **40**. On the final test periods, the smoothed estimate achieved a mean per-player Brier score of **0.248137**, compared with **0.250000** for a constant 50% estimate and **0.314492** for the unsmoothed personal rate. Smoothing beat the 50% estimate for **11 of 20 players**. This experiment tests the personal smoothing component. Three frozen drafts compare population-only, personal, full, and previous-model rankings on the same candidate sets.
 
 [Evaluation and reproducible inputs](docs/evaluation.md) · [Engineering decisions and contributions](docs/development.md)
 
@@ -283,3 +283,10 @@ With both servers running, open the interactive [FastAPI docs](http://127.0.0.1:
 ## License
 
 Original project code is available under the [MIT License](LICENSE). Third-party assets and data retain their respective terms. See the [data and asset sources](data/research/README.md).
+
+## Future Work
+
+- **Model allied synergy.** Test whether hero combinations on the player's own team improve draft recommendations, with sample thresholds and shrinkage for rarely played pairs.
+- **Calibrate weights on broader data.** Collect dated patch and role snapshots, tune weights on earlier matches, and measure accuracy and coverage on later matches across ranks.
+- **Host the full application on a dedicated server and domain.** Add isolated player profiles and shared caching so multiple visitors can use the live analysis at the same time.
+- **Build a beginner-friendly FAQ and community.** Start with searchable answers about roles, farming, drafting, and item choices. Add moderated Q&A that encourages examples from real matches and keeps useful answers easy to find.
