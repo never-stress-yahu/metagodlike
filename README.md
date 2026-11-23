@@ -276,3 +276,7 @@ For a deployment with a reverse proxy, serve the Vite build with a fallback to `
 Run `npm run lint` and `npm run build` from `frontend/`. With the backend environment active, run `python -m pytest -q` from `backend/`. Backend tests use mocked providers and temporary SQLite databases. GitHub Actions runs these same checks on pushes and pull requests.
 
 With both servers running, open the interactive [FastAPI docs](http://127.0.0.1:8000/docs).
+
+## License
+
+Original project code is available under the [MIT License](LICENSE). Third-party assets and data retain their respective terms. See the [data and asset sources](data/research/README.md).
