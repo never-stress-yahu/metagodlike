@@ -28,37 +28,52 @@ metagodlike helps Dota 2 players choose a hero for their role, decide which hero
 
 The **Logic** page documents the formulas in English and Russian. [General recommendation scoring](backend/main.py) · [Draft scoring](backend/draft_recommendations.py)
 
-### How does a hero reach the shortlist?
-
-The same hero can be a strong choice for your next game and a poor fit once specific opponents are revealed. Follow the branch that matches the question.
+### From evidence to a recommendation
 
 ```mermaid
-flowchart TD
-    A["Choose a role and skill bracket"] --> B["Find heroes with enough population data<br/>Label current or historical evidence"]
-    B --> C{"What is the player choosing?"}
-    C -->|Next game| D["Estimate personal performance<br/>Blend recent role results with the population baseline"]
-    D --> E["Adjust for experience and learning difficulty<br/>Apply score and practice filters"]
-    E --> F["Recommended heroes for the next game"]
-    C -->|Replay a draft turn| G["Reconstruct the board at that turn<br/>Exclude unavailable heroes and identify visible enemies"]
-    G --> H["Check matchup coverage<br/>Score average advantage and the worst matchup"]
-    H --> I["Combine matchup and population scores<br/>Adjust for prior player results, familiarity and difficulty"]
-    I --> J["Up to three available picks with a score breakdown"]
+flowchart LR
+    A["Role + rank"] --> B["Eligible heroes"]
+    B --> C["Personal score"]
+    B --> D["Draft score"]
+    C --> E["Rank + explain"]
+    D --> E
 ```
 
-For example, in the [sample draft](https://never-stress-yahu.github.io/metagodlike/), both Leshrac and Outworld Devourer score well across the visible enemies. The worst individual matchup costs Leshrac **0.49 points** and Outworld Devourer **2.27 points**. The individual matchup and its penalty are visible in each hero's card.
+## Mathematical model
 
+The engine combines **statistical shrinkage, exponential time weighting, logarithmic experience, set similarity, and a penalty for the worst observed matchup**. Each term addresses a different source of uncertainty or player readiness.
 
-## Why five games are different from a hundred
-
-Arnur designed and implemented the hero recommendation algorithms and backend, and contributed to the frontend. Margulan developed the frontend with him.
-
-For the personal recommendation, let $W$ and $G$ be weighted wins and games on this hero and role. A game from 30 days ago carries half the weight of a new game. Given a population baseline $p$, the estimate is
+For personal recommendations, population win rate $v$ is shrunk toward 50% according to sample size $n$ and evidence quality $q$. Recent results receive a 30-day half-life, giving weighted games $G$ and weighted wins $W$.
 
 $$
-\hat p = \frac{W + 40p}{G+40}.
+A=\operatorname{round}_2\left(50+(v-50)\frac{n}{n+500}\right),\qquad
+p=\frac{50+(A-50)q}{100}
 $$
 
-With a 52% baseline, four effective wins in five games give **55.1%**. At the same personal win rate, 80 wins in 100 games give **72%**. The weight of 40 is a design choice. The separate draft algorithm adds matchup evidence for each visible opponent. The browser demo lets you inspect those contributions.
+$$
+w_i=2^{-a_i/30},\qquad G=\sum_i w_i,\qquad
+W=\sum_i w_i y_i,\qquad P=\frac{W+40p}{G+40}
+$$
+
+Here $a_i$ is match age in days and $y_i$ is 1 for a win or 0 for a loss. Only the preceding 90 days on the selected hero and position contribute to $W$ and $G$. The estimate $P$ blends the population baseline with the player's recent results. With $p=0.52$, four weighted wins in five weighted games produce 55.1%.
+
+For a draft, each visible opponent has a sample-adjusted matchup edge $E_e$. The score rewards average advantage and penalizes the worst observed matchup separately.
+
+$$
+E_e=\operatorname{round}_2\left(100\frac{w_e-n_e/2}{n_e+50}\right)
+$$
+
+$$
+R_{\mathrm{draft}}=
+M_{\mathrm{meta}}+
+\frac{2}{N}\sum_e E_e+
+\min(0,E_1,\ldots)+
+P_{\mathrm{draft}}+F_{\mathrm{draft}}-C
+$$
+
+The terms represent population strength, average matchup advantage, worst-matchup risk, personal results, familiarity, and learning cost. $N$ counts all visible enemies, so missing pair evidence reduces the average contribution. The implementation requires evidence for a majority of visible enemies before scoring the candidate.
+
+[**Read the full mathematical derivation and engineering decisions**](docs/mathematical-model.md) — definitions, all three ranking functions, sensitivity analysis, eligibility rules, draft visibility, validation, and code references. The bilingual **Logic** tab exposes these calculations inside the app.
 
 ### Does smoothing help on held-out games?
 
