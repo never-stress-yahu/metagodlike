@@ -28,6 +28,26 @@ metagodlike helps Dota 2 players choose a hero for their role, decide which hero
 
 The **Logic** page documents the formulas in English and Russian. [General recommendation scoring](backend/main.py) · [Draft scoring](backend/draft_recommendations.py)
 
+### How does a hero reach the shortlist?
+
+The same hero can be a strong choice for your next game and a poor fit once specific opponents are revealed. Follow the branch that matches the question.
+
+```mermaid
+flowchart TD
+    A["Choose a role and skill bracket"] --> B["Find heroes with enough population data<br/>Label current or historical evidence"]
+    B --> C{"What is the player choosing?"}
+    C -->|Next game| D["Estimate personal performance<br/>Blend recent role results with the population baseline"]
+    D --> E["Adjust for experience and learning difficulty<br/>Apply score and practice filters"]
+    E --> F["Recommended heroes for the next game"]
+    C -->|Replay a draft turn| G["Reconstruct the board at that turn<br/>Exclude unavailable heroes and identify visible enemies"]
+    G --> H["Check matchup coverage<br/>Score average advantage and the worst matchup"]
+    H --> I["Combine matchup and population scores<br/>Adjust for prior player results, familiarity and difficulty"]
+    I --> J["Up to three available picks with a score breakdown"]
+```
+
+For example, in the [sample draft](https://never-stress-yahu.github.io/metagodlike/), both Leshrac and Outworld Devourer score well across the visible enemies. The worst individual matchup costs Leshrac **0.49 points** and Outworld Devourer **2.27 points**. The individual matchup and its penalty are visible in each hero's card.
+
+
 ## Why five games are different from a hundred
 
 Arnur designed and implemented the hero recommendation algorithms and backend, and contributed to the frontend. Margulan developed the frontend with him.
