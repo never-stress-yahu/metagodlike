@@ -9,6 +9,7 @@
 ![React](https://img.shields.io/badge/React-19-263445?logo=react&logoColor=61dafb)
 ![FastAPI](https://img.shields.io/badge/FastAPI-backend-263445?logo=fastapi&logoColor=6bd3bb)
 ![SQLite](https://img.shields.io/badge/SQLite-local%20storage-263445?logo=sqlite&logoColor=9dd2ef)
+[![CI tests](https://github.com/never-stress-yahu/metagodlike/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/never-stress-yahu/metagodlike/actions/workflows/ci.yml)
 
 [**Explore a sample draft in your browser**](https://never-stress-yahu.github.io/metagodlike/) · [One-minute tour](#a-one-minute-tour) · [Screenshots](#screenshots) · [What you can do](#what-you-can-do) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Configuration](#configuration)
 
@@ -33,6 +34,8 @@ In match **9094375739**, **Sven** ranks first when the model uses only overall h
 | **Total ranking score** | **11.29** |
 
 Most of Wraith King's matchup bonus comes from games against Anti-Mage. In the saved sample, Wraith King won **68% of 25 games** against him, compared with an expected **50.86%** based on both heroes' overall results. The model dampens the contribution of that small sample. [Try match 9094375739 in the demo](https://never-stress-yahu.github.io/metagodlike/) · [How the bonus is calculated](docs/mathematical-model.md#how-matchups-changed-the-top-pick)
+
+[![Draft review for match 9094375739 showing Anti-Mage and Windranger and Wraith King's first-place score of 11.29](docs/screenshots/wraith-king-draft.jpg)](https://never-stress-yahu.github.io/metagodlike/)
 
 ## A one-minute tour
 
